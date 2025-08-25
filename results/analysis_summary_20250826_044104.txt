@@ -1,0 +1,101 @@
+================================================================================
+KIP KULIAH ANALYSIS SUMMARY REPORT
+================================================================================
+Generated: 2025-08-26 04:41:46
+Analysis ID: 20250826_044104
+
+DATASET OVERVIEW
+----------------------------------------
+Total Records: 835
+Total Features: 96
+Missing Values: 25,084
+Data by Year:
+  2022: 438 records
+  2023: 226 records
+  2024: 171 records
+
+CLUSTERING ANALYSIS RESULTS
+----------------------------------------
+Algorithm: K-Prototypes (mixed data types)
+Optimal Clusters: 5
+Silhouette Score: 0.3729
+Davies-Bouldin Index: 13.8331
+Cluster Distribution:
+  Cluster 0: 126 records (15.1%)
+  Cluster 1: 80 records (9.6%)
+  Cluster 2: 438 records (52.5%)
+  Cluster 3: 70 records (8.4%)
+  Cluster 4: 121 records (14.5%)
+
+CLUSTER INTERPRETATIONS
+----------------------------------------
+Cluster 0 (126 records, 15.1%):
+  Dominan 2024 (100%), Jalur pendaftar kip jalur snbp dan snbt 2024 (100%)
+
+Cluster 1 (80 records, 9.6%):
+  Dominan 2024 (54%), Jalur pendaftar kip jalur snbp dan snbt 2024 (54%), P (68%)
+
+Cluster 2 (438 records, 52.5%):
+  Dominan 2022 (100%), Jalur Siswa_Pendaftar_SBMPN_2022 (54%), P (100%)
+
+Cluster 3 (70 records, 8.4%):
+  Dominan 2023 (97%), Jalur pendaftar kip jalur SNBT 2023 (77%), L (80%)
+
+Cluster 4 (121 records, 14.5%):
+  Dominan 2023 (100%), Jalur Siswa_Pendaftar_Seleksi Mandiri PTN_2023 (56%), P (97%)
+
+
+CLASSIFICATION MODEL PERFORMANCE
+----------------------------------------
+Best Model: Random Forest
+  Accuracy: 0.9892
+  Precision: 0.9892
+  Recall: 0.9892
+  F1-Score: 0.9891
+
+All Models Performance:
+  Random Forest:
+    Accuracy: 0.9892
+    F1-Score: 0.9891
+    CV Score: 0.9790
+  XGBoost:
+    Accuracy: 0.9880
+    F1-Score: 0.9880
+    CV Score: 0.9731
+  SVM:
+    Accuracy: 0.9784
+    F1-Score: 0.9779
+    CV Score: 0.9716
+
+TOP INFLUENTIAL FEATURES
+----------------------------------------
+Top 10 Features (Average Importance):
+   1. tahun: 0.3688
+   2. jalur: 0.2053
+   3. Jenis Kelamin: 0.0952
+   4. Kepemilikan Rumah: 0.0802
+   5. Alamat Tinggal: 0.0684
+   6. Penghasilan Ayah: 0.0336
+   7. Status P3KE: 0.0318
+   8. Sumber Listrik: 0.0290
+   9. Sumber Air: 0.0278
+  10. Jumlah Tanggungan: 0.0225
+
+FILES GENERATED
+----------------------------------------
+Excel Report: kip_analysis_20250826_044104.xlsx
+CSV Folder: csv_results_20250826_044104/
+Summary Report: analysis_summary_20250826_044104.txt
+Visualizations: *.png files in results folder
+
+TECHNICAL NOTES
+----------------------------------------
+- Clustering: K-Prototypes algorithm for mixed data types
+- Classification: Random Forest, XGBoost, SVM with hyperparameter tuning
+- Validation: Cross-validation and train-test split
+- Missing Values: Handled with median (numerical) and mode (categorical)
+- Scaling: StandardScaler applied to all features
+
+================================================================================
+End of Report
+================================================================================

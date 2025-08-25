@@ -1,0 +1,117 @@
+================================================================================
+KIP KULIAH DUAL ANALYSIS SUMMARY REPORT
+================================================================================
+Generated: 2025-08-26 05:18:35
+Analysis ID: 20250826_051633
+Analysis Type: Dual
+
+DATASET OVERVIEW
+----------------------------------------
+Note: Overview based on socio-economic focused dataset
+Total Records: 835
+Total Features: 96
+Missing Values: 25,084
+Data by Year:
+  2022: 438 records
+  2023: 226 records
+  2024: 171 records
+
+DUAL CLUSTERING ANALYSIS RESULTS
+----------------------------------------
+Algorithm: K-Prototypes (mixed data types)
+
+1. FULL ANALYSIS (All Features Including Administrative):
+   Optimal Clusters: 5
+   Silhouette Score: 0.3729
+   Davies-Bouldin Index: 13.8331
+   Cluster Distribution:
+     Cluster 0: 126 (15.1%)
+     Cluster 1: 80 (9.6%)
+     Cluster 2: 438 (52.5%)
+     Cluster 3: 70 (8.4%)
+     Cluster 4: 121 (14.5%)
+
+2. SOCIO-ECONOMIC FOCUS ANALYSIS (Excluding Administrative Features):
+   Optimal Clusters: 3
+   Cluster Distribution:
+     Cluster 0: 118 (14.1%)
+     Cluster 1: 126 (15.1%)
+     Cluster 2: 591 (70.8%)
+
+Note: Classification models were trained on socio-economic focused data
+      to predict based on inherent characteristics rather than administrative patterns.
+
+CLASSIFICATION MODEL PERFORMANCE
+----------------------------------------
+Best Model: XGBoost
+  Accuracy: 0.9952
+  Precision: 0.9952
+  Recall: 0.9952
+  F1-Score: 0.9952
+
+All Models Performance:
+  Random Forest:
+    Accuracy: 0.9928
+    F1-Score: 0.9928
+    CV Score: 0.9656
+  XGBoost:
+    Accuracy: 0.9952
+    F1-Score: 0.9952
+    CV Score: 0.9760
+  SVM:
+    Accuracy: 0.9641
+    F1-Score: 0.9637
+    CV Score: 0.9476
+
+TOP INFLUENTIAL FEATURES
+----------------------------------------
+Top 10 Features (Average Importance):
+   1. UTBK-SNBT: 0.2860
+   2. Jenis Kelamin: 0.2504
+   3. SNBP: 0.2501
+   4. Status DTKS: 0.2449
+   5. jalur: 0.1904
+   6. Tahun Perolehan: 0.1415
+   7. Kepemilikan Rumah: 0.1363
+   8. Alamat Tinggal: 0.1209
+   9. Luas Bangunan: 0.1201
+  10. Luas Tanah: 0.1195
+
+RECOMMENDATIONS
+----------------------------------------
+Based on the dual analysis approach:
+
+1. SOCIO-ECONOMIC INSIGHTS:
+   - Focus on socio-economic cluster patterns for targeted interventions
+   - Use socio-economic analysis for policy development
+   - These clusters represent true socio-economic diversity
+
+2. ADMINISTRATIVE PATTERNS:
+   - Full analysis shows administrative/temporal clustering
+   - Useful for operational planning and resource allocation
+   - Shows how different cohorts/pathways behave
+
+3. PREDICTIVE MODELING:
+   - Models trained on socio-economic features are more generalizable
+   - Better for predicting outcomes based on inherent characteristics
+   - More robust across different time periods and pathways
+
+FILES GENERATED
+----------------------------------------
+Excel Report: kip_analysis_20250826_051633.xlsx
+CSV Folder: csv_results_20250826_051633/
+Summary Report: analysis_summary_20250826_051633.txt
+Visualizations: *.png files in results folder
+
+TECHNICAL NOTES
+----------------------------------------
+- Clustering: K-Prototypes algorithm for mixed data types
+- Classification: Random Forest, XGBoost, SVM with hyperparameter tuning
+- Validation: Cross-validation and train-test split
+- Missing Values: Handled with median (numerical) and mode (categorical)
+- Scaling: StandardScaler applied to all features
+
+
+================================================================================
+END OF REPORT
+================================================================================

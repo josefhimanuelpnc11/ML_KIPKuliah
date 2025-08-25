@@ -1,0 +1,1600 @@
+2025-08-26 04:08:07,873 - INFO - Starting KIP Kuliah analysis - 20250826_040807
+2025-08-26 04:08:07,873 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 04:08:07,873 - INFO - Loading all KIP Kuliah data...
+2025-08-26 04:08:07,873 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_SBMPN_2022.csv
+2025-08-26 04:08:07,873 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv
+2025-08-26 04:08:07,873 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv
+2025-08-26 04:08:07,873 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\pendaftar kip jalur SNBT 2023.csv
+2025-08-26 04:08:07,877 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\pendaftar KIP Kuliah 2023 jalur SNBP.csv
+2025-08-26 04:08:07,878 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv
+2025-08-26 04:08:07,878 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2024\pendaftar kip jalur snbp dan snbt 2024.csv
+2025-08-26 04:08:07,878 - WARNING - No pendaftar data loaded
+2025-08-26 04:08:07,880 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2022.csv
+2025-08-26 04:08:07,883 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2023.csv
+2025-08-26 04:08:07,883 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2024.csv
+2025-08-26 04:08:07,883 - WARNING - No penerima data loaded
+2025-08-26 04:08:07,883 - ERROR - Analysis failed: No pendaftar data loaded. Check file paths and data structure.
+2025-08-26 04:08:56,803 - INFO - Starting KIP Kuliah analysis - 20250826_040856
+2025-08-26 04:08:56,803 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 04:08:56,803 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 04:08:56,803 - INFO - Loading all KIP Kuliah data...
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_SBMPN_2022.csv
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\pendaftar kip jalur SNBT 2023.csv
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\pendaftar KIP Kuliah 2023 jalur SNBP.csv
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2024\pendaftar kip jalur snbp dan snbt 2024.csv
+2025-08-26 04:08:56,803 - WARNING - No pendaftar data loaded
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2022.csv
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2023.csv
+2025-08-26 04:08:56,803 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2024.csv
+2025-08-26 04:08:56,803 - WARNING - No penerima data loaded
+2025-08-26 04:08:56,803 - ERROR - Analysis failed: No pendaftar data loaded. Check file paths and data structure.
+2025-08-26 04:09:18,002 - INFO - Starting KIP Kuliah analysis - 20250826_040918
+2025-08-26 04:09:18,002 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 04:09:18,002 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 04:09:18,002 - INFO - Loading all KIP Kuliah data...
+2025-08-26 04:09:18,002 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_SBMPN_2022.csv
+2025-08-26 04:09:18,007 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv
+2025-08-26 04:09:18,008 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2022\Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv
+2025-08-26 04:09:18,009 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\pendaftar kip jalur SNBT 2023.csv
+2025-08-26 04:09:18,010 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\pendaftar KIP Kuliah 2023 jalur SNBP.csv
+2025-08-26 04:09:18,010 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2023\Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv
+2025-08-26 04:09:18,010 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Pendaftar\2024\pendaftar kip jalur snbp dan snbt 2024.csv
+2025-08-26 04:09:18,012 - WARNING - No pendaftar data loaded
+2025-08-26 04:09:18,012 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2022.csv
+2025-08-26 04:09:18,013 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2023.csv
+2025-08-26 04:09:18,013 - WARNING - File not found: C:\laragon\www\ML_KIPKuliah\src\Bahan Laporan KIP Kuliah 2022 s.d 2024\CSV_Penerima\penerima KIP Kuliah angkatan 2024.csv
+2025-08-26 04:09:18,013 - WARNING - No penerima data loaded
+2025-08-26 04:09:18,014 - ERROR - Analysis failed: No pendaftar data loaded. Check file paths and data structure.
+2025-08-26 04:10:23,219 - INFO - Starting KIP Kuliah analysis - 20250826_041023
+2025-08-26 04:10:23,219 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 04:10:23,219 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 04:10:23,219 - INFO - Loading all KIP Kuliah data...
+2025-08-26 04:10:23,239 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 04:10:23,244 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 04:10:23,253 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 04:10:23,262 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 04:10:23,274 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 04:10:23,284 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 04:10:23,288 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 04:10:23,307 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 04:10:23,317 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 04:10:23,322 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 04:10:23,329 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 04:10:23,330 - INFO - Combined penerima data: 442 total records
+2025-08-26 04:10:23,330 - INFO - Data Quality Summary:
+2025-08-26 04:10:23,330 - INFO -   Pendaftar records: 835
+2025-08-26 04:10:23,335 - INFO -   Pendaftar missing values: 41043
+2025-08-26 04:10:23,336 - INFO -   Pendaftar columns: 95
+2025-08-26 04:10:23,336 - INFO -   Penerima records: 442
+2025-08-26 04:10:23,338 - INFO -   Penerima missing values: 1262
+2025-08-26 04:10:23,359 - INFO - Loaded 835 pendaftar records
+2025-08-26 04:10:23,359 - INFO - Step 2: Preprocessing data...
+2025-08-26 04:10:23,359 - INFO - Starting data cleaning...
+2025-08-26 04:10:23,359 - INFO - Column classification:
+2025-08-26 04:10:23,359 - INFO -   Numerical: 5 columns
+2025-08-26 04:10:23,359 - INFO -   Categorical: 35 columns
+2025-08-26 04:10:23,359 - INFO -   Excluded: 55 columns
+2025-08-26 04:10:23,390 - WARNING - Still have 21542 missing values after cleaning
+2025-08-26 04:10:23,397 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 04:10:23,397 - INFO - Preparing data for clustering...
+2025-08-26 04:10:23,410 - INFO - Scaled 5 numerical features
+2025-08-26 04:10:23,411 - INFO - Clustering data prepared:
+2025-08-26 04:10:23,411 - INFO -   Shape: (835, 40)
+2025-08-26 04:10:23,411 - INFO -   Numerical features: 5
+2025-08-26 04:10:23,412 - INFO -   Categorical features: 35
+2025-08-26 04:10:23,412 - INFO -   Categorical indices: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+2025-08-26 04:10:23,413 - INFO - Preprocessed data shape: (835, 40)
+2025-08-26 04:10:23,414 - INFO - Categorical indices: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+2025-08-26 04:10:23,414 - INFO - Step 3: Performing clustering analysis...
+2025-08-26 04:10:23,414 - INFO - Finding optimal clusters (K=2 to 10)...
+2025-08-26 04:25:20,124 - INFO - Optimal number of clusters determined: 6
+2025-08-26 04:25:20,124 - INFO - Performing clustering with 6 clusters...
+2025-08-26 04:25:23,487 - INFO - Clustering completed using K-Prototypes
+2025-08-26 04:25:23,487 - INFO - Cluster distribution: {0: 104, 1: 438, 2: 283, 3: 4, 4: 4, 5: 2}
+2025-08-26 04:25:23,487 - INFO - Clustering completed: 6 clusters found
+2025-08-26 04:25:23,487 - INFO - Cluster distribution: {1: 438, 2: 283, 0: 104, 4: 4, 3: 4, 5: 2}
+2025-08-26 04:25:23,487 - INFO - Step 4: Training classification models...
+2025-08-26 04:25:23,487 - INFO - Preparing data for classification...
+2025-08-26 04:25:23,517 - INFO - Classification data prepared:
+2025-08-26 04:25:23,517 - INFO -   Features shape: (835, 40)
+2025-08-26 04:25:23,517 - INFO -   Target shape: (835,)
+2025-08-26 04:25:23,517 - INFO -   Target distribution: {1: 438, 2: 283, 0: 104, 4: 4, 3: 4, 5: 2}
+2025-08-26 04:25:23,517 - INFO - Training multiple classification models...
+2025-08-26 04:25:23,517 - INFO - Training set: (668, 40), Test set: (167, 40)
+2025-08-26 04:25:23,517 - INFO - Training Random Forest...
+2025-08-26 04:25:27,871 - INFO - Random Forest - Best CV score: 0.9835
+2025-08-26 04:25:27,871 - INFO - Training XGBoost...
+2025-08-26 04:25:30,329 - INFO - XGBoost - Best CV score: 0.9820
+2025-08-26 04:25:30,329 - INFO - Training SVM...
+2025-08-26 04:25:30,402 - INFO - SVM - Best CV score: 0.9776
+2025-08-26 04:25:30,402 - INFO - Successfully trained 3 models
+2025-08-26 04:25:30,402 - INFO - Evaluating models...
+2025-08-26 04:25:30,415 - INFO - Random Forest - Accuracy: 0.9964, F1: 0.9963
+2025-08-26 04:25:30,427 - INFO - XGBoost - Accuracy: 0.9964, F1: 0.9963
+2025-08-26 04:25:30,437 - INFO - SVM - Accuracy: 0.9832, F1: 0.9829
+2025-08-26 04:25:30,439 - INFO - Creating detailed classification reports...
+2025-08-26 04:25:30,446 - INFO - 
+Random Forest Classification Report:
+2025-08-26 04:25:30,446 - INFO - Accuracy: 0.9964
+2025-08-26 04:25:30,447 - INFO - Macro Avg - Precision: 0.9983
+2025-08-26 04:25:30,447 - INFO - Macro Avg - Recall: 0.9551
+2025-08-26 04:25:30,447 - INFO - Macro Avg - F1-Score: 0.9737
+2025-08-26 04:25:30,453 - INFO - 
+XGBoost Classification Report:
+2025-08-26 04:25:30,453 - INFO - Accuracy: 0.9964
+2025-08-26 04:25:30,453 - INFO - Macro Avg - Precision: 0.9983
+2025-08-26 04:25:30,453 - INFO - Macro Avg - Recall: 0.9551
+2025-08-26 04:25:30,453 - INFO - Macro Avg - F1-Score: 0.9737
+2025-08-26 04:25:30,460 - INFO - 
+SVM Classification Report:
+2025-08-26 04:25:30,460 - INFO - Accuracy: 0.9832
+2025-08-26 04:25:30,460 - INFO - Macro Avg - Precision: 0.9909
+2025-08-26 04:25:30,460 - INFO - Macro Avg - Recall: 0.9385
+2025-08-26 04:25:30,461 - INFO - Macro Avg - F1-Score: 0.9612
+2025-08-26 04:25:30,461 - INFO - Model training completed
+2025-08-26 04:25:30,462 - INFO - Best model: Random Forest
+2025-08-26 04:25:30,462 - INFO - Step 5: Exporting results...
+2025-08-26 04:25:30,462 - INFO - Creating cluster profiles...
+2025-08-26 04:25:30,564 - INFO - Created profiles for 6 clusters
+2025-08-26 04:25:30,565 - INFO - Extracting feature importance...
+2025-08-26 04:26:19,684 - INFO - Exporting results to Excel...
+2025-08-26 04:26:20,383 - INFO - Exported data_with_clusters to sheet 'data_with_clusters'
+2025-08-26 04:26:20,445 - INFO - Exported cluster_profiles to sheet 'cluster_profiles'
+2025-08-26 04:26:20,445 - INFO - Exported model_performance to sheet 'model_performance'
+2025-08-26 04:26:20,445 - INFO - Exported feature_importance to sheet 'feature_importance'
+2025-08-26 04:26:20,525 - INFO - Exported predictions (dict) to sheet 'predictions'
+2025-08-26 04:26:23,024 - INFO - Excel export completed: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_041023.xlsx
+2025-08-26 04:26:23,024 - INFO - Exporting results to CSV files...
+2025-08-26 04:26:23,077 - INFO - Exported data_with_clusters to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_041023\data_with_clusters.csv
+2025-08-26 04:26:23,077 - INFO - Exported cluster_profiles to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_041023\cluster_profiles.csv
+2025-08-26 04:26:23,077 - INFO - Exported model_performance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_041023\model_performance.csv
+2025-08-26 04:26:23,077 - INFO - Exported feature_importance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_041023\feature_importance.csv
+2025-08-26 04:26:23,098 - INFO - Exported predictions (dict) to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_041023\predictions.csv
+2025-08-26 04:26:23,098 - INFO - CSV export completed: 5 files in C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_041023
+2025-08-26 04:26:23,098 - INFO - Creating summary report...
+2025-08-26 04:26:23,114 - INFO - Summary report created: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_041023.txt
+2025-08-26 04:26:23,114 - INFO - Results exported:
+2025-08-26 04:26:23,130 - INFO -   Excel: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_041023.xlsx
+2025-08-26 04:26:23,130 - INFO -   CSV folder: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_041023
+2025-08-26 04:26:23,134 - INFO -   Summary: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_041023.txt
+2025-08-26 04:26:23,134 - INFO - Analysis completed successfully!
+2025-08-26 04:28:17,802 - INFO - Starting KIP Kuliah analysis - 20250826_042817
+2025-08-26 04:28:17,804 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 04:28:17,804 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 04:28:17,804 - INFO - Loading all KIP Kuliah data...
+2025-08-26 04:28:17,811 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 04:28:17,816 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 04:28:17,824 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 04:28:17,830 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 04:28:17,835 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 04:28:17,836 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 04:28:17,845 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 04:28:17,851 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 04:28:17,857 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 04:28:17,865 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 04:28:17,871 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 04:28:17,874 - INFO - Combined penerima data: 442 total records
+2025-08-26 04:28:17,875 - INFO - Data Quality Summary:
+2025-08-26 04:28:17,875 - INFO -   Pendaftar records: 835
+2025-08-26 04:28:17,877 - INFO -   Pendaftar missing values: 41043
+2025-08-26 04:28:17,878 - INFO -   Pendaftar columns: 95
+2025-08-26 04:28:17,878 - INFO -   Penerima records: 442
+2025-08-26 04:28:17,880 - INFO -   Penerima missing values: 1262
+2025-08-26 04:28:17,885 - INFO - Loaded 835 pendaftar records
+2025-08-26 04:28:17,894 - INFO - Step 2: Preprocessing data...
+2025-08-26 04:28:17,894 - INFO - Starting data cleaning...
+2025-08-26 04:28:17,898 - INFO - Column classification:
+2025-08-26 04:28:17,898 - INFO -   Numerical: 4 columns
+2025-08-26 04:28:17,898 - INFO -   Categorical: 35 columns
+2025-08-26 04:28:17,898 - INFO -   Excluded: 98 columns
+2025-08-26 04:28:17,925 - WARNING - Still have 22048 missing values after cleaning
+2025-08-26 04:28:17,939 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 04:28:17,940 - INFO - Preparing data for clustering...
+2025-08-26 04:28:17,944 - INFO - Scaled 4 numerical features
+2025-08-26 04:28:17,944 - INFO - Clustering data prepared:
+2025-08-26 04:28:17,945 - INFO -   Shape: (835, 39)
+2025-08-26 04:28:17,945 - INFO -   Numerical features: 4
+2025-08-26 04:28:17,945 - INFO -   Categorical features: 35
+2025-08-26 04:28:17,945 - INFO -   Categorical indices: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+2025-08-26 04:28:17,946 - INFO - Preprocessed data shape: (835, 39)
+2025-08-26 04:28:17,946 - INFO - Categorical indices: [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38]
+2025-08-26 04:28:17,946 - INFO - Step 3: Performing clustering analysis...
+2025-08-26 04:28:17,947 - INFO - Finding optimal clusters (K=2 to 10)...
+2025-08-26 04:29:08,822 - INFO - Optimal number of clusters determined: 5
+2025-08-26 04:29:08,823 - INFO - Performing clustering with 5 clusters...
+2025-08-26 04:29:10,157 - INFO - Clustering completed using K-Prototypes
+2025-08-26 04:29:10,157 - INFO - Cluster distribution: {0: 4, 1: 638, 2: 4, 3: 187, 4: 2}
+2025-08-26 04:29:10,157 - INFO - Clustering completed: 5 clusters found
+2025-08-26 04:29:10,157 - INFO - Cluster distribution: {1: 638, 3: 187, 0: 4, 2: 4, 4: 2}
+2025-08-26 04:29:10,157 - INFO - Step 4: Training classification models...
+2025-08-26 04:29:10,157 - INFO - Preparing data for classification...
+2025-08-26 04:29:10,177 - INFO - Classification data prepared:
+2025-08-26 04:29:10,178 - INFO -   Features shape: (835, 39)
+2025-08-26 04:29:10,178 - INFO -   Target shape: (835,)
+2025-08-26 04:29:10,179 - INFO -   Target distribution: {1: 638, 3: 187, 0: 4, 2: 4, 4: 2}
+2025-08-26 04:29:10,179 - INFO - Training multiple classification models...
+2025-08-26 04:29:10,181 - INFO - Training set: (668, 39), Test set: (167, 39)
+2025-08-26 04:29:10,181 - INFO - Training Random Forest...
+2025-08-26 04:29:14,705 - INFO - Random Forest - Best CV score: 0.9715
+2025-08-26 04:29:14,706 - INFO - Training XGBoost...
+2025-08-26 04:29:16,615 - INFO - XGBoost - Best CV score: 0.9790
+2025-08-26 04:29:16,615 - INFO - Training SVM...
+2025-08-26 04:29:16,685 - INFO - SVM - Best CV score: 0.9745
+2025-08-26 04:29:16,686 - INFO - Successfully trained 3 models
+2025-08-26 04:29:16,686 - INFO - Evaluating models...
+2025-08-26 04:29:16,704 - INFO - Random Forest - Accuracy: 0.9940, F1: 0.9938
+2025-08-26 04:29:16,715 - INFO - XGBoost - Accuracy: 0.9976, F1: 0.9975
+2025-08-26 04:29:16,726 - INFO - SVM - Accuracy: 0.9772, F1: 0.9769
+2025-08-26 04:29:16,727 - INFO - Creating detailed classification reports...
+2025-08-26 04:29:16,734 - INFO - 
+Random Forest Classification Report:
+2025-08-26 04:29:16,734 - INFO - Accuracy: 0.9940
+2025-08-26 04:29:16,734 - INFO - Macro Avg - Precision: 0.9969
+2025-08-26 04:29:16,734 - INFO - Macro Avg - Recall: 0.8968
+2025-08-26 04:29:16,734 - INFO - Macro Avg - F1-Score: 0.9397
+2025-08-26 04:29:16,741 - INFO - 
+XGBoost Classification Report:
+2025-08-26 04:29:16,742 - INFO - Accuracy: 0.9976
+2025-08-26 04:29:16,742 - INFO - Macro Avg - Precision: 0.9979
+2025-08-26 04:29:16,742 - INFO - Macro Avg - Recall: 0.9497
+2025-08-26 04:29:16,742 - INFO - Macro Avg - F1-Score: 0.9702
+2025-08-26 04:29:16,750 - INFO - 
+SVM Classification Report:
+2025-08-26 04:29:16,751 - INFO - Accuracy: 0.9772
+2025-08-26 04:29:16,751 - INFO - Macro Avg - Precision: 0.9933
+2025-08-26 04:29:16,751 - INFO - Macro Avg - Recall: 0.9804
+2025-08-26 04:29:16,751 - INFO - Macro Avg - F1-Score: 0.9864
+2025-08-26 04:29:16,751 - INFO - Model training completed
+2025-08-26 04:29:16,752 - INFO - Best model: XGBoost
+2025-08-26 04:29:16,752 - INFO - Step 5: Exporting results...
+2025-08-26 04:29:16,753 - INFO - Creating cluster profiles...
+2025-08-26 04:29:16,845 - INFO - Created profiles for 5 clusters
+2025-08-26 04:29:16,845 - INFO - Extracting feature importance...
+2025-08-26 04:29:40,693 - INFO - Exporting results to Excel...
+2025-08-26 04:29:41,497 - INFO - Exported data_with_clusters to sheet 'data_with_clusters'
+2025-08-26 04:29:41,539 - INFO - Exported cluster_profiles to sheet 'cluster_profiles'
+2025-08-26 04:29:41,539 - INFO - Exported model_performance to sheet 'model_performance'
+2025-08-26 04:29:41,545 - INFO - Exported feature_importance to sheet 'feature_importance'
+2025-08-26 04:29:41,634 - INFO - Exported predictions (dict) to sheet 'predictions'
+2025-08-26 04:29:42,506 - INFO - Excel export completed: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_042817.xlsx
+2025-08-26 04:29:42,506 - INFO - Exporting results to CSV files...
+2025-08-26 04:29:42,540 - INFO - Exported data_with_clusters to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_042817\data_with_clusters.csv
+2025-08-26 04:29:42,550 - INFO - Exported cluster_profiles to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_042817\cluster_profiles.csv
+2025-08-26 04:29:42,559 - INFO - Exported model_performance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_042817\model_performance.csv
+2025-08-26 04:29:42,559 - INFO - Exported feature_importance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_042817\feature_importance.csv
+2025-08-26 04:29:42,568 - INFO - Exported predictions (dict) to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_042817\predictions.csv
+2025-08-26 04:29:42,573 - INFO - CSV export completed: 5 files in C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_042817
+2025-08-26 04:29:42,574 - INFO - Creating summary report...
+2025-08-26 04:29:42,586 - INFO - Summary report created: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_042817.txt
+2025-08-26 04:29:42,586 - INFO - Results exported:
+2025-08-26 04:29:42,586 - INFO -   Excel: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_042817.xlsx
+2025-08-26 04:29:42,586 - INFO -   CSV folder: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_042817
+2025-08-26 04:29:42,589 - INFO -   Summary: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_042817.txt
+2025-08-26 04:29:42,589 - INFO - Analysis completed successfully!
+2025-08-26 04:34:12,074 - INFO - Starting KIP Kuliah analysis - 20250826_043412
+2025-08-26 04:34:12,075 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 04:34:12,075 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 04:34:12,075 - INFO - Loading all KIP Kuliah data...
+2025-08-26 04:34:12,085 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 04:34:12,089 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 04:34:12,095 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 04:34:12,099 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 04:34:12,106 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 04:34:12,109 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 04:34:12,119 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 04:34:12,125 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 04:34:12,131 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 04:34:12,135 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 04:34:12,150 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 04:34:12,152 - INFO - Combined penerima data: 442 total records
+2025-08-26 04:34:12,153 - INFO - Data Quality Summary:
+2025-08-26 04:34:12,154 - INFO -   Pendaftar records: 835
+2025-08-26 04:34:12,167 - INFO -   Pendaftar missing values: 41043
+2025-08-26 04:34:12,167 - INFO -   Pendaftar columns: 95
+2025-08-26 04:34:12,169 - INFO -   Penerima records: 442
+2025-08-26 04:34:12,176 - INFO -   Penerima missing values: 1262
+2025-08-26 04:34:12,205 - INFO - Loaded 835 pendaftar records
+2025-08-26 04:34:12,205 - INFO - Step 2: Preprocessing data...
+2025-08-26 04:34:12,205 - INFO - Starting data cleaning...
+2025-08-26 04:34:12,214 - INFO - Column classification:
+2025-08-26 04:34:12,214 - INFO -   Numerical: 1 columns
+2025-08-26 04:34:12,214 - INFO -   Categorical: 32 columns
+2025-08-26 04:34:12,215 - INFO -   Excluded: 107 columns
+2025-08-26 04:34:12,240 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 04:34:12,255 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 04:34:12,255 - INFO - Preparing data for clustering...
+2025-08-26 04:34:12,261 - INFO - Scaled 1 numerical features
+2025-08-26 04:34:12,261 - INFO - Clustering data prepared:
+2025-08-26 04:34:12,261 - INFO -   Shape: (835, 33)
+2025-08-26 04:34:12,261 - INFO -   Numerical features: 1
+2025-08-26 04:34:12,262 - INFO -   Categorical features: 32
+2025-08-26 04:34:12,262 - INFO -   Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 04:34:12,262 - INFO - Preprocessed data shape: (835, 33)
+2025-08-26 04:34:12,263 - INFO - Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 04:34:12,263 - INFO - Step 3: Performing clustering analysis...
+2025-08-26 04:34:12,263 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 04:34:28,697 - INFO - Optimal number of clusters determined: 5
+2025-08-26 04:34:28,697 - INFO - Performing clustering with 5 clusters...
+2025-08-26 04:34:30,606 - INFO - Clustering completed using K-Prototypes
+2025-08-26 04:34:30,606 - INFO - Cluster distribution: {0: 126, 1: 80, 2: 438, 3: 70, 4: 121}
+2025-08-26 04:34:30,675 - INFO - Silhouette Score: 0.3729
+2025-08-26 04:34:30,687 - INFO - Davies-Bouldin Index: 13.8331
+2025-08-26 04:34:30,687 - INFO - Cluster distribution percentages:
+2025-08-26 04:34:30,687 - INFO -   Cluster 0: 15.1%
+2025-08-26 04:34:30,687 - INFO -   Cluster 1: 9.6%
+2025-08-26 04:34:30,695 - INFO -   Cluster 2: 52.5%
+2025-08-26 04:34:30,695 - INFO -   Cluster 3: 8.4%
+2025-08-26 04:34:30,697 - INFO -   Cluster 4: 14.5%
+2025-08-26 04:34:30,699 - INFO - Clustering completed: 5 clusters found
+2025-08-26 04:34:30,707 - INFO - Cluster distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 04:34:30,707 - INFO - Step 4: Training classification models...
+2025-08-26 04:34:30,707 - INFO - Preparing data for classification...
+2025-08-26 04:34:30,755 - INFO - Classification data prepared:
+2025-08-26 04:34:30,755 - INFO -   Features shape: (835, 33)
+2025-08-26 04:34:30,761 - INFO -   Target shape: (835,)
+2025-08-26 04:34:30,761 - INFO -   Target distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 04:34:30,761 - INFO - Training multiple classification models...
+2025-08-26 04:34:30,767 - INFO - Training set: (668, 33), Test set: (167, 33)
+2025-08-26 04:34:30,767 - INFO - Training Random Forest...
+2025-08-26 04:34:35,849 - INFO - Random Forest - Best CV score: 0.9790
+2025-08-26 04:34:35,849 - INFO - Training XGBoost...
+2025-08-26 04:34:37,697 - INFO - XGBoost - Best CV score: 0.9731
+2025-08-26 04:34:37,699 - INFO - Training SVM...
+2025-08-26 04:34:37,774 - INFO - SVM - Best CV score: 0.9716
+2025-08-26 04:34:37,775 - INFO - Successfully trained 3 models
+2025-08-26 04:34:37,775 - INFO - Evaluating models...
+2025-08-26 04:34:37,788 - INFO - Random Forest - Accuracy: 0.9892, F1: 0.9891
+2025-08-26 04:34:37,800 - INFO - XGBoost - Accuracy: 0.9880, F1: 0.9880
+2025-08-26 04:34:37,814 - INFO - SVM - Accuracy: 0.9784, F1: 0.9779
+2025-08-26 04:34:37,814 - INFO - Creating detailed classification reports...
+2025-08-26 04:34:37,821 - INFO - 
+Random Forest Classification Report:
+2025-08-26 04:34:37,822 - INFO - Accuracy: 0.9892
+2025-08-26 04:34:37,822 - INFO - Macro Avg - Precision: 0.9818
+2025-08-26 04:34:37,822 - INFO - Macro Avg - Recall: 0.9780
+2025-08-26 04:34:37,822 - INFO - Macro Avg - F1-Score: 0.9797
+2025-08-26 04:34:37,828 - INFO - 
+XGBoost Classification Report:
+2025-08-26 04:34:37,828 - INFO - Accuracy: 0.9880
+2025-08-26 04:34:37,829 - INFO - Macro Avg - Precision: 0.9769
+2025-08-26 04:34:37,830 - INFO - Macro Avg - Recall: 0.9787
+2025-08-26 04:34:37,830 - INFO - Macro Avg - F1-Score: 0.9778
+2025-08-26 04:34:37,835 - INFO - 
+SVM Classification Report:
+2025-08-26 04:34:37,836 - INFO - Accuracy: 0.9784
+2025-08-26 04:34:37,836 - INFO - Macro Avg - Precision: 0.9649
+2025-08-26 04:34:37,836 - INFO - Macro Avg - Recall: 0.9534
+2025-08-26 04:34:37,836 - INFO - Macro Avg - F1-Score: 0.9579
+2025-08-26 04:34:37,836 - INFO - Model training completed
+2025-08-26 04:34:37,837 - INFO - Best model: Random Forest
+2025-08-26 04:34:37,837 - INFO - Step 5: Exporting results...
+2025-08-26 04:34:37,838 - INFO - Creating cluster profiles...
+2025-08-26 04:34:37,945 - INFO - Created profiles for 5 clusters
+2025-08-26 04:34:37,945 - INFO - Extracting feature importance...
+2025-08-26 04:34:49,421 - INFO - Exporting results to Excel...
+2025-08-26 04:34:50,135 - INFO - Exported data_with_clusters to sheet 'data_with_clusters'
+2025-08-26 04:34:50,176 - INFO - Exported cluster_profiles to sheet 'cluster_profiles'
+2025-08-26 04:34:50,176 - INFO - Exported model_performance to sheet 'model_performance'
+2025-08-26 04:34:50,182 - INFO - Exported feature_importance to sheet 'feature_importance'
+2025-08-26 04:34:50,329 - INFO - Exported predictions (dict) to sheet 'predictions'
+2025-08-26 04:34:51,169 - INFO - Excel export completed: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_043412.xlsx
+2025-08-26 04:34:51,169 - INFO - Exporting results to CSV files...
+2025-08-26 04:34:51,212 - INFO - Exported data_with_clusters to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_043412\data_with_clusters.csv
+2025-08-26 04:34:51,217 - INFO - Exported cluster_profiles to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_043412\cluster_profiles.csv
+2025-08-26 04:34:51,217 - INFO - Exported model_performance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_043412\model_performance.csv
+2025-08-26 04:34:51,224 - INFO - Exported feature_importance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_043412\feature_importance.csv
+2025-08-26 04:34:51,227 - INFO - Exported predictions (dict) to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_043412\predictions.csv
+2025-08-26 04:34:51,227 - INFO - CSV export completed: 5 files in C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_043412
+2025-08-26 04:34:51,228 - INFO - Creating summary report...
+2025-08-26 04:34:51,233 - INFO - Summary report created: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_043412.txt
+2025-08-26 04:34:51,234 - INFO - Results exported:
+2025-08-26 04:34:51,235 - INFO -   Excel: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_043412.xlsx
+2025-08-26 04:34:51,236 - INFO -   CSV folder: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_043412
+2025-08-26 04:34:51,236 - INFO -   Summary: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_043412.txt
+2025-08-26 04:34:51,237 - INFO - Analysis completed successfully!
+2025-08-26 04:41:04,849 - INFO - Starting KIP Kuliah analysis - 20250826_044104
+2025-08-26 04:41:04,849 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 04:41:04,849 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 04:41:04,849 - INFO - Loading all KIP Kuliah data...
+2025-08-26 04:41:04,858 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 04:41:04,864 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 04:41:04,869 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 04:41:04,875 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 04:41:04,879 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 04:41:04,883 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 04:41:04,888 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 04:41:04,894 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 04:41:04,900 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 04:41:04,907 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 04:41:04,913 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 04:41:04,915 - INFO - Combined penerima data: 442 total records
+2025-08-26 04:41:04,915 - INFO - Data Quality Summary:
+2025-08-26 04:41:04,915 - INFO -   Pendaftar records: 835
+2025-08-26 04:41:04,918 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 04:41:04,920 - INFO -   Pendaftar columns: 95
+2025-08-26 04:41:04,923 - INFO -   Top 10 columns with missing values:
+2025-08-26 04:41:04,923 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 04:41:04,923 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 04:41:04,924 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 04:41:04,924 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 04:41:04,924 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 04:41:04,924 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 04:41:04,924 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 04:41:04,924 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 04:41:04,924 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 04:41:04,926 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 04:41:04,928 - INFO -   Penerima records: 442
+2025-08-26 04:41:04,928 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 04:41:04,940 - INFO - Loaded 835 pendaftar records
+2025-08-26 04:41:04,940 - INFO - Step 2: Preprocessing data...
+2025-08-26 04:41:04,940 - INFO - Starting data cleaning...
+2025-08-26 04:41:04,949 - INFO - Column classification:
+2025-08-26 04:41:04,949 - INFO -   Numerical: 1 columns
+2025-08-26 04:41:04,950 - INFO -   Categorical: 32 columns
+2025-08-26 04:41:04,950 - INFO -   Excluded: 107 columns
+2025-08-26 04:41:04,969 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 04:41:04,984 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 04:41:04,984 - INFO - Preparing data for clustering...
+2025-08-26 04:41:04,990 - INFO - Scaled 1 numerical features
+2025-08-26 04:41:04,990 - INFO - Clustering data prepared:
+2025-08-26 04:41:04,990 - INFO -   Shape: (835, 33)
+2025-08-26 04:41:04,990 - INFO -   Numerical features: 1
+2025-08-26 04:41:04,990 - INFO -   Categorical features: 32
+2025-08-26 04:41:04,991 - INFO -   Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 04:41:04,991 - INFO - Preprocessed data shape: (835, 33)
+2025-08-26 04:41:04,991 - INFO - Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 04:41:04,991 - INFO - Step 3: Performing clustering analysis...
+2025-08-26 04:41:04,992 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 04:41:24,242 - INFO - Optimal number of clusters determined: 5
+2025-08-26 04:41:24,244 - INFO - Performing clustering with 5 clusters...
+2025-08-26 04:41:25,894 - INFO - Clustering completed using K-Prototypes
+2025-08-26 04:41:25,894 - INFO - Cluster distribution: {0: 126, 1: 80, 2: 438, 3: 70, 4: 121}
+2025-08-26 04:41:25,920 - INFO - Silhouette Score: 0.3729
+2025-08-26 04:41:25,923 - INFO - Davies-Bouldin Index: 13.8331
+2025-08-26 04:41:25,924 - INFO - Cluster distribution percentages:
+2025-08-26 04:41:25,924 - INFO -   Cluster 0: 15.1%
+2025-08-26 04:41:25,924 - INFO -   Cluster 1: 9.6%
+2025-08-26 04:41:25,924 - INFO -   Cluster 2: 52.5%
+2025-08-26 04:41:25,924 - INFO -   Cluster 3: 8.4%
+2025-08-26 04:41:25,925 - INFO -   Cluster 4: 14.5%
+2025-08-26 04:41:25,926 - INFO - Clustering completed: 5 clusters found
+2025-08-26 04:41:25,927 - INFO - Cluster distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 04:41:25,927 - INFO - Step 4: Training classification models...
+2025-08-26 04:41:25,927 - INFO - Preparing data for classification...
+2025-08-26 04:41:25,947 - INFO - Classification data prepared:
+2025-08-26 04:41:25,947 - INFO -   Features shape: (835, 33)
+2025-08-26 04:41:25,947 - INFO -   Target shape: (835,)
+2025-08-26 04:41:25,948 - INFO -   Target distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 04:41:25,948 - INFO - Training multiple classification models...
+2025-08-26 04:41:25,949 - INFO - Training set: (668, 33), Test set: (167, 33)
+2025-08-26 04:41:25,949 - INFO - Training Random Forest...
+2025-08-26 04:41:30,319 - INFO - Random Forest - Best CV score: 0.9790
+2025-08-26 04:41:30,319 - INFO - Training XGBoost...
+2025-08-26 04:41:32,258 - INFO - XGBoost - Best CV score: 0.9731
+2025-08-26 04:41:32,258 - INFO - Training SVM...
+2025-08-26 04:41:32,337 - INFO - SVM - Best CV score: 0.9716
+2025-08-26 04:41:32,337 - INFO - Successfully trained 3 models
+2025-08-26 04:41:32,337 - INFO - Evaluating models...
+2025-08-26 04:41:32,352 - INFO - Random Forest - Accuracy: 0.9892, F1: 0.9891
+2025-08-26 04:41:32,363 - INFO - XGBoost - Accuracy: 0.9880, F1: 0.9880
+2025-08-26 04:41:32,375 - INFO - SVM - Accuracy: 0.9784, F1: 0.9779
+2025-08-26 04:41:32,376 - INFO - Creating detailed classification reports...
+2025-08-26 04:41:32,382 - INFO - 
+Random Forest Classification Report:
+2025-08-26 04:41:32,383 - INFO - Accuracy: 0.9892
+2025-08-26 04:41:32,383 - INFO - Macro Avg - Precision: 0.9818
+2025-08-26 04:41:32,383 - INFO - Macro Avg - Recall: 0.9780
+2025-08-26 04:41:32,383 - INFO - Macro Avg - F1-Score: 0.9797
+2025-08-26 04:41:32,392 - INFO - 
+XGBoost Classification Report:
+2025-08-26 04:41:32,392 - INFO - Accuracy: 0.9880
+2025-08-26 04:41:32,392 - INFO - Macro Avg - Precision: 0.9769
+2025-08-26 04:41:32,392 - INFO - Macro Avg - Recall: 0.9787
+2025-08-26 04:41:32,392 - INFO - Macro Avg - F1-Score: 0.9778
+2025-08-26 04:41:32,398 - INFO - 
+SVM Classification Report:
+2025-08-26 04:41:32,398 - INFO - Accuracy: 0.9784
+2025-08-26 04:41:32,399 - INFO - Macro Avg - Precision: 0.9649
+2025-08-26 04:41:32,399 - INFO - Macro Avg - Recall: 0.9534
+2025-08-26 04:41:32,399 - INFO - Macro Avg - F1-Score: 0.9579
+2025-08-26 04:41:32,399 - INFO - Model training completed
+2025-08-26 04:41:32,400 - INFO - Best model: Random Forest
+2025-08-26 04:41:32,400 - INFO - Step 5: Exporting results...
+2025-08-26 04:41:32,400 - INFO - Creating cluster profiles...
+2025-08-26 04:41:32,511 - INFO - Created profiles for 5 clusters
+2025-08-26 04:41:32,511 - INFO - === CLUSTER INTERPRETATIONS ===
+2025-08-26 04:41:32,511 - INFO - Cluster 0 (126 records, 15.1%): Dominan 2024 (100%), Jalur pendaftar kip jalur snbp dan snbt 2024 (100%)
+2025-08-26 04:41:32,511 - INFO - Cluster 1 (80 records, 9.6%): Dominan 2024 (54%), Jalur pendaftar kip jalur snbp dan snbt 2024 (54%), P (68%)
+2025-08-26 04:41:32,517 - INFO - Cluster 2 (438 records, 52.5%): Dominan 2022 (100%), Jalur Siswa_Pendaftar_SBMPN_2022 (54%), P (100%)
+2025-08-26 04:41:32,518 - INFO - Cluster 3 (70 records, 8.4%): Dominan 2023 (97%), Jalur pendaftar kip jalur SNBT 2023 (77%), L (80%)
+2025-08-26 04:41:32,520 - INFO - Cluster 4 (121 records, 14.5%): Dominan 2023 (100%), Jalur Siswa_Pendaftar_Seleksi Mandiri PTN_2023 (56%), P (97%)
+2025-08-26 04:41:32,520 - INFO - Extracting feature importance...
+2025-08-26 04:41:44,614 - INFO - Exporting results to Excel...
+2025-08-26 04:41:45,232 - INFO - Exported data_with_clusters to sheet 'data_with_clusters'
+2025-08-26 04:41:45,272 - INFO - Exported cluster_profiles to sheet 'cluster_profiles'
+2025-08-26 04:41:45,272 - INFO - Exported model_performance to sheet 'model_performance'
+2025-08-26 04:41:45,277 - INFO - Exported feature_importance to sheet 'feature_importance'
+2025-08-26 04:41:45,454 - INFO - Exported predictions (dict) to sheet 'predictions'
+2025-08-26 04:41:46,230 - INFO - Excel export completed: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_044104.xlsx
+2025-08-26 04:41:46,230 - INFO - Exporting results to CSV files...
+2025-08-26 04:41:46,280 - INFO - Exported data_with_clusters to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_044104\data_with_clusters.csv
+2025-08-26 04:41:46,280 - INFO - Exported cluster_profiles to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_044104\cluster_profiles.csv
+2025-08-26 04:41:46,286 - INFO - Exported model_performance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_044104\model_performance.csv
+2025-08-26 04:41:46,289 - INFO - Exported feature_importance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_044104\feature_importance.csv
+2025-08-26 04:41:46,293 - INFO - Exported predictions (dict) to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_044104\predictions.csv
+2025-08-26 04:41:46,293 - INFO - CSV export completed: 5 files in C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_044104
+2025-08-26 04:41:46,293 - INFO - Creating summary report...
+2025-08-26 04:41:46,303 - INFO - Summary report created: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_044104.txt
+2025-08-26 04:41:46,303 - INFO - Results exported:
+2025-08-26 04:41:46,304 - INFO -   Excel: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_044104.xlsx
+2025-08-26 04:41:46,305 - INFO -   CSV folder: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_044104
+2025-08-26 04:41:46,305 - INFO -   Summary: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_044104.txt
+2025-08-26 04:41:46,305 - INFO - Analysis completed successfully!
+2025-08-26 05:04:04,415 - INFO - Starting KIP Kuliah analysis - 20250826_050404
+2025-08-26 05:04:04,424 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 05:04:04,424 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 05:04:04,424 - INFO - Loading all KIP Kuliah data...
+2025-08-26 05:04:04,438 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 05:04:04,445 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 05:04:04,460 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 05:04:04,468 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 05:04:04,472 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 05:04:04,478 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 05:04:04,489 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 05:04:04,493 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 05:04:04,498 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 05:04:04,507 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 05:04:04,514 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 05:04:04,515 - INFO - Combined penerima data: 442 total records
+2025-08-26 05:04:04,516 - INFO - Data Quality Summary:
+2025-08-26 05:04:04,516 - INFO -   Pendaftar records: 835
+2025-08-26 05:04:04,518 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 05:04:04,518 - INFO -   Pendaftar columns: 95
+2025-08-26 05:04:04,523 - INFO -   Top 10 columns with missing values:
+2025-08-26 05:04:04,523 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 05:04:04,523 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 05:04:04,524 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 05:04:04,524 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 05:04:04,524 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 05:04:04,524 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 05:04:04,524 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 05:04:04,524 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 05:04:04,525 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 05:04:04,525 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 05:04:04,525 - INFO -   Penerima records: 442
+2025-08-26 05:04:04,525 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 05:04:04,542 - INFO - Loaded 835 pendaftar records
+2025-08-26 05:04:04,542 - INFO - Step 2: Preprocessing data...
+2025-08-26 05:04:04,542 - INFO - Starting data cleaning...
+2025-08-26 05:04:04,548 - INFO - Column classification:
+2025-08-26 05:04:04,548 - INFO -   Numerical: 1 columns
+2025-08-26 05:04:04,550 - INFO -   Categorical: 32 columns
+2025-08-26 05:04:04,550 - INFO -   Excluded: 107 columns
+2025-08-26 05:04:04,569 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 05:04:04,581 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 05:04:04,581 - INFO - Step 3: Performing clustering analysis...
+2025-08-26 05:04:04,581 - INFO - Preparing data for clustering...
+2025-08-26 05:04:04,581 - INFO - Excluding cohort features for socio-economic analysis: ['tahun', 'jalur']
+2025-08-26 05:04:04,585 - INFO - Clustering data prepared (socio-economic):
+2025-08-26 05:04:04,585 - INFO -   Shape: (835, 31)
+2025-08-26 05:04:04,585 - INFO -   Numerical features: 0
+2025-08-26 05:04:04,585 - INFO -   Categorical features: 31
+2025-08-26 05:04:04,585 - INFO -   Categorical indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-08-26 05:04:04,585 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:04:04,586 - WARNING - Error with K=2: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:04:04,586 - WARNING - Error with K=3: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:04:04,587 - WARNING - Error with K=4: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:04:04,588 - WARNING - Error with K=5: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:04:04,590 - WARNING - Error with K=6: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:04:04,590 - WARNING - Error with K=7: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:04:04,591 - WARNING - Error with K=8: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:04:09,357 - INFO - Optimal number of clusters determined: 2
+2025-08-26 05:04:09,358 - INFO - Performing clustering with 2 clusters...
+2025-08-26 05:04:09,361 - ERROR - Clustering failed: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:04:09,362 - ERROR - Analysis failed: All columns are categorical, use k-modes instead of k-prototypes.
+2025-08-26 05:08:13,886 - INFO - Starting KIP Kuliah analysis - 20250826_050813
+2025-08-26 05:08:13,886 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 05:08:13,886 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 05:08:13,886 - INFO - Loading all KIP Kuliah data...
+2025-08-26 05:08:13,904 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 05:08:13,904 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 05:08:13,912 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 05:08:13,916 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 05:08:13,921 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 05:08:13,925 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 05:08:13,931 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 05:08:13,933 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 05:08:13,940 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 05:08:13,944 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 05:08:13,952 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 05:08:13,952 - INFO - Combined penerima data: 442 total records
+2025-08-26 05:08:13,952 - INFO - Data Quality Summary:
+2025-08-26 05:08:13,952 - INFO -   Pendaftar records: 835
+2025-08-26 05:08:13,958 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 05:08:13,959 - INFO -   Pendaftar columns: 95
+2025-08-26 05:08:13,961 - INFO -   Top 10 columns with missing values:
+2025-08-26 05:08:13,963 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 05:08:13,963 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 05:08:13,963 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 05:08:13,963 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 05:08:13,964 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 05:08:13,964 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 05:08:13,964 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 05:08:13,964 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 05:08:13,964 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 05:08:13,964 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 05:08:13,967 - INFO -   Penerima records: 442
+2025-08-26 05:08:13,967 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 05:08:13,985 - INFO - Loaded 835 pendaftar records
+2025-08-26 05:08:13,988 - INFO - Step 2: Preprocessing data...
+2025-08-26 05:08:13,988 - INFO - Starting data cleaning...
+2025-08-26 05:08:14,001 - INFO - Column classification:
+2025-08-26 05:08:14,001 - INFO -   Numerical: 1 columns
+2025-08-26 05:08:14,001 - INFO -   Categorical: 32 columns
+2025-08-26 05:08:14,001 - INFO -   Excluded: 107 columns
+2025-08-26 05:08:14,041 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 05:08:14,057 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 05:08:14,057 - INFO - Step 3: Performing clustering analysis...
+2025-08-26 05:08:14,057 - INFO - Preparing data for clustering...
+2025-08-26 05:08:14,057 - INFO - Excluding cohort features for socio-economic analysis: ['tahun', 'jalur']
+2025-08-26 05:08:14,057 - INFO - Clustering data prepared (socio-economic):
+2025-08-26 05:08:14,057 - INFO -   Shape: (835, 31)
+2025-08-26 05:08:14,057 - INFO -   Numerical features: 0
+2025-08-26 05:08:14,057 - INFO -   Categorical features: 31
+2025-08-26 05:08:14,057 - INFO -   Categorical indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-08-26 05:08:14,057 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:08:34,912 - INFO - Optimal number of clusters determined: 3
+2025-08-26 05:08:34,914 - INFO - Performing clustering with 3 clusters...
+2025-08-26 05:08:35,496 - INFO - Clustering completed using K-modes
+2025-08-26 05:08:35,497 - INFO - Cluster distribution: {0: 118, 1: 126, 2: 591}
+2025-08-26 05:08:35,497 - INFO - Evaluating K-modes clustering quality...
+2025-08-26 05:08:36,416 - INFO - Cluster Cohesion (categorical): 0.7126
+2025-08-26 05:08:36,426 - INFO - Cluster Separation (categorical): 0.1828
+2025-08-26 05:08:36,427 - INFO - Cluster distribution percentages:
+2025-08-26 05:08:36,427 - INFO -   Cluster 0: 14.1%
+2025-08-26 05:08:36,428 - INFO -   Cluster 1: 15.1%
+2025-08-26 05:08:36,428 - INFO -   Cluster 2: 70.8%
+2025-08-26 05:08:36,430 - INFO - Clustering completed: 3 clusters found
+2025-08-26 05:08:36,431 - INFO - Cluster distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:08:36,431 - INFO - Step 4: Training classification models...
+2025-08-26 05:08:36,431 - INFO - Preparing data for classification...
+2025-08-26 05:08:36,448 - INFO - Classification data prepared:
+2025-08-26 05:08:36,448 - INFO -   Features shape: (835, 33)
+2025-08-26 05:08:36,448 - INFO -   Target shape: (835,)
+2025-08-26 05:08:36,448 - INFO -   Target distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:08:36,448 - INFO - Training multiple classification models...
+2025-08-26 05:08:36,448 - INFO - Training set: (668, 33), Test set: (167, 33)
+2025-08-26 05:08:36,448 - INFO - Training Random Forest...
+2025-08-26 05:08:40,975 - INFO - Random Forest - Best CV score: 0.9656
+2025-08-26 05:08:40,975 - INFO - Training XGBoost...
+2025-08-26 05:08:42,761 - INFO - XGBoost - Best CV score: 0.9760
+2025-08-26 05:08:42,761 - INFO - Training SVM...
+2025-08-26 05:08:43,016 - INFO - SVM - Best CV score: 0.9476
+2025-08-26 05:08:43,016 - INFO - Successfully trained 3 models
+2025-08-26 05:08:43,016 - INFO - Evaluating models...
+2025-08-26 05:08:43,050 - INFO - Random Forest - Accuracy: 0.9928, F1: 0.9928
+2025-08-26 05:08:43,073 - INFO - XGBoost - Accuracy: 0.9952, F1: 0.9952
+2025-08-26 05:08:43,089 - INFO - SVM - Accuracy: 0.9641, F1: 0.9637
+2025-08-26 05:08:43,090 - INFO - Creating detailed classification reports...
+2025-08-26 05:08:43,096 - INFO - 
+Random Forest Classification Report:
+2025-08-26 05:08:43,098 - INFO - Accuracy: 0.9928
+2025-08-26 05:08:43,098 - INFO - Macro Avg - Precision: 0.9858
+2025-08-26 05:08:43,098 - INFO - Macro Avg - Recall: 0.9881
+2025-08-26 05:08:43,098 - INFO - Macro Avg - F1-Score: 0.9869
+2025-08-26 05:08:43,105 - INFO - 
+XGBoost Classification Report:
+2025-08-26 05:08:43,106 - INFO - Accuracy: 0.9952
+2025-08-26 05:08:43,106 - INFO - Macro Avg - Precision: 0.9911
+2025-08-26 05:08:43,106 - INFO - Macro Avg - Recall: 0.9892
+2025-08-26 05:08:43,106 - INFO - Macro Avg - F1-Score: 0.9902
+2025-08-26 05:08:43,112 - INFO - 
+SVM Classification Report:
+2025-08-26 05:08:43,112 - INFO - Accuracy: 0.9641
+2025-08-26 05:08:43,113 - INFO - Macro Avg - Precision: 0.9541
+2025-08-26 05:08:43,113 - INFO - Macro Avg - Recall: 0.9411
+2025-08-26 05:08:43,113 - INFO - Macro Avg - F1-Score: 0.9473
+2025-08-26 05:08:43,113 - INFO - Model training completed
+2025-08-26 05:08:43,113 - INFO - Best model: XGBoost
+2025-08-26 05:08:43,114 - INFO - Step 5: Exporting results...
+2025-08-26 05:08:43,115 - INFO - Creating cluster profiles...
+2025-08-26 05:08:43,183 - INFO - Created profiles for 3 clusters
+2025-08-26 05:08:43,183 - INFO - === CLUSTER INTERPRETATIONS ===
+2025-08-26 05:08:43,183 - INFO - Cluster 0 (118 records, 14.1%): Dominan 2024 (62%), Jalur pendaftar kip jalur snbp dan snbt 2024 (62%), L (69%)
+2025-08-26 05:08:43,183 - INFO - Cluster 1 (126 records, 15.1%): Dominan 2023 (53%), Jalur pendaftar kip jalur snbp dan snbt 2024 (47%), P (69%)
+2025-08-26 05:08:43,183 - INFO - Cluster 2 (591 records, 70.8%): Dominan 2022 (74%), P (97%)
+2025-08-26 05:08:43,183 - INFO - Extracting feature importance...
+2025-08-26 05:09:09,301 - INFO - Exporting results to Excel...
+2025-08-26 05:09:09,913 - INFO - Exported data_with_clusters to sheet 'data_with_clusters'
+2025-08-26 05:09:10,030 - INFO - Exported cluster_profiles to sheet 'cluster_profiles'
+2025-08-26 05:09:10,032 - INFO - Exported model_performance to sheet 'model_performance'
+2025-08-26 05:09:10,036 - INFO - Exported feature_importance to sheet 'feature_importance'
+2025-08-26 05:09:10,100 - INFO - Exported predictions (dict) to sheet 'predictions'
+2025-08-26 05:09:10,939 - INFO - Excel export completed: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_050813.xlsx
+2025-08-26 05:09:10,955 - INFO - Exporting results to CSV files...
+2025-08-26 05:09:10,990 - INFO - Exported data_with_clusters to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_050813\data_with_clusters.csv
+2025-08-26 05:09:10,990 - INFO - Exported cluster_profiles to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_050813\cluster_profiles.csv
+2025-08-26 05:09:10,990 - INFO - Exported model_performance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_050813\model_performance.csv
+2025-08-26 05:09:11,003 - INFO - Exported feature_importance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_050813\feature_importance.csv
+2025-08-26 05:09:11,006 - INFO - Exported predictions (dict) to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_050813\predictions.csv
+2025-08-26 05:09:11,006 - INFO - CSV export completed: 5 files in C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_050813
+2025-08-26 05:09:11,006 - INFO - Creating summary report...
+2025-08-26 05:09:11,010 - ERROR - Error creating summary report: Unknown format code 'f' for object of type 'str'
+2025-08-26 05:09:11,010 - ERROR - Analysis failed: Unknown format code 'f' for object of type 'str'
+2025-08-26 05:10:45,206 - INFO - Starting KIP Kuliah analysis - 20250826_051045
+2025-08-26 05:10:45,206 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 05:10:45,206 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 05:10:45,206 - INFO - Loading all KIP Kuliah data...
+2025-08-26 05:10:45,218 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 05:10:45,222 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 05:10:45,227 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 05:10:45,235 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 05:10:45,235 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 05:10:45,242 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 05:10:45,250 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 05:10:45,255 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 05:10:45,262 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 05:10:45,264 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 05:10:45,273 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 05:10:45,276 - INFO - Combined penerima data: 442 total records
+2025-08-26 05:10:45,276 - INFO - Data Quality Summary:
+2025-08-26 05:10:45,276 - INFO -   Pendaftar records: 835
+2025-08-26 05:10:45,279 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 05:10:45,279 - INFO -   Pendaftar columns: 95
+2025-08-26 05:10:45,285 - INFO -   Top 10 columns with missing values:
+2025-08-26 05:10:45,285 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 05:10:45,285 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 05:10:45,285 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 05:10:45,285 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 05:10:45,285 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 05:10:45,285 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 05:10:45,285 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 05:10:45,286 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 05:10:45,286 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 05:10:45,287 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 05:10:45,288 - INFO -   Penerima records: 442
+2025-08-26 05:10:45,290 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 05:10:45,302 - INFO - Loaded 835 pendaftar records
+2025-08-26 05:10:45,302 - INFO - Step 2: Preprocessing data...
+2025-08-26 05:10:45,302 - INFO - Starting data cleaning...
+2025-08-26 05:10:45,302 - INFO - Column classification:
+2025-08-26 05:10:45,302 - INFO -   Numerical: 1 columns
+2025-08-26 05:10:45,302 - INFO -   Categorical: 32 columns
+2025-08-26 05:10:45,302 - INFO -   Excluded: 107 columns
+2025-08-26 05:10:45,336 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 05:10:45,358 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 05:10:45,358 - INFO - Step 3: Performing clustering analysis...
+2025-08-26 05:10:45,358 - INFO - Preparing data for clustering...
+2025-08-26 05:10:45,360 - INFO - Excluding cohort features for socio-economic analysis: ['tahun', 'jalur']
+2025-08-26 05:10:45,360 - INFO - Clustering data prepared (socio-economic):
+2025-08-26 05:10:45,360 - INFO -   Shape: (835, 31)
+2025-08-26 05:10:45,360 - INFO -   Numerical features: 0
+2025-08-26 05:10:45,360 - INFO -   Categorical features: 31
+2025-08-26 05:10:45,360 - INFO -   Categorical indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-08-26 05:10:45,360 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:10:55,507 - INFO - Optimal number of clusters determined: 3
+2025-08-26 05:10:55,508 - INFO - Performing clustering with 3 clusters...
+2025-08-26 05:10:56,039 - INFO - Clustering completed using K-modes
+2025-08-26 05:10:56,039 - INFO - Cluster distribution: {0: 118, 1: 126, 2: 591}
+2025-08-26 05:10:56,039 - INFO - Evaluating K-modes clustering quality...
+2025-08-26 05:10:56,898 - INFO - Cluster Cohesion (categorical): 0.7126
+2025-08-26 05:10:56,899 - INFO - Cluster Separation (categorical): 0.1828
+2025-08-26 05:10:56,906 - INFO - Cluster distribution percentages:
+2025-08-26 05:10:56,906 - INFO -   Cluster 0: 14.1%
+2025-08-26 05:10:56,907 - INFO -   Cluster 1: 15.1%
+2025-08-26 05:10:56,908 - INFO -   Cluster 2: 70.8%
+2025-08-26 05:10:56,909 - INFO - Clustering completed: 3 clusters found
+2025-08-26 05:10:56,910 - INFO - Cluster distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:10:56,910 - INFO - Step 4: Training classification models...
+2025-08-26 05:10:56,911 - INFO - Preparing data for classification...
+2025-08-26 05:10:56,937 - INFO - Classification data prepared:
+2025-08-26 05:10:56,940 - INFO -   Features shape: (835, 33)
+2025-08-26 05:10:56,940 - INFO -   Target shape: (835,)
+2025-08-26 05:10:56,941 - INFO -   Target distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:10:56,941 - INFO - Training multiple classification models...
+2025-08-26 05:10:56,941 - INFO - Training set: (668, 33), Test set: (167, 33)
+2025-08-26 05:10:56,941 - INFO - Training Random Forest...
+2025-08-26 05:11:01,609 - INFO - Random Forest - Best CV score: 0.9656
+2025-08-26 05:11:01,611 - INFO - Training XGBoost...
+2025-08-26 05:11:03,654 - INFO - XGBoost - Best CV score: 0.9760
+2025-08-26 05:11:03,654 - INFO - Training SVM...
+2025-08-26 05:11:03,940 - INFO - SVM - Best CV score: 0.9476
+2025-08-26 05:11:03,941 - INFO - Successfully trained 3 models
+2025-08-26 05:11:03,941 - INFO - Evaluating models...
+2025-08-26 05:11:03,962 - INFO - Random Forest - Accuracy: 0.9928, F1: 0.9928
+2025-08-26 05:11:03,973 - INFO - XGBoost - Accuracy: 0.9952, F1: 0.9952
+2025-08-26 05:11:03,985 - INFO - SVM - Accuracy: 0.9641, F1: 0.9637
+2025-08-26 05:11:03,985 - INFO - Creating detailed classification reports...
+2025-08-26 05:11:03,991 - INFO - 
+Random Forest Classification Report:
+2025-08-26 05:11:03,993 - INFO - Accuracy: 0.9928
+2025-08-26 05:11:03,993 - INFO - Macro Avg - Precision: 0.9858
+2025-08-26 05:11:03,993 - INFO - Macro Avg - Recall: 0.9881
+2025-08-26 05:11:03,993 - INFO - Macro Avg - F1-Score: 0.9869
+2025-08-26 05:11:04,000 - INFO - 
+XGBoost Classification Report:
+2025-08-26 05:11:04,000 - INFO - Accuracy: 0.9952
+2025-08-26 05:11:04,000 - INFO - Macro Avg - Precision: 0.9911
+2025-08-26 05:11:04,003 - INFO - Macro Avg - Recall: 0.9892
+2025-08-26 05:11:04,003 - INFO - Macro Avg - F1-Score: 0.9902
+2025-08-26 05:11:04,008 - INFO - 
+SVM Classification Report:
+2025-08-26 05:11:04,009 - INFO - Accuracy: 0.9641
+2025-08-26 05:11:04,010 - INFO - Macro Avg - Precision: 0.9541
+2025-08-26 05:11:04,010 - INFO - Macro Avg - Recall: 0.9411
+2025-08-26 05:11:04,010 - INFO - Macro Avg - F1-Score: 0.9473
+2025-08-26 05:11:04,012 - INFO - Model training completed
+2025-08-26 05:11:04,012 - INFO - Best model: XGBoost
+2025-08-26 05:11:04,012 - INFO - Step 5: Exporting results...
+2025-08-26 05:11:04,012 - INFO - Creating cluster profiles...
+2025-08-26 05:11:04,095 - INFO - Created profiles for 3 clusters
+2025-08-26 05:11:04,095 - INFO - === CLUSTER INTERPRETATIONS ===
+2025-08-26 05:11:04,095 - INFO - Cluster 0 (118 records, 14.1%): Dominan 2024 (62%), Jalur pendaftar kip jalur snbp dan snbt 2024 (62%), L (69%)
+2025-08-26 05:11:04,095 - INFO - Cluster 1 (126 records, 15.1%): Dominan 2023 (53%), Jalur pendaftar kip jalur snbp dan snbt 2024 (47%), P (69%)
+2025-08-26 05:11:04,095 - INFO - Cluster 2 (591 records, 70.8%): Dominan 2022 (74%), P (97%)
+2025-08-26 05:11:04,095 - INFO - Extracting feature importance...
+2025-08-26 05:11:09,269 - INFO - Exporting results to Excel...
+2025-08-26 05:11:09,858 - INFO - Exported data_with_clusters to sheet 'data_with_clusters'
+2025-08-26 05:11:09,970 - INFO - Exported cluster_profiles to sheet 'cluster_profiles'
+2025-08-26 05:11:09,977 - INFO - Exported model_performance to sheet 'model_performance'
+2025-08-26 05:11:09,977 - INFO - Exported feature_importance to sheet 'feature_importance'
+2025-08-26 05:11:10,053 - INFO - Exported predictions (dict) to sheet 'predictions'
+2025-08-26 05:11:10,977 - INFO - Excel export completed: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_051045.xlsx
+2025-08-26 05:11:10,979 - INFO - Exporting results to CSV files...
+2025-08-26 05:11:11,033 - INFO - Exported data_with_clusters to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051045\data_with_clusters.csv
+2025-08-26 05:11:11,039 - INFO - Exported cluster_profiles to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051045\cluster_profiles.csv
+2025-08-26 05:11:11,044 - INFO - Exported model_performance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051045\model_performance.csv
+2025-08-26 05:11:11,048 - INFO - Exported feature_importance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051045\feature_importance.csv
+2025-08-26 05:11:11,057 - INFO - Exported predictions (dict) to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051045\predictions.csv
+2025-08-26 05:11:11,058 - INFO - CSV export completed: 5 files in C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051045
+2025-08-26 05:11:11,058 - INFO - Creating summary report...
+2025-08-26 05:11:11,072 - INFO - Summary report created: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_051045.txt
+2025-08-26 05:11:11,073 - INFO - Results exported:
+2025-08-26 05:11:11,073 - INFO -   Excel: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_051045.xlsx
+2025-08-26 05:11:11,074 - INFO -   CSV folder: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051045
+2025-08-26 05:11:11,075 - INFO -   Summary: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_051045.txt
+2025-08-26 05:11:11,075 - INFO - Analysis completed successfully!
+2025-08-26 05:12:07,897 - INFO - Starting KIP Kuliah analysis - 20250826_051207
+2025-08-26 05:12:07,899 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 05:12:07,900 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 05:12:07,900 - INFO - Loading all KIP Kuliah data...
+2025-08-26 05:12:07,922 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 05:12:07,928 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 05:12:07,938 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 05:12:07,949 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 05:12:07,956 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 05:12:07,961 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 05:12:07,968 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 05:12:07,973 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 05:12:07,983 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 05:12:07,988 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 05:12:07,996 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 05:12:07,998 - INFO - Combined penerima data: 442 total records
+2025-08-26 05:12:07,999 - INFO - Data Quality Summary:
+2025-08-26 05:12:07,999 - INFO -   Pendaftar records: 835
+2025-08-26 05:12:08,003 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 05:12:08,004 - INFO -   Pendaftar columns: 95
+2025-08-26 05:12:08,008 - INFO -   Top 10 columns with missing values:
+2025-08-26 05:12:08,009 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 05:12:08,009 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 05:12:08,010 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 05:12:08,010 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 05:12:08,011 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 05:12:08,011 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 05:12:08,011 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 05:12:08,011 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 05:12:08,011 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 05:12:08,011 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 05:12:08,015 - INFO -   Penerima records: 442
+2025-08-26 05:12:08,016 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 05:12:08,032 - INFO - Loaded 835 pendaftar records
+2025-08-26 05:12:08,032 - INFO - Step 2: Preprocessing data...
+2025-08-26 05:12:08,032 - INFO - Starting data cleaning...
+2025-08-26 05:12:08,040 - INFO - Column classification:
+2025-08-26 05:12:08,040 - INFO -   Numerical: 1 columns
+2025-08-26 05:12:08,043 - INFO -   Categorical: 32 columns
+2025-08-26 05:12:08,044 - INFO -   Excluded: 107 columns
+2025-08-26 05:12:08,064 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 05:12:08,076 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 05:12:08,077 - INFO - Step 3: Performing dual analysis (Full + Socio-Economic Focus)...
+2025-08-26 05:12:08,077 - INFO - 3A: Full Analysis (All Features)...
+2025-08-26 05:12:08,077 - INFO - Preparing data for clustering...
+2025-08-26 05:12:08,081 - INFO - Scaled 1 numerical features
+2025-08-26 05:12:08,081 - INFO - Clustering data prepared (full):
+2025-08-26 05:12:08,081 - INFO -   Shape: (835, 33)
+2025-08-26 05:12:08,081 - INFO -   Numerical features: 1
+2025-08-26 05:12:08,081 - INFO -   Categorical features: 32
+2025-08-26 05:12:08,081 - INFO -   Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 05:12:08,081 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:12:40,785 - INFO - Optimal number of clusters determined: 5
+2025-08-26 05:12:40,786 - INFO - Performing clustering with 5 clusters...
+2025-08-26 05:12:42,460 - INFO - Clustering completed using K-Prototypes
+2025-08-26 05:12:42,460 - INFO - Cluster distribution: {0: 126, 1: 80, 2: 438, 3: 70, 4: 121}
+2025-08-26 05:12:42,491 - INFO - Silhouette Score: 0.3729
+2025-08-26 05:12:42,491 - INFO - Davies-Bouldin Index: 13.8331
+2025-08-26 05:12:42,491 - INFO - Cluster distribution percentages:
+2025-08-26 05:12:42,500 - INFO -   Cluster 0: 15.1%
+2025-08-26 05:12:42,500 - INFO -   Cluster 1: 9.6%
+2025-08-26 05:12:42,500 - INFO -   Cluster 2: 52.5%
+2025-08-26 05:12:42,500 - INFO -   Cluster 3: 8.4%
+2025-08-26 05:12:42,500 - INFO -   Cluster 4: 14.5%
+2025-08-26 05:12:42,500 - INFO - Full Analysis - Clusters: 5, Distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 05:12:42,505 - INFO - 3B: Socio-Economic Focus Analysis (Excluding Cohort Features)...
+2025-08-26 05:12:42,505 - INFO - Preparing data for clustering...
+2025-08-26 05:12:42,505 - INFO - Excluding cohort features for socio-economic analysis: ['tahun', 'jalur']
+2025-08-26 05:12:42,507 - INFO - Clustering data prepared (socio-economic):
+2025-08-26 05:12:42,507 - INFO -   Shape: (835, 31)
+2025-08-26 05:12:42,507 - INFO -   Numerical features: 0
+2025-08-26 05:12:42,507 - INFO -   Categorical features: 31
+2025-08-26 05:12:42,508 - INFO -   Categorical indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-08-26 05:12:42,508 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:12:53,238 - INFO - Optimal number of clusters determined: 3
+2025-08-26 05:12:53,243 - INFO - Performing clustering with 3 clusters...
+2025-08-26 05:12:53,884 - INFO - Clustering completed using K-modes
+2025-08-26 05:12:53,884 - INFO - Cluster distribution: {0: 118, 1: 126, 2: 591}
+2025-08-26 05:12:53,885 - INFO - Evaluating K-modes clustering quality...
+2025-08-26 05:12:54,779 - INFO - Cluster Cohesion (categorical): 0.7126
+2025-08-26 05:12:54,794 - INFO - Cluster Separation (categorical): 0.1828
+2025-08-26 05:12:54,794 - INFO - Cluster distribution percentages:
+2025-08-26 05:12:54,794 - INFO -   Cluster 0: 14.1%
+2025-08-26 05:12:54,794 - INFO -   Cluster 1: 15.1%
+2025-08-26 05:12:54,794 - INFO -   Cluster 2: 70.8%
+2025-08-26 05:12:54,795 - INFO - Socio-Economic Analysis - Clusters: 3, Distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:12:54,797 - INFO - Step 4: Training classification models...
+2025-08-26 05:12:54,797 - INFO - Preparing data for classification...
+2025-08-26 05:12:54,797 - ERROR - Analysis failed: Target column 'cluster' not found in dataframe
+2025-08-26 05:14:53,253 - INFO - Starting KIP Kuliah analysis - 20250826_051453
+2025-08-26 05:14:53,253 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 05:14:53,253 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 05:14:53,253 - INFO - Loading all KIP Kuliah data...
+2025-08-26 05:14:53,267 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 05:14:53,271 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 05:14:53,277 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 05:14:53,283 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 05:14:53,286 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 05:14:53,294 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 05:14:53,303 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 05:14:53,308 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 05:14:53,316 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 05:14:53,322 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 05:14:53,329 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 05:14:53,331 - INFO - Combined penerima data: 442 total records
+2025-08-26 05:14:53,331 - INFO - Data Quality Summary:
+2025-08-26 05:14:53,331 - INFO -   Pendaftar records: 835
+2025-08-26 05:14:53,334 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 05:14:53,334 - INFO -   Pendaftar columns: 95
+2025-08-26 05:14:53,338 - INFO -   Top 10 columns with missing values:
+2025-08-26 05:14:53,338 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 05:14:53,338 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 05:14:53,338 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 05:14:53,339 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 05:14:53,339 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 05:14:53,339 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 05:14:53,339 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 05:14:53,339 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 05:14:53,340 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 05:14:53,340 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 05:14:53,342 - INFO -   Penerima records: 442
+2025-08-26 05:14:53,342 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 05:14:53,342 - INFO - Loaded 835 pendaftar records
+2025-08-26 05:14:53,342 - INFO - Step 2: Preprocessing data...
+2025-08-26 05:14:53,342 - INFO - Starting data cleaning...
+2025-08-26 05:14:53,360 - INFO - Column classification:
+2025-08-26 05:14:53,360 - INFO -   Numerical: 1 columns
+2025-08-26 05:14:53,360 - INFO -   Categorical: 32 columns
+2025-08-26 05:14:53,361 - INFO -   Excluded: 107 columns
+2025-08-26 05:14:53,380 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 05:14:53,386 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 05:14:53,386 - INFO - Step 3: Performing dual analysis (Full + Socio-Economic Focus)...
+2025-08-26 05:14:53,386 - INFO - 3A: Full Analysis (All Features)...
+2025-08-26 05:14:53,386 - INFO - Preparing data for clustering...
+2025-08-26 05:14:53,396 - INFO - Scaled 1 numerical features
+2025-08-26 05:14:53,396 - INFO - Clustering data prepared (full):
+2025-08-26 05:14:53,396 - INFO -   Shape: (835, 33)
+2025-08-26 05:14:53,397 - INFO -   Numerical features: 1
+2025-08-26 05:14:53,397 - INFO -   Categorical features: 32
+2025-08-26 05:14:53,397 - INFO -   Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 05:14:53,398 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:15:12,797 - INFO - Optimal number of clusters determined: 5
+2025-08-26 05:15:12,798 - INFO - Performing clustering with 5 clusters...
+2025-08-26 05:15:14,253 - INFO - Clustering completed using K-Prototypes
+2025-08-26 05:15:14,253 - INFO - Cluster distribution: {0: 126, 1: 80, 2: 438, 3: 70, 4: 121}
+2025-08-26 05:15:14,281 - INFO - Silhouette Score: 0.3729
+2025-08-26 05:15:14,288 - INFO - Davies-Bouldin Index: 13.8331
+2025-08-26 05:15:14,288 - INFO - Cluster distribution percentages:
+2025-08-26 05:15:14,288 - INFO -   Cluster 0: 15.1%
+2025-08-26 05:15:14,288 - INFO -   Cluster 1: 9.6%
+2025-08-26 05:15:14,288 - INFO -   Cluster 2: 52.5%
+2025-08-26 05:15:14,288 - INFO -   Cluster 3: 8.4%
+2025-08-26 05:15:14,291 - INFO -   Cluster 4: 14.5%
+2025-08-26 05:15:14,292 - INFO - Full Analysis - Clusters: 5, Distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 05:15:14,292 - INFO - 3B: Socio-Economic Focus Analysis (Excluding Cohort Features)...
+2025-08-26 05:15:14,292 - INFO - Preparing data for clustering...
+2025-08-26 05:15:14,292 - INFO - Excluding cohort features for socio-economic analysis: ['tahun', 'jalur']
+2025-08-26 05:15:14,293 - INFO - Clustering data prepared (socio-economic):
+2025-08-26 05:15:14,295 - INFO -   Shape: (835, 31)
+2025-08-26 05:15:14,295 - INFO -   Numerical features: 0
+2025-08-26 05:15:14,295 - INFO -   Categorical features: 31
+2025-08-26 05:15:14,295 - INFO -   Categorical indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-08-26 05:15:14,295 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:15:24,362 - INFO - Optimal number of clusters determined: 3
+2025-08-26 05:15:24,362 - INFO - Performing clustering with 3 clusters...
+2025-08-26 05:15:24,982 - INFO - Clustering completed using K-modes
+2025-08-26 05:15:24,982 - INFO - Cluster distribution: {0: 118, 1: 126, 2: 591}
+2025-08-26 05:15:24,983 - INFO - Evaluating K-modes clustering quality...
+2025-08-26 05:15:26,184 - INFO - Cluster Cohesion (categorical): 0.7126
+2025-08-26 05:15:26,190 - INFO - Cluster Separation (categorical): 0.1828
+2025-08-26 05:15:26,190 - INFO - Cluster distribution percentages:
+2025-08-26 05:15:26,190 - INFO -   Cluster 0: 14.1%
+2025-08-26 05:15:26,190 - INFO -   Cluster 1: 15.1%
+2025-08-26 05:15:26,190 - INFO -   Cluster 2: 70.8%
+2025-08-26 05:15:26,199 - INFO - Socio-Economic Analysis - Clusters: 3, Distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:15:26,200 - INFO - Step 4: Training classification models...
+2025-08-26 05:15:26,200 - INFO - Preparing data for classification...
+2025-08-26 05:15:26,224 - INFO - Classification data prepared:
+2025-08-26 05:15:26,225 - INFO -   Features shape: (835, 33)
+2025-08-26 05:15:26,226 - INFO -   Target shape: (835,)
+2025-08-26 05:15:26,226 - INFO -   Target distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:15:26,226 - INFO - Training multiple classification models...
+2025-08-26 05:15:26,230 - INFO - Training set: (668, 33), Test set: (167, 33)
+2025-08-26 05:15:26,233 - INFO - Training Random Forest...
+2025-08-26 05:15:30,718 - INFO - Random Forest - Best CV score: 0.9656
+2025-08-26 05:15:30,718 - INFO - Training XGBoost...
+2025-08-26 05:15:32,489 - INFO - XGBoost - Best CV score: 0.9760
+2025-08-26 05:15:32,489 - INFO - Training SVM...
+2025-08-26 05:15:32,731 - INFO - SVM - Best CV score: 0.9476
+2025-08-26 05:15:32,731 - INFO - Successfully trained 3 models
+2025-08-26 05:15:32,731 - INFO - Evaluating models...
+2025-08-26 05:15:32,749 - INFO - Random Forest - Accuracy: 0.9928, F1: 0.9928
+2025-08-26 05:15:32,761 - INFO - XGBoost - Accuracy: 0.9952, F1: 0.9952
+2025-08-26 05:15:32,769 - INFO - SVM - Accuracy: 0.9641, F1: 0.9637
+2025-08-26 05:15:32,771 - INFO - Creating detailed classification reports...
+2025-08-26 05:15:32,778 - INFO - 
+Random Forest Classification Report:
+2025-08-26 05:15:32,778 - INFO - Accuracy: 0.9928
+2025-08-26 05:15:32,778 - INFO - Macro Avg - Precision: 0.9858
+2025-08-26 05:15:32,778 - INFO - Macro Avg - Recall: 0.9881
+2025-08-26 05:15:32,779 - INFO - Macro Avg - F1-Score: 0.9869
+2025-08-26 05:15:32,784 - INFO - 
+XGBoost Classification Report:
+2025-08-26 05:15:32,784 - INFO - Accuracy: 0.9952
+2025-08-26 05:15:32,784 - INFO - Macro Avg - Precision: 0.9911
+2025-08-26 05:15:32,784 - INFO - Macro Avg - Recall: 0.9892
+2025-08-26 05:15:32,784 - INFO - Macro Avg - F1-Score: 0.9902
+2025-08-26 05:15:32,791 - INFO - 
+SVM Classification Report:
+2025-08-26 05:15:32,791 - INFO - Accuracy: 0.9641
+2025-08-26 05:15:32,791 - INFO - Macro Avg - Precision: 0.9541
+2025-08-26 05:15:32,791 - INFO - Macro Avg - Recall: 0.9411
+2025-08-26 05:15:32,793 - INFO - Macro Avg - F1-Score: 0.9473
+2025-08-26 05:15:32,793 - INFO - Model training completed
+2025-08-26 05:15:32,793 - INFO - Best model: XGBoost
+2025-08-26 05:15:32,793 - INFO - Step 5: Exporting results...
+2025-08-26 05:15:32,793 - INFO - Creating cluster profiles...
+2025-08-26 05:15:32,793 - ERROR - Analysis failed: 'cluster'
+2025-08-26 05:16:33,426 - INFO - Starting KIP Kuliah analysis - 20250826_051633
+2025-08-26 05:16:33,426 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 05:16:33,426 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 05:16:33,426 - INFO - Loading all KIP Kuliah data...
+2025-08-26 05:16:33,435 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 05:16:33,439 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 05:16:33,445 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 05:16:33,450 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 05:16:33,452 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 05:16:33,452 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 05:16:33,463 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 05:16:33,467 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 05:16:33,475 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 05:16:33,480 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 05:16:33,487 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 05:16:33,489 - INFO - Combined penerima data: 442 total records
+2025-08-26 05:16:33,489 - INFO - Data Quality Summary:
+2025-08-26 05:16:33,489 - INFO -   Pendaftar records: 835
+2025-08-26 05:16:33,492 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 05:16:33,492 - INFO -   Pendaftar columns: 95
+2025-08-26 05:16:33,496 - INFO -   Top 10 columns with missing values:
+2025-08-26 05:16:33,497 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 05:16:33,497 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 05:16:33,497 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 05:16:33,497 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 05:16:33,497 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 05:16:33,498 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 05:16:33,498 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 05:16:33,498 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 05:16:33,498 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 05:16:33,498 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 05:16:33,499 - INFO -   Penerima records: 442
+2025-08-26 05:16:33,500 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 05:16:33,501 - INFO - Loaded 835 pendaftar records
+2025-08-26 05:16:33,501 - INFO - Step 2: Preprocessing data...
+2025-08-26 05:16:33,501 - INFO - Starting data cleaning...
+2025-08-26 05:16:33,519 - INFO - Column classification:
+2025-08-26 05:16:33,519 - INFO -   Numerical: 1 columns
+2025-08-26 05:16:33,519 - INFO -   Categorical: 32 columns
+2025-08-26 05:16:33,519 - INFO -   Excluded: 107 columns
+2025-08-26 05:16:33,541 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 05:16:33,545 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 05:16:33,545 - INFO - Step 3: Performing dual analysis (Full + Socio-Economic Focus)...
+2025-08-26 05:16:33,545 - INFO - 3A: Full Analysis (All Features)...
+2025-08-26 05:16:33,545 - INFO - Preparing data for clustering...
+2025-08-26 05:16:33,557 - INFO - Scaled 1 numerical features
+2025-08-26 05:16:33,557 - INFO - Clustering data prepared (full):
+2025-08-26 05:16:33,559 - INFO -   Shape: (835, 33)
+2025-08-26 05:16:33,559 - INFO -   Numerical features: 1
+2025-08-26 05:16:33,559 - INFO -   Categorical features: 32
+2025-08-26 05:16:33,559 - INFO -   Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 05:16:33,559 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:16:51,944 - INFO - Optimal number of clusters determined: 5
+2025-08-26 05:16:51,946 - INFO - Performing clustering with 5 clusters...
+2025-08-26 05:16:53,580 - INFO - Clustering completed using K-Prototypes
+2025-08-26 05:16:53,580 - INFO - Cluster distribution: {0: 126, 1: 80, 2: 438, 3: 70, 4: 121}
+2025-08-26 05:16:53,605 - INFO - Silhouette Score: 0.3729
+2025-08-26 05:16:53,610 - INFO - Davies-Bouldin Index: 13.8331
+2025-08-26 05:16:53,611 - INFO - Cluster distribution percentages:
+2025-08-26 05:16:53,611 - INFO -   Cluster 0: 15.1%
+2025-08-26 05:16:53,611 - INFO -   Cluster 1: 9.6%
+2025-08-26 05:16:53,612 - INFO -   Cluster 2: 52.5%
+2025-08-26 05:16:53,612 - INFO -   Cluster 3: 8.4%
+2025-08-26 05:16:53,612 - INFO -   Cluster 4: 14.5%
+2025-08-26 05:16:53,614 - INFO - Full Analysis - Clusters: 5, Distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 05:16:53,616 - INFO - 3B: Socio-Economic Focus Analysis (Excluding Cohort Features)...
+2025-08-26 05:16:53,616 - INFO - Preparing data for clustering...
+2025-08-26 05:16:53,616 - INFO - Excluding cohort features for socio-economic analysis: ['tahun', 'jalur']
+2025-08-26 05:16:53,618 - INFO - Clustering data prepared (socio-economic):
+2025-08-26 05:16:53,619 - INFO -   Shape: (835, 31)
+2025-08-26 05:16:53,619 - INFO -   Numerical features: 0
+2025-08-26 05:16:53,619 - INFO -   Categorical features: 31
+2025-08-26 05:16:53,619 - INFO -   Categorical indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-08-26 05:16:53,621 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:18:09,392 - INFO - Optimal number of clusters determined: 3
+2025-08-26 05:18:09,392 - INFO - Performing clustering with 3 clusters...
+2025-08-26 05:18:09,928 - INFO - Clustering completed using K-modes
+2025-08-26 05:18:09,928 - INFO - Cluster distribution: {0: 118, 1: 126, 2: 591}
+2025-08-26 05:18:09,928 - INFO - Evaluating K-modes clustering quality...
+2025-08-26 05:18:10,799 - INFO - Cluster Cohesion (categorical): 0.7126
+2025-08-26 05:18:10,805 - INFO - Cluster Separation (categorical): 0.1828
+2025-08-26 05:18:10,807 - INFO - Cluster distribution percentages:
+2025-08-26 05:18:10,807 - INFO -   Cluster 0: 14.1%
+2025-08-26 05:18:10,807 - INFO -   Cluster 1: 15.1%
+2025-08-26 05:18:10,807 - INFO -   Cluster 2: 70.8%
+2025-08-26 05:18:10,809 - INFO - Socio-Economic Analysis - Clusters: 3, Distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:18:10,809 - INFO - Step 4: Training classification models...
+2025-08-26 05:18:10,809 - INFO - Preparing data for classification...
+2025-08-26 05:18:10,833 - INFO - Classification data prepared:
+2025-08-26 05:18:10,833 - INFO -   Features shape: (835, 33)
+2025-08-26 05:18:10,833 - INFO -   Target shape: (835,)
+2025-08-26 05:18:10,833 - INFO -   Target distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:18:10,833 - INFO - Training multiple classification models...
+2025-08-26 05:18:10,839 - INFO - Training set: (668, 33), Test set: (167, 33)
+2025-08-26 05:18:10,839 - INFO - Training Random Forest...
+2025-08-26 05:18:15,372 - INFO - Random Forest - Best CV score: 0.9656
+2025-08-26 05:18:15,372 - INFO - Training XGBoost...
+2025-08-26 05:18:17,060 - INFO - XGBoost - Best CV score: 0.9760
+2025-08-26 05:18:17,060 - INFO - Training SVM...
+2025-08-26 05:18:17,276 - INFO - SVM - Best CV score: 0.9476
+2025-08-26 05:18:17,276 - INFO - Successfully trained 3 models
+2025-08-26 05:18:17,276 - INFO - Evaluating models...
+2025-08-26 05:18:17,311 - INFO - Random Forest - Accuracy: 0.9928, F1: 0.9928
+2025-08-26 05:18:17,324 - INFO - XGBoost - Accuracy: 0.9952, F1: 0.9952
+2025-08-26 05:18:17,333 - INFO - SVM - Accuracy: 0.9641, F1: 0.9637
+2025-08-26 05:18:17,334 - INFO - Creating detailed classification reports...
+2025-08-26 05:18:17,340 - INFO - 
+Random Forest Classification Report:
+2025-08-26 05:18:17,340 - INFO - Accuracy: 0.9928
+2025-08-26 05:18:17,341 - INFO - Macro Avg - Precision: 0.9858
+2025-08-26 05:18:17,341 - INFO - Macro Avg - Recall: 0.9881
+2025-08-26 05:18:17,341 - INFO - Macro Avg - F1-Score: 0.9869
+2025-08-26 05:18:17,347 - INFO - 
+XGBoost Classification Report:
+2025-08-26 05:18:17,347 - INFO - Accuracy: 0.9952
+2025-08-26 05:18:17,347 - INFO - Macro Avg - Precision: 0.9911
+2025-08-26 05:18:17,347 - INFO - Macro Avg - Recall: 0.9892
+2025-08-26 05:18:17,347 - INFO - Macro Avg - F1-Score: 0.9902
+2025-08-26 05:18:17,353 - INFO - 
+SVM Classification Report:
+2025-08-26 05:18:17,353 - INFO - Accuracy: 0.9641
+2025-08-26 05:18:17,353 - INFO - Macro Avg - Precision: 0.9541
+2025-08-26 05:18:17,353 - INFO - Macro Avg - Recall: 0.9411
+2025-08-26 05:18:17,354 - INFO - Macro Avg - F1-Score: 0.9473
+2025-08-26 05:18:17,354 - INFO - Model training completed
+2025-08-26 05:18:17,355 - INFO - Best model: XGBoost
+2025-08-26 05:18:17,355 - INFO - Step 5: Exporting results...
+2025-08-26 05:18:17,356 - INFO - Creating cluster profiles...
+2025-08-26 05:18:17,452 - INFO - Created profiles for 5 clusters
+2025-08-26 05:18:17,452 - INFO - === CLUSTER INTERPRETATIONS ===
+2025-08-26 05:18:17,452 - INFO - Cluster 0 (126 records, 15.1%): Dominan 2024 (100%), Jalur pendaftar kip jalur snbp dan snbt 2024 (100%)
+2025-08-26 05:18:17,452 - INFO - Cluster 1 (80 records, 9.6%): Dominan 2024 (54%), Jalur pendaftar kip jalur snbp dan snbt 2024 (54%), P (68%)
+2025-08-26 05:18:17,452 - INFO - Cluster 2 (438 records, 52.5%): Dominan 2022 (100%), Jalur Siswa_Pendaftar_SBMPN_2022 (54%), P (100%)
+2025-08-26 05:18:17,452 - INFO - Cluster 3 (70 records, 8.4%): Dominan 2023 (97%), Jalur pendaftar kip jalur SNBT 2023 (77%), L (80%)
+2025-08-26 05:18:17,452 - INFO - Cluster 4 (121 records, 14.5%): Dominan 2023 (100%), Jalur Siswa_Pendaftar_Seleksi Mandiri PTN_2023 (56%), P (97%)
+2025-08-26 05:18:17,452 - INFO - Creating cluster profiles...
+2025-08-26 05:18:17,502 - INFO - Created profiles for 3 clusters
+2025-08-26 05:18:17,518 - INFO - === CLUSTER INTERPRETATIONS ===
+2025-08-26 05:18:17,518 - INFO - Cluster 0 (118 records, 14.1%): Dominan 2024 (62%), Jalur pendaftar kip jalur snbp dan snbt 2024 (62%), L (69%)
+2025-08-26 05:18:17,518 - INFO - Cluster 1 (126 records, 15.1%): Dominan 2023 (53%), Jalur pendaftar kip jalur snbp dan snbt 2024 (47%), P (69%)
+2025-08-26 05:18:17,518 - INFO - Cluster 2 (591 records, 70.8%): Dominan 2022 (74%), P (97%)
+2025-08-26 05:18:17,518 - INFO - Extracting feature importance...
+2025-08-26 05:18:32,117 - INFO - Exporting results to Excel...
+2025-08-26 05:18:32,781 - INFO - Exported full analysis data
+2025-08-26 05:18:33,381 - INFO - Exported socio-economic analysis data
+2025-08-26 05:18:33,424 - INFO - Exported full analysis cluster profiles
+2025-08-26 05:18:33,459 - INFO - Exported socio-economic cluster profiles
+2025-08-26 05:18:33,466 - INFO - Exported model_performance
+2025-08-26 05:18:33,468 - INFO - Exported feature_importance
+2025-08-26 05:18:33,541 - INFO - Exported predictions (dict)
+2025-08-26 05:18:33,541 - INFO - Exported analysis comparison summary
+2025-08-26 05:18:35,107 - INFO - Excel export completed: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_051633.xlsx
+2025-08-26 05:18:35,107 - INFO - Exporting results to CSV files...
+2025-08-26 05:18:35,144 - INFO - Exported data_full_analysis to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633\data_full_analysis.csv
+2025-08-26 05:18:35,181 - INFO - Exported data_socio_analysis to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633\data_socio_analysis.csv
+2025-08-26 05:18:35,188 - INFO - Exported cluster_profiles_full to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633\cluster_profiles_full.csv
+2025-08-26 05:18:35,191 - INFO - Exported cluster_profiles_socio to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633\cluster_profiles_socio.csv
+2025-08-26 05:18:35,193 - INFO - Exported model_performance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633\model_performance.csv
+2025-08-26 05:18:35,195 - INFO - Exported feature_importance to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633\feature_importance.csv
+2025-08-26 05:18:35,197 - INFO - Exported predictions (dict) to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633\predictions.csv
+2025-08-26 05:18:35,200 - INFO - Exported analysis comparison to CSV: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633\analysis_comparison.csv
+2025-08-26 05:18:35,200 - INFO - CSV export completed: 8 files in C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633
+2025-08-26 05:18:35,201 - INFO - Creating summary report...
+2025-08-26 05:18:35,207 - INFO - Summary report created: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_051633.txt
+2025-08-26 05:18:35,207 - INFO - Results exported:
+2025-08-26 05:18:35,207 - INFO -   Excel: C:\laragon\www\ML_KIPKuliah\results\kip_analysis_20250826_051633.xlsx
+2025-08-26 05:18:35,207 - INFO -   CSV folder: C:\laragon\www\ML_KIPKuliah\results\csv_results_20250826_051633
+2025-08-26 05:18:35,208 - INFO -   Summary: C:\laragon\www\ML_KIPKuliah\results\analysis_summary_20250826_051633.txt
+2025-08-26 05:18:35,208 - INFO - Dual analysis completed successfully!
+2025-08-26 05:18:35,208 - INFO -   Full Analysis: 5 clusters
+2025-08-26 05:18:35,208 - INFO -   Socio-Economic Focus: 3 clusters
+2025-08-26 05:35:02,744 - INFO - Starting KIP Kuliah analysis - 20250826_053502
+2025-08-26 05:35:02,744 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 05:35:02,744 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 05:35:02,744 - INFO - Loading all KIP Kuliah data...
+2025-08-26 05:35:02,763 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 05:35:02,767 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 05:35:02,772 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 05:35:02,779 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 05:35:02,783 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 05:35:02,786 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 05:35:02,792 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 05:35:02,797 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 05:35:02,801 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 05:35:02,811 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 05:35:02,818 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 05:35:02,820 - INFO - Combined penerima data: 442 total records
+2025-08-26 05:35:02,820 - INFO - Data Quality Summary:
+2025-08-26 05:35:02,820 - INFO -   Pendaftar records: 835
+2025-08-26 05:35:02,825 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 05:35:02,825 - INFO -   Pendaftar columns: 95
+2025-08-26 05:35:02,829 - INFO -   Top 10 columns with missing values:
+2025-08-26 05:35:02,830 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 05:35:02,830 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 05:35:02,830 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 05:35:02,830 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 05:35:02,831 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 05:35:02,831 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 05:35:02,831 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 05:35:02,831 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 05:35:02,831 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 05:35:02,831 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 05:35:02,831 - INFO -   Penerima records: 442
+2025-08-26 05:35:02,831 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 05:35:02,847 - INFO - Loaded 835 pendaftar records
+2025-08-26 05:35:02,848 - INFO - Step 2: Preprocessing data...
+2025-08-26 05:35:02,848 - INFO - Starting data cleaning...
+2025-08-26 05:35:02,854 - INFO - Column classification:
+2025-08-26 05:35:02,855 - INFO -   Numerical: 1 columns
+2025-08-26 05:35:02,855 - INFO -   Categorical: 32 columns
+2025-08-26 05:35:02,855 - INFO -   Excluded: 107 columns
+2025-08-26 05:35:02,871 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 05:35:02,912 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 05:35:02,912 - INFO - Step 3: Performing dual analysis (Full + Socio-Economic Focus)...
+2025-08-26 05:35:02,912 - INFO - 3A: Full Analysis (All Features)...
+2025-08-26 05:35:02,912 - INFO - Preparing data for clustering...
+2025-08-26 05:35:02,918 - INFO - Scaled 1 numerical features
+2025-08-26 05:35:02,918 - INFO - Clustering data prepared (full):
+2025-08-26 05:35:02,918 - INFO -   Shape: (835, 33)
+2025-08-26 05:35:02,918 - INFO -   Numerical features: 1
+2025-08-26 05:35:02,918 - INFO -   Categorical features: 32
+2025-08-26 05:35:02,922 - INFO -   Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 05:35:02,924 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:35:28,870 - INFO - Optimal number of clusters determined: 5
+2025-08-26 05:35:28,872 - INFO - Performing clustering with 5 clusters...
+2025-08-26 05:35:32,569 - INFO - Clustering completed using K-Prototypes
+2025-08-26 05:35:32,570 - INFO - Cluster distribution: {0: 126, 1: 80, 2: 438, 3: 70, 4: 121}
+2025-08-26 05:35:32,614 - INFO - Silhouette Score: 0.3729
+2025-08-26 05:35:32,622 - INFO - Davies-Bouldin Index: 13.8331
+2025-08-26 05:35:32,624 - INFO - Cluster distribution percentages:
+2025-08-26 05:35:32,624 - INFO -   Cluster 0: 15.1%
+2025-08-26 05:35:32,624 - INFO -   Cluster 1: 9.6%
+2025-08-26 05:35:32,624 - INFO -   Cluster 2: 52.5%
+2025-08-26 05:35:32,627 - INFO -   Cluster 3: 8.4%
+2025-08-26 05:35:32,627 - INFO -   Cluster 4: 14.5%
+2025-08-26 05:35:32,629 - INFO - Full Analysis - Clusters: 5, Distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 05:35:32,630 - INFO - 3B: Socio-Economic Focus Analysis (Excluding Cohort Features)...
+2025-08-26 05:35:32,630 - INFO - Preparing data for clustering...
+2025-08-26 05:35:32,631 - INFO - Excluding cohort features for socio-economic analysis: ['tahun', 'jalur']
+2025-08-26 05:35:32,632 - INFO - Clustering data prepared (socio-economic):
+2025-08-26 05:35:32,632 - INFO -   Shape: (835, 31)
+2025-08-26 05:35:32,632 - INFO -   Numerical features: 0
+2025-08-26 05:35:32,633 - INFO -   Categorical features: 31
+2025-08-26 05:35:32,633 - INFO -   Categorical indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-08-26 05:35:32,634 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:35:44,056 - INFO - Optimal number of clusters determined: 3
+2025-08-26 05:35:44,056 - INFO - Performing clustering with 3 clusters...
+2025-08-26 05:35:44,718 - INFO - Clustering completed using K-modes
+2025-08-26 05:35:44,718 - INFO - Cluster distribution: {0: 118, 1: 126, 2: 591}
+2025-08-26 05:35:44,718 - INFO - Evaluating K-modes clustering quality...
+2025-08-26 05:35:45,627 - INFO - Cluster Cohesion (categorical): 0.7126
+2025-08-26 05:35:45,634 - INFO - Cluster Separation (categorical): 0.1828
+2025-08-26 05:35:45,634 - INFO - Cluster distribution percentages:
+2025-08-26 05:35:45,634 - INFO -   Cluster 0: 14.1%
+2025-08-26 05:35:45,638 - INFO -   Cluster 1: 15.1%
+2025-08-26 05:35:45,638 - INFO -   Cluster 2: 70.8%
+2025-08-26 05:35:45,641 - INFO - Socio-Economic Analysis - Clusters: 3, Distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:35:45,641 - INFO - Step 4: Training classification models...
+2025-08-26 05:35:45,641 - INFO - Preparing data for classification...
+2025-08-26 05:35:45,662 - INFO - Classification data prepared:
+2025-08-26 05:35:45,662 - INFO -   Features shape: (835, 33)
+2025-08-26 05:35:45,662 - INFO -   Target shape: (835,)
+2025-08-26 05:35:45,662 - INFO -   Target distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:35:45,662 - INFO - Training multiple classification models...
+2025-08-26 05:35:45,667 - INFO - Training set: (668, 33), Test set: (167, 33)
+2025-08-26 05:35:45,668 - INFO - Training Random Forest...
+2025-08-26 05:35:50,286 - INFO - Random Forest - Best CV score: 0.9656
+2025-08-26 05:35:50,286 - INFO - Training XGBoost...
+2025-08-26 05:35:52,146 - INFO - XGBoost - Best CV score: 0.9760
+2025-08-26 05:35:52,146 - INFO - Training SVM...
+2025-08-26 05:35:52,370 - INFO - SVM - Best CV score: 0.9476
+2025-08-26 05:35:52,370 - INFO - Successfully trained 3 models
+2025-08-26 05:35:52,370 - INFO - Evaluating models...
+2025-08-26 05:35:52,400 - INFO - Random Forest - Accuracy: 0.9928, F1: 0.9928
+2025-08-26 05:35:52,417 - INFO - XGBoost - Accuracy: 0.9952, F1: 0.9952
+2025-08-26 05:35:52,427 - INFO - SVM - Accuracy: 0.9641, F1: 0.9637
+2025-08-26 05:35:52,428 - INFO - Creating detailed classification reports...
+2025-08-26 05:35:52,433 - INFO - 
+Random Forest Classification Report:
+2025-08-26 05:35:52,433 - INFO - Accuracy: 0.9928
+2025-08-26 05:35:52,433 - INFO - Macro Avg - Precision: 0.9858
+2025-08-26 05:35:52,433 - INFO - Macro Avg - Recall: 0.9881
+2025-08-26 05:35:52,435 - INFO - Macro Avg - F1-Score: 0.9869
+2025-08-26 05:35:52,440 - INFO - 
+XGBoost Classification Report:
+2025-08-26 05:35:52,441 - INFO - Accuracy: 0.9952
+2025-08-26 05:35:52,441 - INFO - Macro Avg - Precision: 0.9911
+2025-08-26 05:35:52,441 - INFO - Macro Avg - Recall: 0.9892
+2025-08-26 05:35:52,441 - INFO - Macro Avg - F1-Score: 0.9902
+2025-08-26 05:35:52,447 - INFO - 
+SVM Classification Report:
+2025-08-26 05:35:52,448 - INFO - Accuracy: 0.9641
+2025-08-26 05:35:52,448 - INFO - Macro Avg - Precision: 0.9541
+2025-08-26 05:35:52,448 - INFO - Macro Avg - Recall: 0.9411
+2025-08-26 05:35:52,448 - INFO - Macro Avg - F1-Score: 0.9473
+2025-08-26 05:35:52,448 - INFO - Model training completed
+2025-08-26 05:35:52,452 - INFO - Best model: XGBoost
+2025-08-26 05:35:52,452 - INFO - Step 5: Exporting results...
+2025-08-26 05:35:52,452 - INFO - Creating comprehensive cluster profiles...
+2025-08-26 05:35:53,240 - INFO - Created comprehensive profiles for 5 clusters
+2025-08-26 05:35:53,240 - INFO - === COMPREHENSIVE CLUSTER ANALYSIS ===
+2025-08-26 05:35:53,240 - INFO - 
+Cluster 0 (126 records, 15.1%):
+2025-08-26 05:35:53,365 - INFO - 
+Cluster 1 (80 records, 9.6%):
+2025-08-26 05:35:53,388 - INFO - 
+Cluster 2 (438 records, 52.5%):
+2025-08-26 05:35:53,404 - INFO - 
+Cluster 3 (70 records, 8.4%):
+2025-08-26 05:35:53,418 - INFO - 
+Cluster 4 (121 records, 14.5%):
+2025-08-26 05:35:53,429 - INFO - Creating comprehensive cluster profiles...
+2025-08-26 05:35:53,898 - INFO - Created comprehensive profiles for 3 clusters
+2025-08-26 05:35:53,898 - INFO - === COMPREHENSIVE CLUSTER ANALYSIS ===
+2025-08-26 05:35:53,898 - INFO - 
+Cluster 0 (118 records, 14.1%):
+2025-08-26 05:35:53,914 - INFO - 
+Cluster 1 (126 records, 15.1%):
+2025-08-26 05:35:53,922 - INFO - 
+Cluster 2 (591 records, 70.8%):
+2025-08-26 05:35:53,931 - INFO - Extracting feature importance with encoding context...
+2025-08-26 05:35:54,114 - ERROR - Analysis failed: Cannot use method 'nlargest' with dtype object
+2025-08-26 05:38:15,472 - INFO - Starting KIP Kuliah analysis - 20250826_053815
+2025-08-26 05:38:15,472 - INFO - Step 1: Loading KIP Kuliah data...
+2025-08-26 05:38:15,472 - INFO - Data base path set to: C:\laragon\www\ML_KIPKuliah\Bahan Laporan KIP Kuliah 2022 s.d 2024
+2025-08-26 05:38:15,488 - INFO - Loading all KIP Kuliah data...
+2025-08-26 05:38:15,496 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv: 236 records
+2025-08-26 05:38:15,500 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_Seleksi Mandiri PTN_2022.csv: 43 records
+2025-08-26 05:38:15,506 - INFO - Loaded CSV_Pendaftar/2022/Siswa_Pendaftar_SNMPN_Politeknik Negeri Cilacap_20220328.csv: 159 records
+2025-08-26 05:38:15,510 - INFO - Loaded CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv: 108 records
+2025-08-26 05:38:15,517 - INFO - Loaded CSV_Pendaftar/2023/pendaftar KIP Kuliah 2023 jalur SNBP.csv: 50 records
+2025-08-26 05:38:15,523 - INFO - Loaded CSV_Pendaftar/2023/Siswa_Pendaftar_Seleksi Mandiri PTN_2023.csv: 68 records
+2025-08-26 05:38:15,524 - INFO - Loaded CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv: 171 records
+2025-08-26 05:38:15,533 - INFO - Combined pendaftar data: 835 total records
+2025-08-26 05:38:15,533 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2022.csv: 162 records
+2025-08-26 05:38:15,543 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2023.csv: 108 records
+2025-08-26 05:38:15,549 - INFO - Loaded CSV_Penerima/penerima KIP Kuliah angkatan 2024.csv: 172 records
+2025-08-26 05:38:15,551 - INFO - Combined penerima data: 442 total records
+2025-08-26 05:38:15,552 - INFO - Data Quality Summary:
+2025-08-26 05:38:15,552 - INFO -   Pendaftar records: 835
+2025-08-26 05:38:15,555 - INFO -   Pendaftar missing values: 41,043 (51.7% of total cells)
+2025-08-26 05:38:15,556 - INFO -   Pendaftar columns: 95
+2025-08-26 05:38:15,556 - INFO -   Top 10 columns with missing values:
+2025-08-26 05:38:15,556 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 792 (94.9%)
+2025-08-26 05:38:15,556 - INFO -     Prestasi: 777 (93.1%)
+2025-08-26 05:38:15,556 - INFO -     Unnamed: 42: 767 (91.9%)
+2025-08-26 05:38:15,556 - INFO -     DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023: 767 (91.9%)
+2025-08-26 05:38:15,556 - INFO -     DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 676 (81.0%)
+2025-08-26 05:38:15,556 - INFO -     Unnamed: 40: 643 (77.0%)
+2025-08-26 05:38:15,556 - INFO -     DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022: 599 (71.7%)
+2025-08-26 05:38:15,556 - INFO -     No. KKS: 519 (62.2%)
+2025-08-26 05:38:15,556 - INFO -     Status Ayah: 507 (60.7%)
+2025-08-26 05:38:15,562 - INFO -     Status Ibu: 507 (60.7%)
+2025-08-26 05:38:15,563 - INFO -   Penerima records: 442
+2025-08-26 05:38:15,563 - INFO -   Penerima missing values: 1,262 (5.7% of total cells)
+2025-08-26 05:38:15,573 - INFO - Loaded 835 pendaftar records
+2025-08-26 05:38:15,573 - INFO - Step 2: Preprocessing data...
+2025-08-26 05:38:15,573 - INFO - Starting data cleaning...
+2025-08-26 05:38:15,573 - INFO - Column classification:
+2025-08-26 05:38:15,573 - INFO -   Numerical: 1 columns
+2025-08-26 05:38:15,573 - INFO -   Categorical: 32 columns
+2025-08-26 05:38:15,573 - INFO -   Excluded: 107 columns
+2025-08-26 05:38:15,590 - WARNING - Still have 25084 missing values after cleaning
+2025-08-26 05:38:15,614 - INFO - Data cleaning completed. Final shape: (835, 95)
+2025-08-26 05:38:15,616 - INFO - Step 3: Performing dual analysis (Full + Socio-Economic Focus)...
+2025-08-26 05:38:15,616 - INFO - 3A: Full Analysis (All Features)...
+2025-08-26 05:38:15,617 - INFO - Preparing data for clustering...
+2025-08-26 05:38:15,617 - INFO - Scaled 1 numerical features
+2025-08-26 05:38:15,617 - INFO - Clustering data prepared (full):
+2025-08-26 05:38:15,622 - INFO -   Shape: (835, 33)
+2025-08-26 05:38:15,623 - INFO -   Numerical features: 1
+2025-08-26 05:38:15,623 - INFO -   Categorical features: 32
+2025-08-26 05:38:15,623 - INFO -   Categorical indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-08-26 05:38:15,625 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:38:32,763 - INFO - Optimal number of clusters determined: 5
+2025-08-26 05:38:32,763 - INFO - Performing clustering with 5 clusters...
+2025-08-26 05:38:34,982 - INFO - Clustering completed using K-Prototypes
+2025-08-26 05:38:34,982 - INFO - Cluster distribution: {0: 126, 1: 80, 2: 438, 3: 70, 4: 121}
+2025-08-26 05:38:35,031 - INFO - Silhouette Score: 0.3729
+2025-08-26 05:38:35,040 - INFO - Davies-Bouldin Index: 13.8331
+2025-08-26 05:38:35,041 - INFO - Cluster distribution percentages:
+2025-08-26 05:38:35,042 - INFO -   Cluster 0: 15.1%
+2025-08-26 05:38:35,042 - INFO -   Cluster 1: 9.6%
+2025-08-26 05:38:35,044 - INFO -   Cluster 2: 52.5%
+2025-08-26 05:38:35,044 - INFO -   Cluster 3: 8.4%
+2025-08-26 05:38:35,044 - INFO -   Cluster 4: 14.5%
+2025-08-26 05:38:35,047 - INFO - Full Analysis - Clusters: 5, Distribution: {2: 438, 0: 126, 4: 121, 1: 80, 3: 70}
+2025-08-26 05:38:35,050 - INFO - 3B: Socio-Economic Focus Analysis (Excluding Cohort Features)...
+2025-08-26 05:38:35,050 - INFO - Preparing data for clustering...
+2025-08-26 05:38:35,050 - INFO - Excluding cohort features for socio-economic analysis: ['tahun', 'jalur']
+2025-08-26 05:38:35,054 - INFO - Clustering data prepared (socio-economic):
+2025-08-26 05:38:35,055 - INFO -   Shape: (835, 31)
+2025-08-26 05:38:35,055 - INFO -   Numerical features: 0
+2025-08-26 05:38:35,055 - INFO -   Categorical features: 31
+2025-08-26 05:38:35,056 - INFO -   Categorical indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-08-26 05:38:35,057 - INFO - Finding optimal clusters (K=2 to 8)...
+2025-08-26 05:38:44,589 - INFO - Optimal number of clusters determined: 3
+2025-08-26 05:38:44,590 - INFO - Performing clustering with 3 clusters...
+2025-08-26 05:38:45,277 - INFO - Clustering completed using K-modes
+2025-08-26 05:38:45,278 - INFO - Cluster distribution: {0: 118, 1: 126, 2: 591}
+2025-08-26 05:38:45,278 - INFO - Evaluating K-modes clustering quality...
+2025-08-26 05:38:46,347 - INFO - Cluster Cohesion (categorical): 0.7126
+2025-08-26 05:38:46,354 - INFO - Cluster Separation (categorical): 0.1828
+2025-08-26 05:38:46,356 - INFO - Cluster distribution percentages:
+2025-08-26 05:38:46,357 - INFO -   Cluster 0: 14.1%
+2025-08-26 05:38:46,357 - INFO -   Cluster 1: 15.1%
+2025-08-26 05:38:46,358 - INFO -   Cluster 2: 70.8%
+2025-08-26 05:38:46,360 - INFO - Socio-Economic Analysis - Clusters: 3, Distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:38:46,361 - INFO - Step 4: Training classification models...
+2025-08-26 05:38:46,362 - INFO - Preparing data for classification...
+2025-08-26 05:38:46,394 - INFO - Classification data prepared:
+2025-08-26 05:38:46,394 - INFO -   Features shape: (835, 33)
+2025-08-26 05:38:46,394 - INFO -   Target shape: (835,)
+2025-08-26 05:38:46,394 - INFO -   Target distribution: {2: 591, 1: 126, 0: 118}
+2025-08-26 05:38:46,394 - INFO - Training multiple classification models...
+2025-08-26 05:38:46,394 - INFO - Training set: (668, 33), Test set: (167, 33)
+2025-08-26 05:38:46,394 - INFO - Training Random Forest...
+2025-08-26 05:38:50,725 - INFO - Random Forest - Best CV score: 0.9656
+2025-08-26 05:38:50,725 - INFO - Training XGBoost...
+2025-08-26 05:38:52,464 - INFO - XGBoost - Best CV score: 0.9760
+2025-08-26 05:38:52,464 - INFO - Training SVM...
+2025-08-26 05:38:52,704 - INFO - SVM - Best CV score: 0.9476
+2025-08-26 05:38:52,704 - INFO - Successfully trained 3 models
+2025-08-26 05:38:52,704 - INFO - Evaluating models...
+2025-08-26 05:38:52,731 - INFO - Random Forest - Accuracy: 0.9928, F1: 0.9928
+2025-08-26 05:38:52,746 - INFO - XGBoost - Accuracy: 0.9952, F1: 0.9952
+2025-08-26 05:38:52,758 - INFO - SVM - Accuracy: 0.9641, F1: 0.9637
+2025-08-26 05:38:52,759 - INFO - Creating detailed classification reports...
+2025-08-26 05:38:52,763 - INFO - 
+Random Forest Classification Report:
+2025-08-26 05:38:52,763 - INFO - Accuracy: 0.9928
+2025-08-26 05:38:52,763 - INFO - Macro Avg - Precision: 0.9858
+2025-08-26 05:38:52,765 - INFO - Macro Avg - Recall: 0.9881
+2025-08-26 05:38:52,765 - INFO - Macro Avg - F1-Score: 0.9869
+2025-08-26 05:38:52,771 - INFO - 
+XGBoost Classification Report:
+2025-08-26 05:38:52,771 - INFO - Accuracy: 0.9952
+2025-08-26 05:38:52,771 - INFO - Macro Avg - Precision: 0.9911
+2025-08-26 05:38:52,771 - INFO - Macro Avg - Recall: 0.9892
+2025-08-26 05:38:52,771 - INFO - Macro Avg - F1-Score: 0.9902
+2025-08-26 05:38:52,778 - INFO - 
+SVM Classification Report:
+2025-08-26 05:38:52,780 - INFO - Accuracy: 0.9641
+2025-08-26 05:38:52,780 - INFO - Macro Avg - Precision: 0.9541
+2025-08-26 05:38:52,780 - INFO - Macro Avg - Recall: 0.9411
+2025-08-26 05:38:52,780 - INFO - Macro Avg - F1-Score: 0.9473
+2025-08-26 05:38:52,781 - INFO - Model training completed
+2025-08-26 05:38:52,781 - INFO - Best model: XGBoost
+2025-08-26 05:38:52,782 - INFO - Step 5: Exporting results...
+2025-08-26 05:38:52,782 - INFO - Creating comprehensive cluster profiles...
+2025-08-26 05:38:53,302 - INFO - Created comprehensive profiles for 5 clusters
+2025-08-26 05:38:53,302 - INFO - === COMPREHENSIVE CLUSTER ANALYSIS ===
+2025-08-26 05:38:53,302 - INFO - 
+Cluster 0 (126 records, 15.1%):
+2025-08-26 05:38:53,302 - INFO -   Overview: Dominan 2024 (100%), Jalur pendaftar kip jalur snbp dan snbt 2024 (100%)
+2025-08-26 05:38:53,302 - INFO -   Dominant: Gender: P (56%); Jalur: pendaftar kip jalur snbp dan snbt 2024 (100%); Tahun: 2024 (100%)
+2025-08-26 05:38:53,302 - INFO -   Unique: Jalur 'pendaftar kip jalur snbp dan snbt 2024' over-represented (+80% vs global); Source File 'CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv' over-represented (+80% vs global)
+2025-08-26 05:38:53,302 - INFO -   Socioeconomic: Profil sosio-ekonomi campuran
+2025-08-26 05:38:53,302 - INFO -   Geographic: Distribusi geografis beragam
+2025-08-26 05:38:53,302 - INFO -   Temporal: Eksklusif tahun 2024
+2025-08-26 05:38:53,302 - INFO - 
+Cluster 1 (80 records, 9.6%):
+2025-08-26 05:38:53,302 - INFO -   Overview: Dominan 2024 (54%), Jalur pendaftar kip jalur snbp dan snbt 2024 (54%), P (68%)
+2025-08-26 05:38:53,302 - INFO -   Dominant: Gender: P (68%); Jalur: pendaftar kip jalur snbp dan snbt 2024 (54%); Tahun: 2024 (54%)
+2025-08-26 05:38:53,302 - INFO -   Unique: Jalur 'pendaftar kip jalur snbp dan snbt 2024' over-represented (+33% vs global); Source File 'CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv' over-represented (+33% vs global)
+2025-08-26 05:38:53,302 - INFO -   Socioeconomic: Profil sosio-ekonomi campuran
+2025-08-26 05:38:53,302 - INFO -   Geographic: Distribusi geografis beragam
+2025-08-26 05:38:53,302 - INFO -   Temporal: Campuran 2023 dan 2024
+2025-08-26 05:38:53,308 - INFO - 
+Cluster 2 (438 records, 52.5%):
+2025-08-26 05:38:53,308 - INFO -   Overview: Dominan 2022 (100%), Jalur Siswa_Pendaftar_SBMPN_2022 (54%), P (100%)
+2025-08-26 05:38:53,308 - INFO -   Dominant: Gender: P (100%); Jalur: Siswa_Pendaftar_SBMPN_2022 (54%); Tahun: 2022 (100%)
+2025-08-26 05:38:53,308 - INFO -   Unique: Jalur 'Siswa_Pendaftar_SBMPN_2022' over-represented (+26% vs global); Source File 'CSV_Pendaftar/2022/Siswa_Pendaftar_SBMPN_2022.csv' over-represented (+26% vs global)
+2025-08-26 05:38:53,308 - INFO -   Socioeconomic: Profil sosio-ekonomi campuran
+2025-08-26 05:38:53,308 - INFO -   Geographic: Distribusi geografis beragam
+2025-08-26 05:38:53,308 - INFO -   Temporal: Eksklusif tahun 2022
+2025-08-26 05:38:53,308 - INFO - 
+Cluster 3 (70 records, 8.4%):
+2025-08-26 05:38:53,308 - INFO -   Overview: Dominan 2023 (97%), Jalur pendaftar kip jalur SNBT 2023 (77%), L (80%)
+2025-08-26 05:38:53,308 - INFO -   Dominant: Gender: L (80%); Jalur: pendaftar kip jalur SNBT 2023 (77%); Tahun: 2023 (97%)
+2025-08-26 05:38:53,308 - INFO -   Unique: Jalur 'pendaftar kip jalur SNBT 2023' over-represented (+64% vs global); Source File 'CSV_Pendaftar/2023/pendaftar kip jalur SNBT 2023.csv' over-represented (+64% vs global)
+2025-08-26 05:38:53,308 - INFO -   Socioeconomic: Profil sosio-ekonomi campuran
+2025-08-26 05:38:53,308 - INFO -   Geographic: Distribusi geografis beragam
+2025-08-26 05:38:53,308 - INFO -   Temporal: Dominan 2023 (97%)
+2025-08-26 05:38:53,308 - INFO - 
+Cluster 4 (121 records, 14.5%):
+2025-08-26 05:38:53,308 - INFO -   Overview: Dominan 2023 (100%), Jalur Siswa_Pendaftar_Seleksi Mandiri PTN_2023 (56%), P (97%)
+2025-08-26 05:38:53,308 - INFO -   Dominant: Gender: P (97%); Jalur: Siswa_Pendaftar_Seleksi Mandiri PTN_2023 (56%); Tahun: 2023 (100%)
+2025-08-26 05:38:53,311 - INFO -   Unique: Unnamed: 9 'Belum Terdata' over-represented (+36% vs global); Unnamed: 11 '-' over-represented (+82% vs global)
+2025-08-26 05:38:53,311 - INFO -   Socioeconomic: Profil sosio-ekonomi campuran
+2025-08-26 05:38:53,311 - INFO -   Geographic: Distribusi geografis beragam
+2025-08-26 05:38:53,311 - INFO -   Temporal: Eksklusif tahun 2023
+2025-08-26 05:38:53,311 - INFO - Creating comprehensive cluster profiles...
+2025-08-26 05:38:53,669 - INFO - Created comprehensive profiles for 3 clusters
+2025-08-26 05:38:53,669 - INFO - === COMPREHENSIVE CLUSTER ANALYSIS ===
+2025-08-26 05:38:53,669 - INFO - 
+Cluster 0 (118 records, 14.1%):
+2025-08-26 05:38:53,669 - INFO -   Overview: Dominan 2024 (62%), Jalur pendaftar kip jalur snbp dan snbt 2024 (62%), L (69%)
+2025-08-26 05:38:53,669 - INFO -   Dominant: Gender: L (69%); Jalur: pendaftar kip jalur snbp dan snbt 2024 (62%); Tahun: 2024 (62%)
+2025-08-26 05:38:53,669 - INFO -   Unique: Jalur 'pendaftar kip jalur snbp dan snbt 2024' over-represented (+41% vs global); Jalur 'pendaftar kip jalur SNBT 2023' over-represented (+24% vs global)
+2025-08-26 05:38:53,676 - INFO -   Socioeconomic: Profil sosio-ekonomi campuran
+2025-08-26 05:38:53,676 - INFO -   Geographic: Distribusi geografis beragam
+2025-08-26 05:38:53,676 - INFO -   Temporal: Campuran 2023 dan 2024
+2025-08-26 05:38:53,676 - INFO - 
+Cluster 1 (126 records, 15.1%):
+2025-08-26 05:38:53,676 - INFO -   Overview: Dominan 2023 (53%), Jalur pendaftar kip jalur snbp dan snbt 2024 (47%), P (69%)
+2025-08-26 05:38:53,676 - INFO -   Dominant: Gender: P (69%); Tahun: 2023 (53%)
+2025-08-26 05:38:53,676 - INFO -   Unique: Jalur 'pendaftar kip jalur snbp dan snbt 2024' over-represented (+26% vs global); Source File 'CSV_Pendaftar/2024/pendaftar kip jalur snbp dan snbt 2024.csv' over-represented (+26% vs global)
+2025-08-26 05:38:53,676 - INFO -   Socioeconomic: Profil sosio-ekonomi campuran
+2025-08-26 05:38:53,676 - INFO -   Geographic: Distribusi geografis beragam
+2025-08-26 05:38:53,676 - INFO -   Temporal: Campuran 2023 dan 2024
+2025-08-26 05:38:53,676 - INFO - 
+Cluster 2 (591 records, 70.8%):
+2025-08-26 05:38:53,676 - INFO -   Overview: Dominan 2022 (74%), P (97%)
+2025-08-26 05:38:53,676 - INFO -   Dominant: Gender: P (97%); Tahun: 2022 (74%)
+2025-08-26 05:38:53,676 - INFO -   Unique: Status P3Ke 'Belum Terdata' over-represented (+20% vs global); Asal Sekolah '20300744 - SMK NEGERI 1 CILACAP' over-represented (+23% vs global)
+2025-08-26 05:38:53,676 - INFO -   Socioeconomic: Profil sosio-ekonomi campuran
+2025-08-26 05:38:53,676 - INFO -   Geographic: Distribusi geografis beragam
+2025-08-26 05:38:53,676 - INFO -   Temporal: Dominan 2022 (74%)
+2025-08-26 05:38:53,676 - INFO - Extracting feature importance with encoding context...
+2025-08-26 05:38:54,947 - INFO - Feature importance plot saved to results/feature_importance.png
+2025-08-26 05:38:54,947 - INFO - Generating comprehensive dual analysis comparison...
+2025-08-26 05:38:54,947 - ERROR - Analysis failed: name 'generate_detailed_comparison' is not defined

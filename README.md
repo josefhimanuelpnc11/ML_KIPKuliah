@@ -1,4 +1,4 @@
-# Analisis KIP Kuliah: Clustering dan Classification Workflow
+# Analisis KIP Kuliah: Clustering dan Classification Pipeline
 
 ## 📋 Deskripsi Project
 
@@ -11,42 +11,62 @@ Project ini menyediakan analisis komprehensif untuk data KIP Kuliah menggunakan 
 3. **Model Comparison**: Membandingkan performa berbagai algoritma machine learning
 4. **Feature Analysis**: Menganalisis faktor-faktor yang paling berpengaruh dalam pengelompokan
 
-## 🏗️ Struktur Project
+## 🏗️ Struktur Project (Modular Python)
 
 ```
 ML_KIPKuliah/
-├── data/                           # Data mentah (tidak di-commit)
-├── notebooks/
-│   └── kip_kuliah_analysis.ipynb  # Notebook utama analisis
-├── src/
-│   ├── data_utils.py              # Utilitas untuk data loading & preprocessing
-│   └── model_utils.py             # Utilitas untuk modeling & evaluasi
-├── models/                        # Model yang sudah dilatih
-├── results/                       # Hasil analisis (Excel, CSV, reports)
-├── requirements.txt               # Dependencies Python
-├── analysis.py                    # Script clustering sederhana
-└── README.md                      # Dokumentasi ini
+├── main.py                           # Script utama untuk menjalankan analisis
+├── run_analysis.py                   # Runner script dengan CLI interface
+├── src/                              # Source code modules
+│   ├── config.py                     # Konfigurasi central untuk semua komponen
+│   ├── data_loader.py                # Module untuk loading data CSV
+│   ├── data_preprocessor.py          # Module untuk preprocessing data
+│   ├── clustering_analyzer.py        # Module untuk analisis clustering
+│   ├── classification_trainer.py     # Module untuk training classification
+│   └── results_exporter.py           # Module untuk export hasil
+├── logs/                             # Log files untuk monitoring
+├── results/                          # Hasil analisis (Excel, CSV, reports, plots)
+├── models/                           # Trained models (untuk future use)
+├── requirements.txt                  # Dependencies Python
+└── README.md                         # Dokumentasi ini
 ```
 
 ## 🚀 Workflow Analisis
 
-### 1. Setup dan Data Loading
+### **Pipeline Terintegrasi:**
+```
+Data Loading → Preprocessing → Clustering → Classification → Evaluation → Export
+```
+
+### **1. Data Loading (`data_loader.py`)**
 - Load data pendaftar KIP Kuliah dari tahun 2022-2024
 - Kombinasi data dari berbagai jalur seleksi
-- Exploratory Data Analysis (EDA)
+- Data validation dan quality checks
 
-### 2. Data Preprocessing
-- Handle missing values
+### **2. Data Preprocessing (`data_preprocessor.py`)**
+- Handle missing values dengan strategi yang tepat
 - Identifikasi kolom numerik vs kategorikal
 - Encoding untuk data kategorikal
 - Scaling untuk data numerik
 - Persiapan data mixed untuk K-Prototypes
 
-### 3. Clustering Analysis (Unsupervised)
+### **3. Clustering Analysis (`clustering_analyzer.py`)**
 - **Algoritma**: K-Prototypes (menangani data campuran numerik + kategorikal)
-- **Optimal Clusters**: Menggunakan elbow method
+- **Optimal Clusters**: Elbow method dengan visualisasi
 - **Cluster Profiling**: Analisis karakteristik setiap cluster
-- **Visualisasi**: Distribusi cluster dan profil
+- **Quality Metrics**: Silhouette score dan internal validation
+
+### **4. Classification Training (`classification_trainer.py`)**
+- **Target**: Cluster labels dari hasil clustering
+- **Algoritma**: Random Forest, XGBoost, SVM
+- **Hyperparameter Tuning**: Grid Search dengan Cross Validation
+- **Feature Importance**: Analisis variabel paling berpengaruh
+
+### **5. Results Export (`results_exporter.py`)**
+- **Excel**: Multiple sheets dengan semua hasil
+- **CSV**: File terpisah untuk setiap dataset
+- **Summary Report**: Laporan ringkasan komprehensif
+- **Visualizations**: Plot dan grafik analisis
 
 ### 4. Classification Modeling (Supervised)
 - **Target**: Cluster labels dari hasil clustering
@@ -68,43 +88,44 @@ ML_KIPKuliah/
 
 ## 📦 Instalasi dan Setup
 
-### 1. Clone Repository
+### **1. Clone Repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/josefhimanuelpnc11/ML_KIPKuliah.git
 cd ML_KIPKuliah
 ```
 
-### 2. Install Dependencies
+### **2. Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Setup Data
-Pastikan struktur data sesuai dengan yang diharapkan:
+### **3. Setup Data Structure**
+Pastikan struktur data sesuai:
 ```
-Bahan Laporan KIP Kuliah 2022 s.d 2024/
-├── CSV_Pendaftar/
-│   ├── 2022/
-│   ├── 2023/
-│   └── 2024/
-└── CSV_Penerima/
+ML_KIPKuliah/
+├── Bahan Laporan KIP Kuliah 2022 s.d 2024/
+│   ├── CSV_Pendaftar/
+│   │   ├── 2022/
+│   │   ├── 2023/
+│   │   └── 2024/
+│   └── CSV_Penerima/
 ```
 
-## 🔧 Cara Penggunaan
+## 🔧 Cara Menjalankan Analisis
 
-### Menggunakan Jupyter Notebook (Recommended)
-1. Jalankan Jupyter Lab/Notebook:
-   ```bash
-   jupyter lab
-   ```
-
-2. Buka `notebooks/kip_kuliah_analysis.ipynb`
-
-3. Jalankan cell secara berurutan dari atas ke bawah
-
-### Menggunakan Script Python
+### **Method 1: Simple Runner (Recommended)**
 ```bash
-python analysis.py  # Untuk clustering sederhana
+python run_analysis.py
+```
+
+### **Method 2: Direct Main Script**
+```bash
+python main.py
+```
+
+### **Method 3: With Custom Parameters**
+```bash
+python run_analysis.py --data-path "path/to/data" --max-clusters 8 --verbose
 ```
 
 ## 📊 Output dan Hasil

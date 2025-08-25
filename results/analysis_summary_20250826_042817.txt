@@ -1,0 +1,81 @@
+================================================================================
+KIP KULIAH ANALYSIS SUMMARY REPORT
+================================================================================
+Generated: 2025-08-26 04:29:42
+Analysis ID: 20250826_042817
+
+DATASET OVERVIEW
+----------------------------------------
+Total Records: 835
+Total Features: 96
+Missing Values: 22,048
+Data by Year:
+  2022: 438 records
+  2023: 226 records
+  2024: 171 records
+
+CLUSTERING ANALYSIS RESULTS
+----------------------------------------
+Algorithm: K-Prototypes (mixed data types)
+Optimal Clusters: 5
+Cluster Distribution:
+  Cluster 0: 4 records (0.5%)
+  Cluster 1: 638 records (76.4%)
+  Cluster 2: 4 records (0.5%)
+  Cluster 3: 187 records (22.4%)
+  Cluster 4: 2 records (0.2%)
+
+CLASSIFICATION MODEL PERFORMANCE
+----------------------------------------
+Best Model: XGBoost
+  Accuracy: 0.9976
+  Precision: 0.9976
+  Recall: 0.9976
+  F1-Score: 0.9975
+
+All Models Performance:
+  Random Forest:
+    Accuracy: 0.9940
+    F1-Score: 0.9938
+    CV Score: 0.9715
+  XGBoost:
+    Accuracy: 0.9976
+    F1-Score: 0.9975
+    CV Score: 0.9790
+  SVM:
+    Accuracy: 0.9772
+    F1-Score: 0.9769
+    CV Score: 0.9745
+
+TOP INFLUENTIAL FEATURES
+----------------------------------------
+Top 10 Features (Average Importance):
+   1. tahun: 0.3285
+   2. jalur: 0.1312
+   3. NISN: 0.0484
+   4. Tanggal Dicalonkan: 0.0454
+   5. UTBK-SNBT: 0.0340
+   6. Alamat Email: 0.0322
+   7. No. Handphone: 0.0317
+   8. Tanggal Lahir: 0.0289
+   9. NIK: 0.0283
+  10. Alamat Tinggal: 0.0205
+
+FILES GENERATED
+----------------------------------------
+Excel Report: kip_analysis_20250826_042817.xlsx
+CSV Folder: csv_results_20250826_042817/
+Summary Report: analysis_summary_20250826_042817.txt
+Visualizations: *.png files in results folder
+
+TECHNICAL NOTES
+----------------------------------------
+- Clustering: K-Prototypes algorithm for mixed data types
+- Classification: Random Forest, XGBoost, SVM with hyperparameter tuning
+- Validation: Cross-validation and train-test split
+- Missing Values: Handled with median (numerical) and mode (categorical)
+- Scaling: StandardScaler applied to all features
+
+================================================================================
+End of Report
+================================================================================

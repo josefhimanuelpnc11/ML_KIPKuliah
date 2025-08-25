@@ -1,0 +1,21 @@
+================================================================================
+KIP KULIAH ANALYSIS SUMMARY REPORT
+================================================================================
+Generated: 2025-08-26 05:09:11
+Analysis ID: 20250826_050813
+Analysis Type: Single
+
+DATASET OVERVIEW
+----------------------------------------
+Total Records: 835
+Total Features: 96
+Missing Values: 25,084
+Data by Year:
+  2022: 438 records
+  2023: 226 records
+  2024: 171 records
+
+CLUSTERING ANALYSIS RESULTS
+----------------------------------------
+Algorithm: K-Prototypes (mixed data types)
+Optimal Clusters: 3

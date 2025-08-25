@@ -1,0 +1,104 @@
+================================================================================
+KIP KULIAH ANALYSIS SUMMARY REPORT
+================================================================================
+Generated: 2025-08-26 05:11:11
+Analysis ID: 20250826_051045
+Analysis Type: Single
+
+DATASET OVERVIEW
+----------------------------------------
+Total Records: 835
+Total Features: 96
+Missing Values: 25,084
+Data by Year:
+  2022: 438 records
+  2023: 226 records
+  2024: 171 records
+
+CLUSTERING ANALYSIS RESULTS
+----------------------------------------
+Algorithm: K-modes
+Optimal Clusters: 3
+Cluster Cohesion: 0.7126
+Cluster Separation: 0.1828
+Cluster Distribution:
+  Cluster 0: 118 records (14.1%)
+  Cluster 1: 126 records (15.1%)
+  Cluster 2: 591 records (70.8%)
+
+CLUSTER INTERPRETATIONS
+----------------------------------------
+Cluster 0 (118 records, 14.1%):
+  Dominan 2024 (62%), Jalur pendaftar kip jalur snbp dan snbt 2024 (62%), L (69%)
+
+Cluster 1 (126 records, 15.1%):
+  Dominan 2023 (53%), Jalur pendaftar kip jalur snbp dan snbt 2024 (47%), P (69%)
+
+Cluster 2 (591 records, 70.8%):
+  Dominan 2022 (74%), P (97%)
+
+
+CLASSIFICATION MODEL PERFORMANCE
+----------------------------------------
+Best Model: XGBoost
+  Accuracy: 0.9952
+  Precision: 0.9952
+  Recall: 0.9952
+  F1-Score: 0.9952
+
+All Models Performance:
+  Random Forest:
+    Accuracy: 0.9928
+    F1-Score: 0.9928
+    CV Score: 0.9656
+  XGBoost:
+    Accuracy: 0.9952
+    F1-Score: 0.9952
+    CV Score: 0.9760
+  SVM:
+    Accuracy: 0.9641
+    F1-Score: 0.9637
+    CV Score: 0.9476
+
+TOP INFLUENTIAL FEATURES
+----------------------------------------
+Top 10 Features (Average Importance):
+   1. UTBK-SNBT: 0.2860
+   2. Jenis Kelamin: 0.2504
+   3. SNBP: 0.2501
+   4. Status DTKS: 0.2449
+   5. jalur: 0.1904
+   6. Tahun Perolehan: 0.1415
+   7. Kepemilikan Rumah: 0.1363
+   8. Alamat Tinggal: 0.1209
+   9. Luas Bangunan: 0.1201
+  10. Luas Tanah: 0.1195
+
+RECOMMENDATIONS
+----------------------------------------
+Based on the analysis results:
+
+1. Focus on the highest performing clusters for successful outcomes
+2. Target intervention programs for underperforming clusters
+3. Use predictive models for early identification of at-risk students
+4. Monitor feature importance trends for program adjustments
+
+FILES GENERATED
+----------------------------------------
+Excel Report: kip_analysis_20250826_051045.xlsx
+CSV Folder: csv_results_20250826_051045/
+Summary Report: analysis_summary_20250826_051045.txt
+Visualizations: *.png files in results folder
+
+TECHNICAL NOTES
+----------------------------------------
+- Clustering: K-Prototypes algorithm for mixed data types
+- Classification: Random Forest, XGBoost, SVM with hyperparameter tuning
+- Validation: Cross-validation and train-test split
+- Missing Values: Handled with median (numerical) and mode (categorical)
+- Scaling: StandardScaler applied to all features
+
+
+================================================================================
+END OF REPORT
+================================================================================
