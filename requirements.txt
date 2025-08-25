@@ -1,0 +1,12 @@
+# Dependencies untuk K-Prototype Clustering Analysis
+# Install dengan: pip install -r requirements.txt
+
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.1.0
+kmodes>=0.12.2
+
+# Optional untuk enhanced visualization
+plotly>=5.0.0
