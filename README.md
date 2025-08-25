@@ -203,10 +203,5 @@ ipykernel>=6.0.0       # Jupyter kernel
 4. Push to branch
 5. Create Pull Request
 
-## 📞 Support
-
-Untuk pertanyaan atau dukungan teknis, silakan buat issue di repository ini atau hubungi tim development.
-
 ---
 
-**Catatan**: Project ini dikembangkan untuk analisis akademik dan penelitian. Pastikan mengikuti protokol data privacy dan ethical guidelines yang berlaku.
