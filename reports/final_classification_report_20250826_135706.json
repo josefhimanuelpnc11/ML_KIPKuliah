@@ -1,0 +1,1025 @@
+{
+  "project_info": {
+    "title": "KIP Kuliah Classification System",
+    "description": "Socio-Economic Factor Analysis for Educational Support",
+    "timestamp": "2025-08-26T13:57:06.970048",
+    "version": "1.0"
+  },
+  "configuration": {
+    "base_path": "c:\\laragon\\www\\ML_KIPKuliah\\Bahan Laporan KIP Kuliah 2022 s.d 2024",
+    "test_size": 0.2,
+    "random_state": 42,
+    "cv_folds": 5,
+    "feature_selection": true,
+    "hyperparameter_tuning": true
+  },
+  "data_summary": {
+    "dataset_info": {
+      "total_files": 10,
+      "pendaftar_files": 7,
+      "penerima_files": 3,
+      "years_covered": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    "data_shape": {
+      "pendaftar_records": 835,
+      "penerima_records": 442,
+      "total_records": 1277
+    },
+    "features": {
+      "economic_status": [
+        "Penghasilan Ayah",
+        "Penghasilan Ibu",
+        "Pekerjaan Ayah",
+        "Pekerjaan Ibu",
+        "Status DTKS",
+        "Status P3KE",
+        "No. KIP",
+        "No. KKS"
+      ],
+      "family_structure": [
+        "Jumlah Tanggungan",
+        "Status Ayah",
+        "Status Ibu"
+      ],
+      "housing_conditions": [
+        "Kepemilikan Rumah",
+        "Tahun Perolehan",
+        "Luas Tanah",
+        "Luas Bangunan",
+        "Sumber Listrik",
+        "Sumber Air",
+        "MCK"
+      ],
+      "geographic": [
+        "Kab/Kota Sekolah",
+        "Provinsi Sekolah",
+        "Jarak Pusat Kota (KM)"
+      ],
+      "demographic": [
+        "Jenis Kelamin",
+        "Tempat Lahir",
+        "Tanggal Lahir"
+      ],
+      "education": [
+        "Asal Sekolah",
+        "Prestasi"
+      ]
+    },
+    "missing_values": {
+      "pendaftar_missing_counts": "DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022                  599\nUnnamed: 1                                                                         329\nUnnamed: 2                                                                         329\nUnnamed: 3                                                                         329\nUnnamed: 4                                                                         329\n                                                                                  ... \nSNBP                                                                               506\nUTBK-SNBT                                                                          506\nSeleksi Mandiri PTS                                                                506\nDATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023    767\nUnnamed: 42                                                                        767\nLength: 95, dtype: int64",
+      "pendaftar_missing_percentages": "DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022                  71.736527\nUnnamed: 1                                                                         39.401198\nUnnamed: 2                                                                         39.401198\nUnnamed: 3                                                                         39.401198\nUnnamed: 4                                                                         39.401198\n                                                                                     ...    \nSNBP                                                                               60.598802\nUTBK-SNBT                                                                          60.598802\nSeleksi Mandiri PTS                                                                60.598802\nDATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023    91.856287\nUnnamed: 42                                                                        91.856287\nLength: 95, dtype: float64",
+      "penerima_missing_counts": "DATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2022    280\nUnnamed: 1                                                               0\nUnnamed: 2                                                               0\nUnnamed: 3                                                               0\nUnnamed: 4                                                               0\nUnnamed: 5                                                               0\nUnnamed: 6                                                               0\nUnnamed: 7                                                               0\nUnnamed: 8                                                               0\nUnnamed: 9                                                               0\nUnnamed: 10                                                             18\nUnnamed: 11                                                              0\nUnnamed: 12                                                              0\nUnnamed: 13                                                              0\nUnnamed: 14                                                              0\nUnnamed: 15                                                              0\nUnnamed: 16                                                              0\nUnnamed: 17                                                              0\nUnnamed: 18                                                              0\nUnnamed: 19                                                              0\nUnnamed: 20                                                              0\nUnnamed: 21                                                              0\nUnnamed: 22                                                              0\nUnnamed: 23                                                              0\nUnnamed: 24                                                              0\nUnnamed: 25                                                              0\nUnnamed: 26                                                              0\nUnnamed: 27                                                              0\nUnnamed: 28                                                              0\nUnnamed: 29                                                              0\nUnnamed: 30                                                              0\nUnnamed: 31                                                              0\nUnnamed: 32                                                              0\nUnnamed: 33                                                              0\nUnnamed: 34                                                              0\nUnnamed: 35                                                              0\nUnnamed: 36                                                              0\nUnnamed: 37                                                              0\nUnnamed: 38                                                              0\nUnnamed: 39                                                              0\nUnnamed: 40                                                              0\nUnnamed: 41                                                              0\nUnnamed: 42                                                              0\nUnnamed: 43                                                              0\nUnnamed: 44                                                            360\nsource_file                                                              0\nyear                                                                     0\nis_recipient                                                             0\nDATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2023    334\nDATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2024    270\ndtype: int64",
+      "penerima_missing_percentages": "DATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2022    63.348416\nUnnamed: 1                                                              0.000000\nUnnamed: 2                                                              0.000000\nUnnamed: 3                                                              0.000000\nUnnamed: 4                                                              0.000000\nUnnamed: 5                                                              0.000000\nUnnamed: 6                                                              0.000000\nUnnamed: 7                                                              0.000000\nUnnamed: 8                                                              0.000000\nUnnamed: 9                                                              0.000000\nUnnamed: 10                                                             4.072398\nUnnamed: 11                                                             0.000000\nUnnamed: 12                                                             0.000000\nUnnamed: 13                                                             0.000000\nUnnamed: 14                                                             0.000000\nUnnamed: 15                                                             0.000000\nUnnamed: 16                                                             0.000000\nUnnamed: 17                                                             0.000000\nUnnamed: 18                                                             0.000000\nUnnamed: 19                                                             0.000000\nUnnamed: 20                                                             0.000000\nUnnamed: 21                                                             0.000000\nUnnamed: 22                                                             0.000000\nUnnamed: 23                                                             0.000000\nUnnamed: 24                                                             0.000000\nUnnamed: 25                                                             0.000000\nUnnamed: 26                                                             0.000000\nUnnamed: 27                                                             0.000000\nUnnamed: 28                                                             0.000000\nUnnamed: 29                                                             0.000000\nUnnamed: 30                                                             0.000000\nUnnamed: 31                                                             0.000000\nUnnamed: 32                                                             0.000000\nUnnamed: 33                                                             0.000000\nUnnamed: 34                                                             0.000000\nUnnamed: 35                                                             0.000000\nUnnamed: 36                                                             0.000000\nUnnamed: 37                                                             0.000000\nUnnamed: 38                                                             0.000000\nUnnamed: 39                                                             0.000000\nUnnamed: 40                                                             0.000000\nUnnamed: 41                                                             0.000000\nUnnamed: 42                                                             0.000000\nUnnamed: 43                                                             0.000000\nUnnamed: 44                                                            81.447964\nsource_file                                                             0.000000\nyear                                                                    0.000000\nis_recipient                                                            0.000000\nDATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2023    75.565611\nDATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2024    61.085973\ndtype: float64"
+    },
+    "columns": {
+      "pendaftar_columns": [
+        "DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 16",
+        "Unnamed: 17",
+        "Unnamed: 18",
+        "Unnamed: 19",
+        "Unnamed: 20",
+        "Unnamed: 21",
+        "Unnamed: 22",
+        "Unnamed: 23",
+        "Unnamed: 24",
+        "Unnamed: 25",
+        "Unnamed: 26",
+        "Unnamed: 27",
+        "Unnamed: 28",
+        "Unnamed: 29",
+        "Unnamed: 30",
+        "Unnamed: 31",
+        "Unnamed: 32",
+        "Unnamed: 33",
+        "Unnamed: 34",
+        "Unnamed: 35",
+        "Unnamed: 36",
+        "Unnamed: 37",
+        "Unnamed: 38",
+        "Unnamed: 39",
+        "Unnamed: 40",
+        "Unnamed: 41",
+        "source_file",
+        "year",
+        "is_recipient",
+        "DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022",
+        "DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022",
+        "#",
+        "No. Pendaftaran",
+        "Nama Siswa",
+        "NIK",
+        "No. Kartu Keluarga",
+        "NIK Kepala Keluarga",
+        "NISN",
+        "Status DTKS",
+        "Status P3KE",
+        "No. KIP",
+        "No. KKS",
+        "Asal Sekolah",
+        "Kab/Kota Sekolah",
+        "Provinsi Sekolah",
+        "Tempat Lahir",
+        "Tanggal Lahir",
+        "Jenis Kelamin",
+        "Alamat Tinggal",
+        "No. Handphone",
+        "Alamat Email",
+        "Nama Ayah",
+        "Pekerjaan Ayah",
+        "Penghasilan Ayah",
+        "Status Ayah",
+        "Nama Ibu",
+        "Pekerjaan Ibu",
+        "Penghasilan Ibu",
+        "Status Ibu",
+        "Jumlah Tanggungan",
+        "Kepemilikan Rumah",
+        "Tahun Perolehan",
+        "Sumber Listrik",
+        "Luas Tanah",
+        "Luas Bangunan",
+        "Sumber Air",
+        "MCK",
+        "Jarak Pusat Kota (KM)",
+        "Tanggal Dicalonkan",
+        "User Pencalonan",
+        "Prestasi",
+        "SNMPN",
+        "SBMPN",
+        "Seleksi Mandiri PTN",
+        "SNBP",
+        "UTBK-SNBT",
+        "Seleksi Mandiri PTS",
+        "DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023",
+        "Unnamed: 42"
+      ],
+      "penerima_columns": [
+        "DATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2022",
+        "Unnamed: 1",
+        "Unnamed: 2",
+        "Unnamed: 3",
+        "Unnamed: 4",
+        "Unnamed: 5",
+        "Unnamed: 6",
+        "Unnamed: 7",
+        "Unnamed: 8",
+        "Unnamed: 9",
+        "Unnamed: 10",
+        "Unnamed: 11",
+        "Unnamed: 12",
+        "Unnamed: 13",
+        "Unnamed: 14",
+        "Unnamed: 15",
+        "Unnamed: 16",
+        "Unnamed: 17",
+        "Unnamed: 18",
+        "Unnamed: 19",
+        "Unnamed: 20",
+        "Unnamed: 21",
+        "Unnamed: 22",
+        "Unnamed: 23",
+        "Unnamed: 24",
+        "Unnamed: 25",
+        "Unnamed: 26",
+        "Unnamed: 27",
+        "Unnamed: 28",
+        "Unnamed: 29",
+        "Unnamed: 30",
+        "Unnamed: 31",
+        "Unnamed: 32",
+        "Unnamed: 33",
+        "Unnamed: 34",
+        "Unnamed: 35",
+        "Unnamed: 36",
+        "Unnamed: 37",
+        "Unnamed: 38",
+        "Unnamed: 39",
+        "Unnamed: 40",
+        "Unnamed: 41",
+        "Unnamed: 42",
+        "Unnamed: 43",
+        "Unnamed: 44",
+        "source_file",
+        "year",
+        "is_recipient",
+        "DATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2023",
+        "DATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2024"
+      ],
+      "common_columns": [
+        "Unnamed: 3",
+        "Unnamed: 39",
+        "Unnamed: 8",
+        "Unnamed: 11",
+        "Unnamed: 37",
+        "Unnamed: 17",
+        "Unnamed: 29",
+        "Unnamed: 5",
+        "Unnamed: 7",
+        "Unnamed: 26",
+        "Unnamed: 14",
+        "Unnamed: 36",
+        "Unnamed: 35",
+        "Unnamed: 30",
+        "Unnamed: 32",
+        "Unnamed: 34",
+        "Unnamed: 41",
+        "Unnamed: 31",
+        "Unnamed: 25",
+        "Unnamed: 18",
+        "Unnamed: 12",
+        "Unnamed: 22",
+        "Unnamed: 23",
+        "Unnamed: 38",
+        "Unnamed: 19",
+        "Unnamed: 4",
+        "Unnamed: 16",
+        "Unnamed: 40",
+        "Unnamed: 9",
+        "Unnamed: 10",
+        "Unnamed: 27",
+        "Unnamed: 6",
+        "Unnamed: 28",
+        "Unnamed: 13",
+        "Unnamed: 33",
+        "Unnamed: 24",
+        "Unnamed: 21",
+        "Unnamed: 20",
+        "Unnamed: 2",
+        "Unnamed: 15",
+        "source_file",
+        "is_recipient",
+        "Unnamed: 42",
+        "year",
+        "Unnamed: 1"
+      ],
+      "pendaftar_unique": [
+        "DATA SISWA PESERTA SBMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022",
+        "Jenis Kelamin",
+        "Pekerjaan Ayah",
+        "Jarak Pusat Kota (KM)",
+        "Seleksi Mandiri PTS",
+        "Asal Sekolah",
+        "No. Kartu Keluarga",
+        "No. KIP",
+        "Nama Ayah",
+        "NIK Kepala Keluarga",
+        "NIK",
+        "Luas Tanah",
+        "Alamat Email",
+        "NISN",
+        "Jumlah Tanggungan",
+        "Penghasilan Ayah",
+        "#",
+        "DATA SISWA PESERTA SNMPN - POLITEKNIK NEGERI CILACAP - TAHUN 2022",
+        "SBMPN",
+        "Kab/Kota Sekolah",
+        "No. KKS",
+        "UTBK-SNBT",
+        "Pekerjaan Ibu",
+        "Status P3KE",
+        "Status Ibu",
+        "DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2023",
+        "Provinsi Sekolah",
+        "Nama Ibu",
+        "Kepemilikan Rumah",
+        "No. Handphone",
+        "Status DTKS",
+        "DATA SISWA PESERTA SELEKSI MANDIRI PTN - POLITEKNIK NEGERI CILACAP - TAHUN 2022",
+        "Status Ayah",
+        "Seleksi Mandiri PTN",
+        "No. Pendaftaran",
+        "Tanggal Lahir",
+        "Nama Siswa",
+        "SNBP",
+        "Alamat Tinggal",
+        "Sumber Air",
+        "User Pencalonan",
+        "MCK",
+        "Sumber Listrik",
+        "Tempat Lahir",
+        "Prestasi",
+        "Penghasilan Ibu",
+        "SNMPN",
+        "Tanggal Dicalonkan",
+        "Tahun Perolehan",
+        "Luas Bangunan"
+      ],
+      "penerima_unique": [
+        "Unnamed: 44",
+        "DATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2022",
+        "DATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2024",
+        "Unnamed: 43",
+        "DATA MAHASISWA DITETAPKAN  - POLITEKNIK NEGERI CILACAP - TAHUN 2023"
+      ]
+    },
+    "target_distribution": {
+      "recipients": 442,
+      "non_recipients": 835,
+      "recipient_rate": 0.346123727486296
+    }
+  },
+  "preprocessing_summary": {
+    "timestamp": "2025-08-26T13:54:58.559355",
+    "configuration": {
+      "base_path": "c:\\laragon\\www\\ML_KIPKuliah\\Bahan Laporan KIP Kuliah 2022 s.d 2024",
+      "test_size": 0.2,
+      "random_state": 42,
+      "cv_folds": 5,
+      "feature_selection": true,
+      "hyperparameter_tuning": true
+    },
+    "preprocessing_info": {
+      "n_features_original": 43,
+      "n_features_selected": 20,
+      "n_engineered_features": 0,
+      "n_encoded_features": 43,
+      "train_samples": 1021,
+      "test_samples": 256,
+      "class_distribution": {
+        "0": 835,
+        "1": 442
+      }
+    },
+    "feature_names": [
+      "Unnamed: 3_encoded",
+      "Unnamed: 39_encoded",
+      "Unnamed: 8_encoded",
+      "Unnamed: 37_encoded",
+      "Unnamed: 17_encoded",
+      "Unnamed: 5_encoded",
+      "Unnamed: 7_encoded",
+      "Unnamed: 41_encoded",
+      "Unnamed: 18_encoded",
+      "Unnamed: 38_encoded",
+      "Unnamed: 4_encoded",
+      "Unnamed: 16_encoded",
+      "Unnamed: 40_encoded",
+      "Unnamed: 6_encoded",
+      "Unnamed: 28_encoded",
+      "Unnamed: 24_encoded",
+      "Unnamed: 2_encoded",
+      "Unnamed: 15_encoded",
+      "is_recipient_encoded",
+      "Unnamed: 42_encoded"
+    ],
+    "engineered_features": [],
+    "data_quality": {
+      "train_samples": 1021,
+      "test_samples": 256,
+      "feature_count": 20,
+      "target_distribution": {
+        "0": 835,
+        "1": 442
+      }
+    }
+  },
+  "model_results": {
+    "evaluation_results": {
+      "random_forest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "confusion_matrix": [
+          [
+            167,
+            0
+          ],
+          [
+            0,
+            89
+          ]
+        ],
+        "roc_auc": 1.0,
+        "classification_report": {
+          "0": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 167.0
+          },
+          "1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 89.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 256.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 256.0
+          }
+        },
+        "cv_f1_mean": 1.0,
+        "cv_f1_std": 0.0,
+        "top_features": [
+          {
+            "feature": "Unnamed: 3_encoded",
+            "importance": 0.2159138349959724
+          },
+          {
+            "feature": "is_recipient_encoded",
+            "importance": 0.1926049852865227
+          },
+          {
+            "feature": "Unnamed: 39_encoded",
+            "importance": 0.15264683192375014
+          },
+          {
+            "feature": "Unnamed: 6_encoded",
+            "importance": 0.1457247442606976
+          },
+          {
+            "feature": "Unnamed: 37_encoded",
+            "importance": 0.11200460291642524
+          },
+          {
+            "feature": "Unnamed: 2_encoded",
+            "importance": 0.05390511790014868
+          },
+          {
+            "feature": "Unnamed: 8_encoded",
+            "importance": 0.03893893856554266
+          },
+          {
+            "feature": "Unnamed: 42_encoded",
+            "importance": 0.02604557909965584
+          },
+          {
+            "feature": "Unnamed: 7_encoded",
+            "importance": 0.025693917786475128
+          },
+          {
+            "feature": "Unnamed: 38_encoded",
+            "importance": 0.013978242555019161
+          }
+        ]
+      },
+      "xgboost": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "confusion_matrix": [
+          [
+            167,
+            0
+          ],
+          [
+            0,
+            89
+          ]
+        ],
+        "roc_auc": 1.0,
+        "classification_report": {
+          "0": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 167.0
+          },
+          "1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 89.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 256.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 256.0
+          }
+        },
+        "cv_f1_mean": 0.9971014492753623,
+        "cv_f1_std": 0.005797101449275343,
+        "top_features": [
+          {
+            "feature": "Unnamed: 3_encoded",
+            "importance": 0.3058626353740692
+          },
+          {
+            "feature": "Unnamed: 39_encoded",
+            "importance": 0.2612348794937134
+          },
+          {
+            "feature": "is_recipient_encoded",
+            "importance": 0.2590174078941345
+          },
+          {
+            "feature": "Unnamed: 6_encoded",
+            "importance": 0.17198479175567627
+          },
+          {
+            "feature": "Unnamed: 17_encoded",
+            "importance": 0.0015945258783176541
+          },
+          {
+            "feature": "Unnamed: 15_encoded",
+            "importance": 0.0003057148715015501
+          },
+          {
+            "feature": "Unnamed: 16_encoded",
+            "importance": 0.0
+          },
+          {
+            "feature": "Unnamed: 2_encoded",
+            "importance": 0.0
+          },
+          {
+            "feature": "Unnamed: 24_encoded",
+            "importance": 0.0
+          },
+          {
+            "feature": "Unnamed: 28_encoded",
+            "importance": 0.0
+          }
+        ]
+      },
+      "svm": {
+        "accuracy": 0.99609375,
+        "precision": 1.0,
+        "recall": 0.9887640449438202,
+        "f1_score": 0.9943502824858758,
+        "confusion_matrix": [
+          [
+            167,
+            0
+          ],
+          [
+            1,
+            88
+          ]
+        ],
+        "roc_auc": 0.9997308753279958,
+        "classification_report": {
+          "0": {
+            "precision": 0.9940476190476191,
+            "recall": 1.0,
+            "f1-score": 0.9970149253731343,
+            "support": 167.0
+          },
+          "1": {
+            "precision": 1.0,
+            "recall": 0.9887640449438202,
+            "f1-score": 0.9943502824858758,
+            "support": 89.0
+          },
+          "accuracy": 0.99609375,
+          "macro avg": {
+            "precision": 0.9970238095238095,
+            "recall": 0.9943820224719101,
+            "f1-score": 0.995682603929505,
+            "support": 256.0
+          },
+          "weighted avg": {
+            "precision": 0.9961170014880952,
+            "recall": 0.99609375,
+            "f1-score": 0.9960885456193609,
+            "support": 256.0
+          }
+        },
+        "cv_f1_mean": 0.9971014492753623,
+        "cv_f1_std": 0.005797101449275343
+      }
+    },
+    "cross_validation_results": {
+      "random_forest": {
+        "accuracy_mean": 1.0,
+        "accuracy_std": 0.0,
+        "accuracy_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "precision_mean": 1.0,
+        "precision_std": 0.0,
+        "precision_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_mean": 1.0,
+        "recall_std": 0.0,
+        "recall_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f1_mean": 1.0,
+        "f1_std": 0.0,
+        "f1_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roc_auc_mean": 1.0,
+        "roc_auc_std": 0.0,
+        "roc_auc_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "xgboost": {
+        "accuracy_mean": 1.0,
+        "accuracy_std": 0.0,
+        "accuracy_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "precision_mean": 1.0,
+        "precision_std": 0.0,
+        "precision_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_mean": 1.0,
+        "recall_std": 0.0,
+        "recall_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "f1_mean": 1.0,
+        "f1_std": 0.0,
+        "f1_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roc_auc_mean": 1.0,
+        "roc_auc_std": 0.0,
+        "roc_auc_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "svm": {
+        "accuracy_mean": 0.9976470588235294,
+        "accuracy_std": 0.003137254901960773,
+        "accuracy_scores": [
+          1.0,
+          1.0,
+          0.9921568627450981,
+          0.996078431372549,
+          1.0
+        ],
+        "precision_mean": 1.0,
+        "precision_std": 0.0,
+        "precision_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_mean": 0.9931818181818184,
+        "recall_std": 0.009090909090909082,
+        "recall_scores": [
+          1.0,
+          1.0,
+          0.9772727272727273,
+          0.9886363636363636,
+          1.0
+        ],
+        "f1_mean": 0.9965582922824302,
+        "f1_std": 0.0045944346829617354,
+        "f1_scores": [
+          1.0,
+          1.0,
+          0.9885057471264368,
+          0.9942857142857143,
+          1.0
+        ],
+        "roc_auc_mean": 0.9999455634186173,
+        "roc_auc_std": 0.00010887316276537717,
+        "roc_auc_scores": [
+          1.0,
+          1.0,
+          0.9997278170930866,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "model_comparison": [
+      {
+        "Model": "Random Forest",
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1 Score": 1.0,
+        "ROC AUC": 1.0,
+        "CV F1 Mean": 1.0,
+        "CV F1 Std": 0.0
+      },
+      {
+        "Model": "Xgboost",
+        "Accuracy": 1.0,
+        "Precision": 1.0,
+        "Recall": 1.0,
+        "F1 Score": 1.0,
+        "ROC AUC": 1.0,
+        "CV F1 Mean": 0.9971,
+        "CV F1 Std": 0.0058
+      },
+      {
+        "Model": "Svm",
+        "Accuracy": 0.9961,
+        "Precision": 1.0,
+        "Recall": 0.9888,
+        "F1 Score": 0.9944,
+        "ROC AUC": 0.9997,
+        "CV F1 Mean": 0.9971,
+        "CV F1 Std": 0.0058
+      }
+    ],
+    "best_parameters": {
+      "random_forest": {
+        "max_depth": 5,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 50
+      },
+      "xgboost": {
+        "colsample_bytree": 0.7,
+        "learning_rate": 0.01,
+        "max_depth": 3,
+        "n_estimators": 50,
+        "subsample": 0.8
+      },
+      "svm": {
+        "C": 0.1,
+        "gamma": "scale",
+        "kernel": "rbf"
+      }
+    }
+  },
+  "feature_analysis": {
+    "total_features": 20,
+    "engineered_features": 0,
+    "selected_features": [
+      "Unnamed: 3_encoded",
+      "Unnamed: 39_encoded",
+      "Unnamed: 8_encoded",
+      "Unnamed: 37_encoded",
+      "Unnamed: 17_encoded",
+      "Unnamed: 5_encoded",
+      "Unnamed: 7_encoded",
+      "Unnamed: 41_encoded",
+      "Unnamed: 18_encoded",
+      "Unnamed: 38_encoded",
+      "Unnamed: 4_encoded",
+      "Unnamed: 16_encoded",
+      "Unnamed: 40_encoded",
+      "Unnamed: 6_encoded",
+      "Unnamed: 28_encoded",
+      "Unnamed: 24_encoded",
+      "Unnamed: 2_encoded",
+      "Unnamed: 15_encoded",
+      "is_recipient_encoded",
+      "Unnamed: 42_encoded"
+    ],
+    "feature_importance": {
+      "random_forest": [
+        {
+          "feature": "Unnamed: 3_encoded",
+          "importance": 0.2159138349959724
+        },
+        {
+          "feature": "is_recipient_encoded",
+          "importance": 0.1926049852865227
+        },
+        {
+          "feature": "Unnamed: 39_encoded",
+          "importance": 0.15264683192375014
+        },
+        {
+          "feature": "Unnamed: 6_encoded",
+          "importance": 0.1457247442606976
+        },
+        {
+          "feature": "Unnamed: 37_encoded",
+          "importance": 0.11200460291642524
+        },
+        {
+          "feature": "Unnamed: 2_encoded",
+          "importance": 0.05390511790014868
+        },
+        {
+          "feature": "Unnamed: 8_encoded",
+          "importance": 0.03893893856554266
+        },
+        {
+          "feature": "Unnamed: 42_encoded",
+          "importance": 0.02604557909965584
+        },
+        {
+          "feature": "Unnamed: 7_encoded",
+          "importance": 0.025693917786475128
+        },
+        {
+          "feature": "Unnamed: 38_encoded",
+          "importance": 0.013978242555019161
+        },
+        {
+          "feature": "Unnamed: 18_encoded",
+          "importance": 0.012690335816290305
+        },
+        {
+          "feature": "Unnamed: 15_encoded",
+          "importance": 0.009027068547807812
+        },
+        {
+          "feature": "Unnamed: 4_encoded",
+          "importance": 0.0006081718536025808
+        },
+        {
+          "feature": "Unnamed: 16_encoded",
+          "importance": 8.739724725978652e-05
+        },
+        {
+          "feature": "Unnamed: 41_encoded",
+          "importance": 8.724288411304794e-05
+        },
+        {
+          "feature": "Unnamed: 17_encoded",
+          "importance": 4.2988360716942504e-05
+        },
+        {
+          "feature": "Unnamed: 40_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 28_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 24_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 5_encoded",
+          "importance": 0.0
+        }
+      ],
+      "xgboost": [
+        {
+          "feature": "Unnamed: 3_encoded",
+          "importance": 0.3058626353740692
+        },
+        {
+          "feature": "Unnamed: 39_encoded",
+          "importance": 0.2612348794937134
+        },
+        {
+          "feature": "is_recipient_encoded",
+          "importance": 0.2590174078941345
+        },
+        {
+          "feature": "Unnamed: 6_encoded",
+          "importance": 0.17198479175567627
+        },
+        {
+          "feature": "Unnamed: 17_encoded",
+          "importance": 0.0015945258783176541
+        },
+        {
+          "feature": "Unnamed: 15_encoded",
+          "importance": 0.0003057148715015501
+        },
+        {
+          "feature": "Unnamed: 16_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 2_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 24_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 28_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 40_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 4_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 38_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 18_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 41_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 7_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 5_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 37_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 8_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Unnamed: 42_encoded",
+          "importance": 0.0
+        }
+      ]
+    }
+  },
+  "file_paths": {
+    "saved_models": {
+      "random_forest": "models\\random_forest_20250826_135706.pkl",
+      "xgboost": "models\\xgboost_20250826_135706.pkl",
+      "svm": "models\\svm_20250826_135706.pkl"
+    },
+    "reports": {
+      "exploration": "reports\\data_exploration_20250826_135458.json",
+      "preprocessing": "reports\\preprocessing_20250826_135458.json"
+    },
+    "visualizations": {
+      "model_comparison": "visualizations\\model_comparison_20250826_135458.png",
+      "confusion_matrices": "visualizations\\confusion_matrices_20250826_135458.png",
+      "feature_importance": "visualizations\\feature_importance_20250826_135458.png"
+    }
+  }
+}

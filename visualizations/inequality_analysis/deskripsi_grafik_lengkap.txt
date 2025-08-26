@@ -1,0 +1,275 @@
+================================================================================
+📊 DESKRIPSI LENGKAP GRAFIK ANALISIS KETIMPANGAN KIP KULIAH
+================================================================================
+
+File ini berisi penjelasan detail setiap grafik, parameter yang digunakan,
+rentang nilai, dan interpretasi untuk memudahkan pembacaan visualisasi.
+
+🎯 GAMBAR 1: DISPARITAS SOSIAL-EKONOMI
+--------------------------------------------------
+
+📈 1.1 Tingkat Penerimaan berdasarkan Desil P3KE
+   Deskripsi: Menunjukkan tingkat penerimaan KIP Kuliah berdasarkan
+              status kemiskinan keluarga dalam sistem P3KE
+
+   Parameter P3KE Desil:
+   • Desil 1-3  : Keluarga termiskin (prioritas tinggi)
+   • Desil 4-6  : Keluarga menengah bawah
+   • Desil 7-10 : Keluarga menengah ke atas
+
+   Data tersedia:
+   • Desil 1: 41 mahasiswa
+   • Desil 2: 64 mahasiswa
+   • Desil 3: 58 mahasiswa
+   • Desil 4: 42 mahasiswa
+   • Desil 5: 44 mahasiswa
+   • Desil 6: 39 mahasiswa
+   • Desil 7: 34 mahasiswa
+
+📈 1.2 Tingkat Penerimaan berdasarkan Penghasilan Ayah
+   Deskripsi: Tingkat penerimaan berdasarkan kategori penghasilan ayah
+
+   Parameter Penghasilan Ayah (Kode → Rentang):
+   • -1 : Data tidak tersedia/tidak diketahui
+   •  0 : Tidak berpenghasilan
+   •  1 : < Rp 250.000
+   •  2 : Rp 250.001 - Rp 500.000
+   •  3 : Rp 500.001 - Rp 750.000
+   •  4 : Rp 750.001 - Rp 1.000.000
+   •  5 : Rp 1.000.001 - Rp 1.250.000
+   •  6 : Rp 1.250.001 - Rp 1.500.000
+   •  7 : Rp 1.500.001 - Rp 1.750.000
+   •  8 : Rp 1.750.001 - Rp 2.000.000
+   •  9 : > Rp 2.000.000
+
+   Data tersedia:
+   • Kode -1: 513 mahasiswa
+   • Kode 0: 46 mahasiswa
+   • Kode 1: 14 mahasiswa
+   • Kode 2: 34 mahasiswa
+   • Kode 3: 32 mahasiswa
+   • Kode 4: 62 mahasiswa
+   • Kode 5: 45 mahasiswa
+   • Kode 6: 42 mahasiswa
+   • Kode 7: 20 mahasiswa
+   • Kode 8: 35 mahasiswa
+
+📈 1.3 Kualitas Hunian vs Tingkat Penerimaan
+   Deskripsi: Skor kualitas hunian berdasarkan gabungan kepemilikan
+              rumah dan akses listrik
+
+   Parameter Skor Kualitas Hunian (0-5):
+   • Kepemilikan Rumah:
+     - Milik sendiri: +3 poin
+     - Sewa tahunan: +2 poin
+     - Sewa bulanan: +1 poin
+     - Menumpang/tidak punya: +0 poin
+   • Sumber Listrik:
+     - PLN: +2 poin
+     - PLN + Genset: +1 poin
+     - Menumpang/tidak ada: +0 poin
+
+📈 1.4 Dampak Kemiskinan Multidimensi
+   Deskripsi: Menghitung dampak akumulatif berbagai faktor kemiskinan
+
+   Parameter Faktor Kemiskinan:
+   • Faktor Ekonomi: P3KE Desil 1-3 (+2 poin)
+   • Faktor Geografis: Tinggal di pedesaan (+1 poin)
+   • Faktor Gender: Perempuan (+1 poin)
+   • Skor 0-4: Semakin tinggi = semakin disadvantaged
+
+🎯 GAMBAR 2: DISPARITAS PENDIDIKAN
+--------------------------------------------------
+
+📈 2.1 Tingkat Penerimaan berdasarkan Jenis Sekolah
+   Deskripsi: Perbandingan tingkat penerimaan berdasarkan asal sekolah
+
+   Kategori Jenis Sekolah:
+   • SMA Negeri: Sekolah menengah atas negeri
+   • SMA Swasta: Sekolah menengah atas swasta
+   • SMK: Sekolah menengah kejuruan
+   • Madrasah: Madrasah Aliyah
+   • Other: Sekolah lainnya/tidak terkategorisasi
+
+📈 2.2 Perkotaan vs Pedesaan
+   Deskripsi: Perbandingan akses berdasarkan lokasi geografis
+
+   Parameter Geografis:
+   • Perkotaan: Kab/Kota mengandung kata 'Kota'
+   • Pedesaan: Kab/Kota lainnya (umumnya 'Kabupaten')
+
+📈 2.3 Tingkat Penerimaan berdasarkan Provinsi
+   Deskripsi: Distribusi penerimaan per provinsi asal sekolah
+   Note: Hanya menampilkan provinsi dengan minimal 5 pendaftar
+
+📈 2.4 Tingkat Penerimaan berdasarkan Kelompok Usia
+   Deskripsi: Distribusi penerimaan berdasarkan usia mahasiswa
+
+   Parameter Kelompok Usia:
+   • Sangat Muda: ≤ 18 tahun
+   • Muda: 19-20 tahun
+   • Rata-rata: 21-22 tahun
+   • Tua: 23-25 tahun
+   • Sangat Tua: ≥ 26 tahun
+
+   Statistik Usia:
+   • Rentang: 17 - 24 tahun
+   • Rata-rata: 19.9 tahun
+
+🎯 GAMBAR 3: TREN TEMPORAL (2022-2024)
+--------------------------------------------------
+
+📈 3.1 Tren Tingkat Penerimaan Secara Keseluruhan
+   Deskripsi: Perubahan tingkat penerimaan KIP Kuliah dari 2022-2024
+
+   Data per Tahun:
+   • 2022: 439.0/843.0 = 52.1%
+
+📈 3.2 Tren Kesetaraan Gender
+   Deskripsi: Perbandingan tingkat penerimaan laki-laki vs perempuan
+              dari tahun ke tahun
+
+📈 3.3 Indeks Ketimpangan berdasarkan P3KE
+   Deskripsi: Mengukur tingkat ketimpangan antar desil P3KE
+   Metode: Coefficient of Variation (CV) = std/mean
+   • CV tinggi = ketimpangan tinggi
+   • CV rendah = distribusi lebih merata
+
+📈 3.4 Kesenjangan Penerimaan Perkotaan-Pedesaan
+   Deskripsi: Selisih tingkat penerimaan antara perkotaan dan pedesaan
+   • Nilai positif = perkotaan lebih tinggi
+   • Nilai negatif = pedesaan lebih tinggi
+
+🎯 GAMBAR 4: ANALISIS INTERSEKSIONAL
+--------------------------------------------------
+
+📈 4.1 Gender × Status Ekonomi
+   Deskripsi: Heatmap tingkat penerimaan berdasarkan kombinasi
+              gender dan status ekonomi
+
+   Parameter Status Ekonomi:
+   • Miskin (1-3): P3KE Desil 1-3
+   • Menengah (4-7): P3KE Desil 4-7
+   • Kaya (8-10): P3KE Desil 8-10
+
+📈 4.2 Jenis Sekolah × Lokasi Geografis
+   Deskripsi: Interaksi antara jenis sekolah dan lokasi geografis
+   Format: Heatmap dengan intensitas warna menunjukkan
+           tingkat penerimaan
+
+📈 4.3 Status Ekonomi × Interaksi Geografis
+   Deskripsi: Perbandingan dampak status ekonomi di perkotaan
+              vs pedesaan
+   Format: Bar chart berpasangan (perkotaan vs pedesaan)
+           untuk setiap kategori ekonomi
+
+📈 4.4 Dampak Kemiskinan Multidimensi
+   Deskripsi: Mengukur dampak akumulatif multiple disadvantage
+   Metode: Penjumlahan skor dari berbagai faktor kemiskinan
+   • Skor 0: Tidak ada faktor kemiskinan
+   • Skor 4: Semua faktor kemiskinan ada
+
+🎯 GAMBAR 5: ANALISIS REGRESI LOGISTIK MULTIVARIAT
+--------------------------------------------------
+
+📈 5.1 Pentingnya Variabel (Magnitude Koefisien)
+   Deskripsi: Menunjukkan seberapa kuat pengaruh masing-masing variabel
+              terhadap probabilitas diterima KIP Kuliah
+
+   Interpretasi:
+   • Sumbu X: Magnitude (nilai absolut) koefisien regresi logistik
+   • Sumbu Y: Variabel-variabel yang dianalisis
+   • Semakin panjang bar = semakin kuat pengaruhnya
+   • Urutan dari atas: variabel paling berpengaruh
+
+📈 5.2 Arah Pengaruh Variabel
+   Deskripsi: Menunjukkan apakah variabel meningkatkan atau
+              menurunkan peluang diterima
+
+   Parameter Warna:
+   • Hijau (positif): Meningkatkan peluang diterima
+   • Merah (negatif): Menurunkan peluang diterima
+   • Garis putus-putus hitam: Titik netral (koefisien = 0)
+
+📈 5.3 Kalibrasi Model: Prediksi vs Aktual
+   Deskripsi: Mengukur seberapa akurat prediksi probabilitas model
+
+   Interpretasi:
+   • Sumbu X: Probabilitas prediksi model (0-1)
+   • Sumbu Y: Tingkat penerimaan aktual
+   • Garis merah putus-putus: Prediksi sempurna
+   • Titik mendekati garis = model terkalibrasi baik
+
+📈 5.4 Odds Ratio dengan Signifikansi Statistik
+   Deskripsi: Mengukur seberapa besar variabel mengubah odds
+              diterima, dengan tingkat signifikansi statistik
+
+   Parameter Odds Ratio:
+   • OR > 1 (hijau): Meningkatkan odds diterima
+   • OR < 1 (merah): Menurunkan odds diterima
+   • OR = 1: Tidak ada pengaruh
+
+   Tingkat Signifikansi:
+   • *** : p < 0.001 (sangat signifikan)
+   • ** : p < 0.01 (signifikan)
+   • * : p < 0.05 (cukup signifikan)
+   • (kosong): p ≥ 0.05 (tidak signifikan)
+
+   Contoh Interpretasi:
+   • OR = 1.5***: Meningkatkan odds 50%, sangat signifikan
+   • OR = 0.7**: Menurunkan odds 30%, signifikan
+
+🔍 VARIABEL YANG DIANALISIS DALAM REGRESI:
+
+   Ekonomi:
+   • P3KE Desil: Tingkat kemiskinan keluarga (1-10)
+   • Penghasilan Ayah: Kategori penghasilan ayah (0-9)
+   • Kualitas Hunian: Skor gabungan rumah + listrik (0-5)
+
+   Geografis:
+   • Perkotaan: 1=Perkotaan, 0=Pedesaan
+
+   Demografis:
+   • Perempuan: 1=Perempuan, 0=Laki-laki
+   • Usia: Usia mahasiswa saat mendaftar
+
+   Pendidikan:
+   • Jenis Sekolah: Encoded kategorical (SMA/SMK/MA/dll)
+
+⚠️  CATATAN KUALITAS DATA
+--------------------------------------------------
+
+1. Data Missing:
+   • Kode -1 pada penghasilan = data tidak tersedia/invalid
+   • P3KE Desil kosong untuk sebagian data pendaftar
+   • Beberapa kategori dengan sampel kecil (<10) tidak ditampilkan
+
+2. Metodologi:
+   • Confidence intervals menggunakan distribusi normal
+   • Filter minimum 5-10 sampel untuk analisis statistik
+   • Missing values dihandle sesuai konteks masing-masing variabel
+
+3. Interpretasi:
+   • Semua tingkat penerimaan dalam rentang 0-1 (0% - 100%)
+   • Error bars menunjukkan 95% confidence interval
+   • Ukuran sampel mempengaruhi reliability analisis
+
+📊 RINGKASAN STATISTIK DATASET
+--------------------------------------------------
+
+• Total Mahasiswa: 843
+• Diterima KIP: 439
+• Tingkat Penerimaan Keseluruhan: 52.1%
+• Periode Data: 2022-2024
+
+• Distribusi Gender:
+  - Laki-laki: 426 (50.5%)
+  - Perempuan: 416 (49.3%)
+
+• Distribusi per Tahun:
+  - 2022: 843 mahasiswa
+
+================================================================================
+📅 Dokumen dibuat: 26 August 2025, 16:37 WIB
+🔗 Sumber: Analisis KIP Kuliah Politeknik Negeri Cilacap
+================================================================================

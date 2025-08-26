@@ -1,12 +1,25 @@
-# Dependencies untuk K-Prototype Clustering Analysis
+# KIP Kuliah Classification System Dependencies
 # Install dengan: pip install -r requirements.txt
 
+# Data Processing and Analysis
 pandas>=1.5.0
 numpy>=1.21.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+
+# Data Visualization
 matplotlib>=3.5.0
 seaborn>=0.11.0
-scikit-learn>=1.1.0
-kmodes>=0.12.2
+
+# Utilities
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# Optional: For advanced data handling
+openpyxl>=3.0.0  # For Excel files if needed
+xlrd>=2.0.0      # For older Excel formats
 
 # Optional untuk enhanced visualization
 plotly>=5.0.0

@@ -1,0 +1,1029 @@
+{
+  "project_info": {
+    "title": "KIP Kuliah Classification System",
+    "description": "Socio-Economic Factor Analysis for Educational Support",
+    "timestamp": "2025-08-26T15:09:01.813380",
+    "version": "1.0"
+  },
+  "configuration": {
+    "base_path": "c:\\laragon\\www\\ML_KIPKuliah\\Bahan Laporan KIP Kuliah 2022 s.d 2024",
+    "test_size": 0.2,
+    "random_state": 42,
+    "cv_folds": 5,
+    "feature_selection": true,
+    "hyperparameter_tuning": true
+  },
+  "data_summary": {
+    "dataset_info": {
+      "total_files": 10,
+      "pendaftar_files": 7,
+      "penerima_files": 3,
+      "years_covered": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    "data_shape": {
+      "pendaftar_records": 831,
+      "penerima_records": 439,
+      "total_records": 858
+    },
+    "features": {
+      "economic_status": [
+        "Penghasilan Ayah",
+        "Penghasilan Ibu",
+        "Pekerjaan Ayah",
+        "Pekerjaan Ibu",
+        "Status DTKS",
+        "Status P3KE",
+        "No. KIP",
+        "No. KKS"
+      ],
+      "family_structure": [
+        "Jumlah Tanggungan",
+        "Status Ayah",
+        "Status Ibu"
+      ],
+      "housing_conditions": [
+        "Kepemilikan Rumah",
+        "Tahun Perolehan",
+        "Luas Tanah",
+        "Luas Bangunan",
+        "Sumber Listrik",
+        "Sumber Air",
+        "MCK"
+      ],
+      "geographic": [
+        "Kab/Kota Sekolah",
+        "Provinsi Sekolah",
+        "Jarak Pusat Kota (KM)"
+      ],
+      "demographic": [
+        "Jenis Kelamin",
+        "Tempat Lahir",
+        "Tanggal Lahir"
+      ],
+      "education": [
+        "Asal Sekolah",
+        "Prestasi Siswa",
+        "Prestasi"
+      ]
+    },
+    "missing_values": {
+      "pendaftar_missing_counts": "#                          0\nNo. Pendaftaran            0\nKAP                      329\nNama Siswa                 0\nNIK                        0\nNo. Kartu Keluarga         0\nNIK Kepala Keluarga        0\nNISN                       0\nStatus DTKS                0\nNo. KIP                    0\nNo. KKS                   46\nAsal Sekolah               0\nKab/Kota Sekolah           0\nProvinsi Sekolah           0\nTempat Lahir               0\nTanggal Lahir              0\nJenis Kelamin              0\nAlamat Tinggal             0\nNo. Handphone              0\nAlamat Email               0\nNama Ayah                  0\nPekerjaan Ayah             0\nPenghasilan Ayah           0\nStatus Ayah                1\nNama Ibu                   0\nPekerjaan Ibu              0\nPenghasilan Ibu            0\nStatus Ibu                 1\nJumlah Tanggungan          0\nKepemilikan Rumah          0\nTahun Perolehan            0\nSumber Listrik             0\nLuas Tanah                 0\nLuas Bangunan              0\nSumber Air                 0\nMCK                        0\nJarak Pusat Kota (KM)      0\nPilihan PT               329\nPilihan Prodi 1          329\nPilihan Prodi 2          329\nPrestasi Siswa           687\nTanggal Daftar           329\nsource_file                0\nyear                       0\nis_recipient               0\nStatus P3KE              435\nTanggal Dicalonkan       502\nUser Pencalonan          502\nPrestasi                 773\nSNMPN                    502\nSBMPN                    502\nSeleksi Mandiri PTN      502\nSNBP                     502\nUTBK-SNBT                502\nSeleksi Mandiri PTS      502\ndtype: int64",
+      "pendaftar_missing_percentages": "#                         0.000000\nNo. Pendaftaran           0.000000\nKAP                      39.590854\nNama Siswa                0.000000\nNIK                       0.000000\nNo. Kartu Keluarga        0.000000\nNIK Kepala Keluarga       0.000000\nNISN                      0.000000\nStatus DTKS               0.000000\nNo. KIP                   0.000000\nNo. KKS                   5.535499\nAsal Sekolah              0.000000\nKab/Kota Sekolah          0.000000\nProvinsi Sekolah          0.000000\nTempat Lahir              0.000000\nTanggal Lahir             0.000000\nJenis Kelamin             0.000000\nAlamat Tinggal            0.000000\nNo. Handphone             0.000000\nAlamat Email              0.000000\nNama Ayah                 0.000000\nPekerjaan Ayah            0.000000\nPenghasilan Ayah          0.000000\nStatus Ayah               0.120337\nNama Ibu                  0.000000\nPekerjaan Ibu             0.000000\nPenghasilan Ibu           0.000000\nStatus Ibu                0.120337\nJumlah Tanggungan         0.000000\nKepemilikan Rumah         0.000000\nTahun Perolehan           0.000000\nSumber Listrik            0.000000\nLuas Tanah                0.000000\nLuas Bangunan             0.000000\nSumber Air                0.000000\nMCK                       0.000000\nJarak Pusat Kota (KM)     0.000000\nPilihan PT               39.590854\nPilihan Prodi 1          39.590854\nPilihan Prodi 2          39.590854\nPrestasi Siswa           82.671480\nTanggal Daftar           39.590854\nsource_file               0.000000\nyear                      0.000000\nis_recipient              0.000000\nStatus P3KE              52.346570\nTanggal Dicalonkan       60.409146\nUser Pencalonan          60.409146\nPrestasi                 93.020457\nSNMPN                    60.409146\nSBMPN                    60.409146\nSeleksi Mandiri PTN      60.409146\nSNBP                     60.409146\nUTBK-SNBT                60.409146\nSeleksi Mandiri PTS      60.409146\ndtype: float64",
+      "penerima_missing_counts": "#                             0\nNo. Pendaftaran               0\nNama Siswa                    0\nNIK                           0\nNo. Kartu Keluarga            0\nNIK Kepala Keluarga           0\nNISN                          0\nStatus DTKS                   0\nStatus P3KE                   0\nNo. KIP                       0\nNo. KKS                      18\nAsal Sekolah                  0\nKab/Kota Sekolah              0\nProvinsi Sekolah              0\nTempat Lahir                  0\nTanggal Lahir                 0\nJenis Kelamin                 0\nAlamat Tinggal                0\nNo. Handphone                 0\nAlamat Email                  0\nNama Ayah                     0\nPekerjaan Ayah                0\nPenghasilan Ayah              0\nStatus Ayah                   0\nNama Ibu                      0\nPekerjaan Ibu                 0\nPenghasilan Ibu               0\nStatus Ibu                    0\nJumlah Tanggungan             0\nKepemilikan Rumah             0\nTahun Perolehan               0\nSumber Listrik                0\nLuas Tanah                    0\nLuas Bangunan                 0\nSumber Air                    0\nMCK                           0\nJarak Pusat Kota (KM)         0\nTanggal Ditetapkan            0\nUser Penetapan                0\nSeleksi Penetapan             0\nPerguruan Tinggi              0\nProgram Studi                 0\nAkreditasi Prodi              0\nSkema Bantuan Pembiayaan      0\nPrestasi                    360\nsource_file                   0\nyear                          0\nis_recipient                  0\ndtype: int64",
+      "penerima_missing_percentages": "#                            0.000000\nNo. Pendaftaran              0.000000\nNama Siswa                   0.000000\nNIK                          0.000000\nNo. Kartu Keluarga           0.000000\nNIK Kepala Keluarga          0.000000\nNISN                         0.000000\nStatus DTKS                  0.000000\nStatus P3KE                  0.000000\nNo. KIP                      0.000000\nNo. KKS                      4.100228\nAsal Sekolah                 0.000000\nKab/Kota Sekolah             0.000000\nProvinsi Sekolah             0.000000\nTempat Lahir                 0.000000\nTanggal Lahir                0.000000\nJenis Kelamin                0.000000\nAlamat Tinggal               0.000000\nNo. Handphone                0.000000\nAlamat Email                 0.000000\nNama Ayah                    0.000000\nPekerjaan Ayah               0.000000\nPenghasilan Ayah             0.000000\nStatus Ayah                  0.000000\nNama Ibu                     0.000000\nPekerjaan Ibu                0.000000\nPenghasilan Ibu              0.000000\nStatus Ibu                   0.000000\nJumlah Tanggungan            0.000000\nKepemilikan Rumah            0.000000\nTahun Perolehan              0.000000\nSumber Listrik               0.000000\nLuas Tanah                   0.000000\nLuas Bangunan                0.000000\nSumber Air                   0.000000\nMCK                          0.000000\nJarak Pusat Kota (KM)        0.000000\nTanggal Ditetapkan           0.000000\nUser Penetapan               0.000000\nSeleksi Penetapan            0.000000\nPerguruan Tinggi             0.000000\nProgram Studi                0.000000\nAkreditasi Prodi             0.000000\nSkema Bantuan Pembiayaan     0.000000\nPrestasi                    82.004556\nsource_file                  0.000000\nyear                         0.000000\nis_recipient                 0.000000\ndtype: float64"
+    },
+    "columns": {
+      "pendaftar_columns": [
+        "#",
+        "No. Pendaftaran",
+        "KAP",
+        "Nama Siswa",
+        "NIK",
+        "No. Kartu Keluarga",
+        "NIK Kepala Keluarga",
+        "NISN",
+        "Status DTKS",
+        "No. KIP",
+        "No. KKS",
+        "Asal Sekolah",
+        "Kab/Kota Sekolah",
+        "Provinsi Sekolah",
+        "Tempat Lahir",
+        "Tanggal Lahir",
+        "Jenis Kelamin",
+        "Alamat Tinggal",
+        "No. Handphone",
+        "Alamat Email",
+        "Nama Ayah",
+        "Pekerjaan Ayah",
+        "Penghasilan Ayah",
+        "Status Ayah",
+        "Nama Ibu",
+        "Pekerjaan Ibu",
+        "Penghasilan Ibu",
+        "Status Ibu",
+        "Jumlah Tanggungan",
+        "Kepemilikan Rumah",
+        "Tahun Perolehan",
+        "Sumber Listrik",
+        "Luas Tanah",
+        "Luas Bangunan",
+        "Sumber Air",
+        "MCK",
+        "Jarak Pusat Kota (KM)",
+        "Pilihan PT",
+        "Pilihan Prodi 1",
+        "Pilihan Prodi 2",
+        "Prestasi Siswa",
+        "Tanggal Daftar",
+        "source_file",
+        "year",
+        "is_recipient",
+        "Status P3KE",
+        "Tanggal Dicalonkan",
+        "User Pencalonan",
+        "Prestasi",
+        "SNMPN",
+        "SBMPN",
+        "Seleksi Mandiri PTN",
+        "SNBP",
+        "UTBK-SNBT",
+        "Seleksi Mandiri PTS"
+      ],
+      "penerima_columns": [
+        "#",
+        "No. Pendaftaran",
+        "Nama Siswa",
+        "NIK",
+        "No. Kartu Keluarga",
+        "NIK Kepala Keluarga",
+        "NISN",
+        "Status DTKS",
+        "Status P3KE",
+        "No. KIP",
+        "No. KKS",
+        "Asal Sekolah",
+        "Kab/Kota Sekolah",
+        "Provinsi Sekolah",
+        "Tempat Lahir",
+        "Tanggal Lahir",
+        "Jenis Kelamin",
+        "Alamat Tinggal",
+        "No. Handphone",
+        "Alamat Email",
+        "Nama Ayah",
+        "Pekerjaan Ayah",
+        "Penghasilan Ayah",
+        "Status Ayah",
+        "Nama Ibu",
+        "Pekerjaan Ibu",
+        "Penghasilan Ibu",
+        "Status Ibu",
+        "Jumlah Tanggungan",
+        "Kepemilikan Rumah",
+        "Tahun Perolehan",
+        "Sumber Listrik",
+        "Luas Tanah",
+        "Luas Bangunan",
+        "Sumber Air",
+        "MCK",
+        "Jarak Pusat Kota (KM)",
+        "Tanggal Ditetapkan",
+        "User Penetapan",
+        "Seleksi Penetapan",
+        "Perguruan Tinggi",
+        "Program Studi",
+        "Akreditasi Prodi",
+        "Skema Bantuan Pembiayaan",
+        "Prestasi",
+        "source_file",
+        "year",
+        "is_recipient"
+      ],
+      "common_columns": [
+        "Prestasi",
+        "is_recipient",
+        "Sumber Listrik",
+        "Jarak Pusat Kota (KM)",
+        "Status DTKS",
+        "No. Handphone",
+        "Nama Ayah",
+        "Penghasilan Ayah",
+        "source_file",
+        "Jenis Kelamin",
+        "Penghasilan Ibu",
+        "Status Ibu",
+        "NIK",
+        "Tahun Perolehan",
+        "No. KKS",
+        "Nama Siswa",
+        "Kab/Kota Sekolah",
+        "Tanggal Lahir",
+        "Alamat Tinggal",
+        "#",
+        "Tempat Lahir",
+        "Nama Ibu",
+        "Status Ayah",
+        "year",
+        "Status P3KE",
+        "Jumlah Tanggungan",
+        "No. KIP",
+        "Provinsi Sekolah",
+        "Luas Bangunan",
+        "Asal Sekolah",
+        "Alamat Email",
+        "Sumber Air",
+        "No. Pendaftaran",
+        "NISN",
+        "Luas Tanah",
+        "MCK",
+        "Pekerjaan Ibu",
+        "Pekerjaan Ayah",
+        "Kepemilikan Rumah",
+        "NIK Kepala Keluarga",
+        "No. Kartu Keluarga"
+      ],
+      "pendaftar_unique": [
+        "Pilihan PT",
+        "Tanggal Daftar",
+        "UTBK-SNBT",
+        "SNMPN",
+        "KAP",
+        "Seleksi Mandiri PTS",
+        "User Pencalonan",
+        "Tanggal Dicalonkan",
+        "Prestasi Siswa",
+        "Pilihan Prodi 2",
+        "SBMPN",
+        "Pilihan Prodi 1",
+        "SNBP",
+        "Seleksi Mandiri PTN"
+      ],
+      "penerima_unique": [
+        "Seleksi Penetapan",
+        "Perguruan Tinggi",
+        "Skema Bantuan Pembiayaan",
+        "User Penetapan",
+        "Akreditasi Prodi",
+        "Tanggal Ditetapkan",
+        "Program Studi"
+      ]
+    },
+    "target_distribution": {
+      "recipients": 439,
+      "non_recipients": 419,
+      "recipient_rate": 0.5116550116550117
+    }
+  },
+  "preprocessing_summary": {
+    "timestamp": "2025-08-26T15:08:06.940477",
+    "configuration": {
+      "base_path": "c:\\laragon\\www\\ML_KIPKuliah\\Bahan Laporan KIP Kuliah 2022 s.d 2024",
+      "test_size": 0.2,
+      "random_state": 42,
+      "cv_folds": 5,
+      "feature_selection": true,
+      "hyperparameter_tuning": true
+    },
+    "preprocessing_info": {
+      "n_features_original": 62,
+      "n_features_selected": 20,
+      "n_engineered_features": 38,
+      "n_encoded_features": 29,
+      "train_samples": 686,
+      "test_samples": 172,
+      "class_distribution": {
+        "1": 439,
+        "0": 419
+      }
+    },
+    "feature_names": [
+      "working_parents_count",
+      "ayah_working",
+      "housing_ownership_score",
+      "housing_quality_score",
+      "is_urban",
+      "is_rural",
+      "from_developed_province",
+      "has_p3ke",
+      "p3ke_desil",
+      "total_assistance_programs",
+      "age",
+      "Prestasi_encoded",
+      "Sumber Listrik_encoded",
+      "Kab/Kota Sekolah_encoded",
+      "Tempat Lahir_encoded",
+      "Status P3KE_encoded",
+      "Luas Bangunan_encoded",
+      "Asal Sekolah_encoded",
+      "Sumber Air_encoded",
+      "Pekerjaan Ibu_encoded"
+    ],
+    "engineered_features": [
+      "penghasilan_ayah_numeric",
+      "penghasilan_ibu_numeric",
+      "total_family_income",
+      "income_category_encoded",
+      "jumlah_tanggungan_numeric",
+      "income_per_capita",
+      "income_adequacy_ratio",
+      "working_parents_count",
+      "dependency_ratio",
+      "ayah_hidup",
+      "ibu_hidup",
+      "both_parents_alive",
+      "ayah_working",
+      "ibu_working",
+      "working_parents_count",
+      "housing_ownership_score",
+      "sumber_listrik_score",
+      "sumber_air_score",
+      "mck_score",
+      "total_utility_score",
+      "avg_utility_score",
+      "luas_tanah_numeric",
+      "luas_bangunan_numeric",
+      "living_space_per_person",
+      "is_overcrowded",
+      "housing_quality_score",
+      "jarak_numeric",
+      "is_urban",
+      "is_rural",
+      "from_developed_province",
+      "has_dtks",
+      "has_p3ke",
+      "p3ke_desil",
+      "has_kip",
+      "has_kks",
+      "total_assistance_programs",
+      "is_female",
+      "age"
+    ],
+    "data_quality": {
+      "train_samples": 686,
+      "test_samples": 172,
+      "feature_count": 20,
+      "target_distribution": {
+        "1": 439,
+        "0": 419
+      }
+    }
+  },
+  "model_results": {
+    "evaluation_results": {
+      "random_forest": {
+        "accuracy": 0.936046511627907,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1_score": 0.9411764705882353,
+        "confusion_matrix": [
+          [
+            73,
+            11
+          ],
+          [
+            0,
+            88
+          ]
+        ],
+        "roc_auc": 0.9557629870129869,
+        "classification_report": {
+          "0": {
+            "precision": 1.0,
+            "recall": 0.8690476190476191,
+            "f1-score": 0.9299363057324841,
+            "support": 84.0
+          },
+          "1": {
+            "precision": 0.8888888888888888,
+            "recall": 1.0,
+            "f1-score": 0.9411764705882353,
+            "support": 88.0
+          },
+          "accuracy": 0.936046511627907,
+          "macro avg": {
+            "precision": 0.9444444444444444,
+            "recall": 0.9345238095238095,
+            "f1-score": 0.9355563881603597,
+            "support": 172.0
+          },
+          "weighted avg": {
+            "precision": 0.9431524547803618,
+            "recall": 0.936046511627907,
+            "f1-score": 0.9356870877517056,
+            "support": 172.0
+          }
+        },
+        "cv_f1_mean": 0.9230109877329131,
+        "cv_f1_std": 0.021123457999524753,
+        "top_features": [
+          {
+            "feature": "has_p3ke",
+            "importance": 0.5146167169986167
+          },
+          {
+            "feature": "p3ke_desil",
+            "importance": 0.16287643058401752
+          },
+          {
+            "feature": "Status P3KE_encoded",
+            "importance": 0.12432560685749539
+          },
+          {
+            "feature": "total_assistance_programs",
+            "importance": 0.05777715177063666
+          },
+          {
+            "feature": "age",
+            "importance": 0.0407804383911058
+          },
+          {
+            "feature": "Prestasi_encoded",
+            "importance": 0.022647883860066012
+          },
+          {
+            "feature": "Tempat Lahir_encoded",
+            "importance": 0.017640152455827476
+          },
+          {
+            "feature": "Asal Sekolah_encoded",
+            "importance": 0.015255189394116067
+          },
+          {
+            "feature": "Kab/Kota Sekolah_encoded",
+            "importance": 0.013827983279485576
+          },
+          {
+            "feature": "housing_ownership_score",
+            "importance": 0.00566450629726192
+          }
+        ]
+      },
+      "xgboost": {
+        "accuracy": 0.9302325581395349,
+        "precision": 0.8877551020408163,
+        "recall": 0.9886363636363636,
+        "f1_score": 0.9354838709677419,
+        "confusion_matrix": [
+          [
+            73,
+            11
+          ],
+          [
+            1,
+            87
+          ]
+        ],
+        "roc_auc": 0.9523809523809523,
+        "classification_report": {
+          "0": {
+            "precision": 0.9864864864864865,
+            "recall": 0.8690476190476191,
+            "f1-score": 0.9240506329113924,
+            "support": 84.0
+          },
+          "1": {
+            "precision": 0.8877551020408163,
+            "recall": 0.9886363636363636,
+            "f1-score": 0.9354838709677419,
+            "support": 88.0
+          },
+          "accuracy": 0.9302325581395349,
+          "macro avg": {
+            "precision": 0.9371207942636515,
+            "recall": 0.9288419913419914,
+            "f1-score": 0.9297672519395672,
+            "support": 172.0
+          },
+          "weighted avg": {
+            "precision": 0.935972754909632,
+            "recall": 0.9302325581395349,
+            "f1-score": 0.9299001965681294,
+            "support": 172.0
+          }
+        },
+        "cv_f1_mean": 0.9201734708741078,
+        "cv_f1_std": 0.021514164353063952,
+        "top_features": [
+          {
+            "feature": "has_p3ke",
+            "importance": 0.4609767496585846
+          },
+          {
+            "feature": "p3ke_desil",
+            "importance": 0.19267375767230988
+          },
+          {
+            "feature": "Status P3KE_encoded",
+            "importance": 0.1556425243616104
+          },
+          {
+            "feature": "total_assistance_programs",
+            "importance": 0.03562299162149429
+          },
+          {
+            "feature": "Prestasi_encoded",
+            "importance": 0.026765121147036552
+          },
+          {
+            "feature": "Sumber Listrik_encoded",
+            "importance": 0.025166062638163567
+          },
+          {
+            "feature": "age",
+            "importance": 0.02331652119755745
+          },
+          {
+            "feature": "Luas Bangunan_encoded",
+            "importance": 0.015643907710909843
+          },
+          {
+            "feature": "housing_quality_score",
+            "importance": 0.013119293376803398
+          },
+          {
+            "feature": "Tempat Lahir_encoded",
+            "importance": 0.010011008009314537
+          }
+        ]
+      },
+      "svm": {
+        "accuracy": 0.6511627906976745,
+        "precision": 0.6428571428571429,
+        "recall": 0.7159090909090909,
+        "f1_score": 0.6774193548387096,
+        "confusion_matrix": [
+          [
+            49,
+            35
+          ],
+          [
+            25,
+            63
+          ]
+        ],
+        "roc_auc": 0.7510822510822511,
+        "classification_report": {
+          "0": {
+            "precision": 0.6621621621621622,
+            "recall": 0.5833333333333334,
+            "f1-score": 0.620253164556962,
+            "support": 84.0
+          },
+          "1": {
+            "precision": 0.6428571428571429,
+            "recall": 0.7159090909090909,
+            "f1-score": 0.6774193548387096,
+            "support": 88.0
+          },
+          "accuracy": 0.6511627906976745,
+          "macro avg": {
+            "precision": 0.6525096525096525,
+            "recall": 0.6496212121212122,
+            "f1-score": 0.6488362596978359,
+            "support": 172.0
+          },
+          "weighted avg": {
+            "precision": 0.6522851755409895,
+            "recall": 0.6511627906976745,
+            "f1-score": 0.6495009828406468,
+            "support": 172.0
+          }
+        },
+        "cv_f1_mean": 0.6599155388158168,
+        "cv_f1_std": 0.032867676905852794,
+        "top_features": [
+          {
+            "feature": "Asal Sekolah_encoded",
+            "importance": 0.04488396621250203
+          },
+          {
+            "feature": "Tempat Lahir_encoded",
+            "importance": 0.030255841317732846
+          },
+          {
+            "feature": "Prestasi_encoded",
+            "importance": 0.024703956017199113
+          },
+          {
+            "feature": "Kab/Kota Sekolah_encoded",
+            "importance": 0.012180732441138565
+          },
+          {
+            "feature": "Status P3KE_encoded",
+            "importance": 0.011122778094562557
+          }
+        ]
+      }
+    },
+    "cross_validation_results": {
+      "random_forest": {
+        "accuracy_mean": 0.9172514619883041,
+        "accuracy_std": 0.015805762309678582,
+        "accuracy_scores": [
+          0.936046511627907,
+          0.9127906976744186,
+          0.9011627906976745,
+          0.9005847953216374,
+          0.935672514619883
+        ],
+        "precision_mean": 0.8627536710477072,
+        "precision_std": 0.02151203027414897,
+        "precision_scores": [
+          0.8888888888888888,
+          0.8543689320388349,
+          0.8446601941747572,
+          0.8380952380952381,
+          0.8877551020408163
+        ],
+        "recall_mean": 0.9977272727272727,
+        "recall_std": 0.004545454545454541,
+        "recall_scores": [
+          1.0,
+          1.0,
+          0.9886363636363636,
+          1.0,
+          1.0
+        ],
+        "f1_mean": 0.9252189685117329,
+        "f1_std": 0.013287175624062276,
+        "f1_scores": [
+          0.9411764705882353,
+          0.9214659685863874,
+          0.9109947643979057,
+          0.9119170984455959,
+          0.9405405405405406
+        ],
+        "roc_auc_mean": 0.9424670768459718,
+        "roc_auc_std": 0.010470448887956452,
+        "roc_auc_scores": [
+          0.9584686147186148,
+          0.9272186147186147,
+          0.9476461038961039,
+          0.9367469879518072,
+          0.9422550629447182
+        ]
+      },
+      "xgboost": {
+        "accuracy_mean": 0.9160818713450294,
+        "accuracy_std": 0.01715459839393591,
+        "accuracy_scores": [
+          0.936046511627907,
+          0.9127906976744186,
+          0.9011627906976745,
+          0.8947368421052632,
+          0.935672514619883
+        ],
+        "precision_mean": 0.8624423157363518,
+        "precision_std": 0.021874877900789264,
+        "precision_scores": [
+          0.8888888888888888,
+          0.8543689320388349,
+          0.8446601941747572,
+          0.8365384615384616,
+          0.8877551020408163
+        ],
+        "recall_mean": 0.9954545454545455,
+        "recall_std": 0.005567022142689036,
+        "recall_scores": [
+          1.0,
+          1.0,
+          0.9886363636363636,
+          0.9886363636363636,
+          1.0
+        ],
+        "f1_mean": 0.9240855488226138,
+        "f1_std": 0.014554751791134616,
+        "f1_scores": [
+          0.9411764705882353,
+          0.9214659685863874,
+          0.9109947643979057,
+          0.90625,
+          0.9405405405405406
+        ],
+        "roc_auc_mean": 0.9443957985996831,
+        "roc_auc_std": 0.01138445087968709,
+        "roc_auc_scores": [
+          0.9611742424242424,
+          0.9299242424242424,
+          0.9483225108225108,
+          0.933461117196057,
+          0.9490968801313628
+        ]
+      },
+      "svm": {
+        "accuracy_mean": 0.6211886304909561,
+        "accuracy_std": 0.03339759620957312,
+        "accuracy_scores": [
+          0.6686046511627907,
+          0.6337209302325582,
+          0.5813953488372093,
+          0.6374269005847953,
+          0.5847953216374269
+        ],
+        "precision_mean": 0.6184515522165845,
+        "precision_std": 0.03388475784983565,
+        "precision_scores": [
+          0.6666666666666666,
+          0.6262626262626263,
+          0.5869565217391305,
+          0.6382978723404256,
+          0.5740740740740741
+        ],
+        "recall_mean": 0.6834378265412748,
+        "recall_std": 0.03638382377224556,
+        "recall_scores": [
+          0.7045454545454546,
+          0.7045454545454546,
+          0.6136363636363636,
+          0.6818181818181818,
+          0.7126436781609196
+        ],
+        "f1_mean": 0.6486845144888693,
+        "f1_std": 0.028913449216892397,
+        "f1_scores": [
+          0.6850828729281768,
+          0.6631016042780749,
+          0.6,
+          0.6593406593406593,
+          0.6358974358974359
+        ],
+        "roc_auc_mean": 0.7529327303241928,
+        "roc_auc_std": 0.029409628936573087,
+        "roc_auc_scores": [
+          0.7997835497835497,
+          0.7625811688311688,
+          0.7091450216450217,
+          0.7421960569550932,
+          0.7509578544061303
+        ]
+      }
+    },
+    "model_comparison": [
+      {
+        "Model": "Random Forest",
+        "Accuracy": 0.936,
+        "Precision": 0.8889,
+        "Recall": 1.0,
+        "F1 Score": 0.9412,
+        "ROC AUC": 0.9558,
+        "CV F1 Mean": 0.923,
+        "CV F1 Std": 0.0211
+      },
+      {
+        "Model": "Xgboost",
+        "Accuracy": 0.9302,
+        "Precision": 0.8878,
+        "Recall": 0.9886,
+        "F1 Score": 0.9355,
+        "ROC AUC": 0.9524,
+        "CV F1 Mean": 0.9202,
+        "CV F1 Std": 0.0215
+      },
+      {
+        "Model": "Svm",
+        "Accuracy": 0.6512,
+        "Precision": 0.6429,
+        "Recall": 0.7159,
+        "F1 Score": 0.6774,
+        "ROC AUC": 0.7511,
+        "CV F1 Mean": 0.6599,
+        "CV F1 Std": 0.0329
+      }
+    ],
+    "best_parameters": {
+      "random_forest": {
+        "max_depth": 5,
+        "min_samples_leaf": 4,
+        "min_samples_split": 2,
+        "n_estimators": 50
+      },
+      "xgboost": {
+        "colsample_bytree": 0.7,
+        "learning_rate": 0.01,
+        "max_depth": 3,
+        "n_estimators": 50,
+        "subsample": 0.7
+      },
+      "svm": {
+        "C": 1,
+        "gamma": "scale",
+        "kernel": "rbf"
+      }
+    }
+  },
+  "feature_analysis": {
+    "total_features": 20,
+    "engineered_features": 38,
+    "selected_features": [
+      "working_parents_count",
+      "ayah_working",
+      "housing_ownership_score",
+      "housing_quality_score",
+      "is_urban",
+      "is_rural",
+      "from_developed_province",
+      "has_p3ke",
+      "p3ke_desil",
+      "total_assistance_programs",
+      "age",
+      "Prestasi_encoded",
+      "Sumber Listrik_encoded",
+      "Kab/Kota Sekolah_encoded",
+      "Tempat Lahir_encoded",
+      "Status P3KE_encoded",
+      "Luas Bangunan_encoded",
+      "Asal Sekolah_encoded",
+      "Sumber Air_encoded",
+      "Pekerjaan Ibu_encoded"
+    ],
+    "feature_importance": {
+      "random_forest": [
+        {
+          "feature": "has_p3ke",
+          "importance": 0.5146167169986167
+        },
+        {
+          "feature": "p3ke_desil",
+          "importance": 0.16287643058401752
+        },
+        {
+          "feature": "Status P3KE_encoded",
+          "importance": 0.12432560685749539
+        },
+        {
+          "feature": "total_assistance_programs",
+          "importance": 0.05777715177063666
+        },
+        {
+          "feature": "age",
+          "importance": 0.0407804383911058
+        },
+        {
+          "feature": "Prestasi_encoded",
+          "importance": 0.022647883860066012
+        },
+        {
+          "feature": "Tempat Lahir_encoded",
+          "importance": 0.017640152455827476
+        },
+        {
+          "feature": "Asal Sekolah_encoded",
+          "importance": 0.015255189394116067
+        },
+        {
+          "feature": "Kab/Kota Sekolah_encoded",
+          "importance": 0.013827983279485576
+        },
+        {
+          "feature": "housing_ownership_score",
+          "importance": 0.00566450629726192
+        },
+        {
+          "feature": "housing_quality_score",
+          "importance": 0.005017630840374327
+        },
+        {
+          "feature": "Pekerjaan Ibu_encoded",
+          "importance": 0.004838489980914905
+        },
+        {
+          "feature": "ayah_working",
+          "importance": 0.0038904705786138747
+        },
+        {
+          "feature": "Luas Bangunan_encoded",
+          "importance": 0.002410008617453658
+        },
+        {
+          "feature": "from_developed_province",
+          "importance": 0.0021780415692135686
+        },
+        {
+          "feature": "working_parents_count",
+          "importance": 0.0021211177004106007
+        },
+        {
+          "feature": "Sumber Listrik_encoded",
+          "importance": 0.0018432727277537466
+        },
+        {
+          "feature": "Sumber Air_encoded",
+          "importance": 0.0017529304625347314
+        },
+        {
+          "feature": "is_urban",
+          "importance": 0.0005359776341015711
+        },
+        {
+          "feature": "is_rural",
+          "importance": 0.0
+        }
+      ],
+      "xgboost": [
+        {
+          "feature": "has_p3ke",
+          "importance": 0.4609767496585846
+        },
+        {
+          "feature": "p3ke_desil",
+          "importance": 0.19267375767230988
+        },
+        {
+          "feature": "Status P3KE_encoded",
+          "importance": 0.1556425243616104
+        },
+        {
+          "feature": "total_assistance_programs",
+          "importance": 0.03562299162149429
+        },
+        {
+          "feature": "Prestasi_encoded",
+          "importance": 0.026765121147036552
+        },
+        {
+          "feature": "Sumber Listrik_encoded",
+          "importance": 0.025166062638163567
+        },
+        {
+          "feature": "age",
+          "importance": 0.02331652119755745
+        },
+        {
+          "feature": "Luas Bangunan_encoded",
+          "importance": 0.015643907710909843
+        },
+        {
+          "feature": "housing_quality_score",
+          "importance": 0.013119293376803398
+        },
+        {
+          "feature": "Tempat Lahir_encoded",
+          "importance": 0.010011008009314537
+        },
+        {
+          "feature": "Kab/Kota Sekolah_encoded",
+          "importance": 0.007870237343013287
+        },
+        {
+          "feature": "working_parents_count",
+          "importance": 0.0075018503703176975
+        },
+        {
+          "feature": "from_developed_province",
+          "importance": 0.005824042018502951
+        },
+        {
+          "feature": "Asal Sekolah_encoded",
+          "importance": 0.005788602866232395
+        },
+        {
+          "feature": "Pekerjaan Ibu_encoded",
+          "importance": 0.005298401229083538
+        },
+        {
+          "feature": "housing_ownership_score",
+          "importance": 0.004787471145391464
+        },
+        {
+          "feature": "ayah_working",
+          "importance": 0.0039914450608193874
+        },
+        {
+          "feature": "is_rural",
+          "importance": 0.0
+        },
+        {
+          "feature": "is_urban",
+          "importance": 0.0
+        },
+        {
+          "feature": "Sumber Air_encoded",
+          "importance": 0.0
+        }
+      ],
+      "svm": [
+        {
+          "feature": "Asal Sekolah_encoded",
+          "importance": 0.04488396621250203
+        },
+        {
+          "feature": "Tempat Lahir_encoded",
+          "importance": 0.030255841317732846
+        },
+        {
+          "feature": "Prestasi_encoded",
+          "importance": 0.024703956017199113
+        },
+        {
+          "feature": "Kab/Kota Sekolah_encoded",
+          "importance": 0.012180732441138565
+        },
+        {
+          "feature": "Status P3KE_encoded",
+          "importance": 0.011122778094562557
+        }
+      ]
+    }
+  },
+  "file_paths": {
+    "saved_models": {
+      "random_forest": "models\\random_forest_20250826_150901.pkl",
+      "xgboost": "models\\xgboost_20250826_150901.pkl",
+      "svm": "models\\svm_20250826_150901.pkl"
+    },
+    "reports": {
+      "exploration": "reports\\data_exploration_20250826_150806.json",
+      "preprocessing": "reports\\preprocessing_20250826_150806.json"
+    },
+    "visualizations": {
+      "model_comparison": "visualizations\\model_comparison_20250826_150806.png",
+      "confusion_matrices": "visualizations\\confusion_matrices_20250826_150806.png",
+      "feature_importance": "visualizations\\feature_importance_20250826_150806.png"
+    }
+  }
+}
