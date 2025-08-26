@@ -1,15 +1,3 @@
-"""
-KIP Kuliah Classification System - Main Entry Point
-Author: Data Mining Professional
-Date: 2025
-
-Main pipeline that orchestrates data exploration, preprocessing,
-model training, and evaluation for KIP Kuliah recipient classification.
-
-This system analyzes socio-economic factors to predict KIP Kuliah eligibility
-using Random Forest, XGBoost, and SVM algorithms.
-"""
-
 import os
 import sys
 import json

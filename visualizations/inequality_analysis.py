@@ -1,12 +1,3 @@
-"""
-KIP KULIAH INEQUALITY ANALYSIS
-Publication-Ready Visualizations for Academic Journal
-
-Author: Data Analysis Team
-Date: August 2025
-Purpose: Analyze socio-economic, geographic, and educational disparities in KIP Kuliah access
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
