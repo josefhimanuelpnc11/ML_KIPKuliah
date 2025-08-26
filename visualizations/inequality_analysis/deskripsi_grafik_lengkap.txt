@@ -270,6 +270,6 @@ rentang nilai, dan interpretasi untuk memudahkan pembacaan visualisasi.
   - 2022: 843 mahasiswa
 
 ================================================================================
-📅 Dokumen dibuat: 26 August 2025, 16:37 WIB
+📅 Dokumen dibuat: 26 August 2025, 16:45 WIB
 🔗 Sumber: Analisis KIP Kuliah Politeknik Negeri Cilacap
 ================================================================================

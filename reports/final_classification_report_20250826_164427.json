@@ -2,7 +2,7 @@
   "project_info": {
     "title": "KIP Kuliah Classification System",
     "description": "Socio-Economic Factor Analysis for Educational Support",
-    "timestamp": "2025-08-26T15:01:42.485524",
+    "timestamp": "2025-08-26T16:44:27.320574",
     "version": "1.0"
   },
   "configuration": {
@@ -185,72 +185,72 @@
         "is_recipient"
       ],
       "common_columns": [
-        "Luas Tanah",
         "#",
-        "No. KIP",
-        "Asal Sekolah",
-        "Jarak Pusat Kota (KM)",
-        "Nama Ayah",
-        "Kepemilikan Rumah",
-        "Pekerjaan Ayah",
-        "Pekerjaan Ibu",
-        "Status Ibu",
-        "Tahun Perolehan",
-        "Prestasi",
-        "Status Ayah",
-        "MCK",
-        "Status P3KE",
-        "is_recipient",
-        "Alamat Email",
-        "year",
-        "Nama Ibu",
-        "Jumlah Tanggungan",
-        "Tempat Lahir",
-        "No. Handphone",
-        "Nama Siswa",
-        "Sumber Air",
-        "Penghasilan Ayah",
-        "Alamat Tinggal",
-        "NIK Kepala Keluarga",
-        "No. Kartu Keluarga",
-        "Tanggal Lahir",
-        "source_file",
-        "Luas Bangunan",
         "Penghasilan Ibu",
+        "Luas Bangunan",
+        "is_recipient",
+        "Nama Ibu",
+        "Kepemilikan Rumah",
+        "Sumber Air",
+        "Status Ibu",
+        "source_file",
+        "Status Ayah",
+        "Tahun Perolehan",
+        "NIK",
+        "Tanggal Lahir",
+        "MCK",
+        "year",
+        "Tempat Lahir",
+        "Provinsi Sekolah",
+        "Alamat Tinggal",
+        "No. Kartu Keluarga",
+        "Kab/Kota Sekolah",
+        "No. Handphone",
+        "Pekerjaan Ibu",
+        "Jumlah Tanggungan",
+        "Asal Sekolah",
+        "Status P3KE",
         "No. KKS",
         "NISN",
-        "Kab/Kota Sekolah",
-        "No. Pendaftaran",
-        "NIK",
-        "Sumber Listrik",
-        "Jenis Kelamin",
+        "Nama Ayah",
         "Status DTKS",
-        "Provinsi Sekolah"
+        "Luas Tanah",
+        "Nama Siswa",
+        "Prestasi",
+        "Jenis Kelamin",
+        "No. Pendaftaran",
+        "Penghasilan Ayah",
+        "Pekerjaan Ayah",
+        "Jarak Pusat Kota (KM)",
+        "Sumber Listrik",
+        "NIK Kepala Keluarga",
+        "No. KIP",
+        "Alamat Email"
       ],
       "pendaftar_unique": [
-        "KAP",
-        "SNBP",
-        "Pilihan Prodi 2",
-        "User Pencalonan",
-        "Pilihan Prodi 1",
-        "SNMPN",
-        "Pilihan PT",
-        "Seleksi Mandiri PTN",
         "Prestasi Siswa",
-        "Tanggal Daftar",
+        "Pilihan PT",
+        "SNBP",
+        "KAP",
+        "Pilihan Prodi 2",
+        "SBMPN",
+        "User Pencalonan",
         "UTBK-SNBT",
+        "Pilihan Prodi 1",
+        "Tanggal Daftar",
+        "SNMPN",
         "Tanggal Dicalonkan",
-        "Seleksi Mandiri PTS",
-        "SBMPN"
+        "Seleksi Mandiri PTN",
+        "Seleksi Mandiri PTS"
       ],
       "penerima_unique": [
-        "Akreditasi Prodi",
         "Skema Bantuan Pembiayaan",
-        "Tanggal Ditetapkan",
         "Program Studi",
-        "User Penetapan",
         "Seleksi Penetapan",
-        "Perguruan Tinggi"
+        "User Penetapan",
+        "Perguruan Tinggi",
+        "Tanggal Ditetapkan",
+        "Akreditasi Prodi"
       ]
     },
     "target_distribution": {
@@ -260,7 +260,7 @@
     }
   },
   "preprocessing_summary": {
-    "timestamp": "2025-08-26T15:00:49.490780",
+    "timestamp": "2025-08-26T16:43:41.175930",
     "configuration": {
       "base_path": "c:\\laragon\\www\\ML_KIPKuliah\\Bahan Laporan KIP Kuliah 2022 s.d 2024",
       "test_size": 0.2,
@@ -293,14 +293,14 @@
       "p3ke_desil",
       "total_assistance_programs",
       "age",
-      "Asal Sekolah_encoded",
-      "Pekerjaan Ibu_encoded",
-      "Prestasi_encoded",
-      "Status P3KE_encoded",
-      "Tempat Lahir_encoded",
-      "Sumber Air_encoded",
       "Luas Bangunan_encoded",
+      "Sumber Air_encoded",
+      "Tempat Lahir_encoded",
       "Kab/Kota Sekolah_encoded",
+      "Pekerjaan Ibu_encoded",
+      "Asal Sekolah_encoded",
+      "Status P3KE_encoded",
+      "Prestasi_encoded",
       "Sumber Listrik_encoded"
     ],
     "engineered_features": [
@@ -370,7 +370,7 @@
             88
           ]
         ],
-        "roc_auc": 0.9542748917748918,
+        "roc_auc": 0.9527867965367965,
         "classification_report": {
           "0": {
             "precision": 1.0,
@@ -398,48 +398,48 @@
             "support": 172.0
           }
         },
-        "cv_f1_mean": 0.9230109877329131,
-        "cv_f1_std": 0.021123457999524753,
+        "cv_f1_mean": 0.9215780111321512,
+        "cv_f1_std": 0.020171230171413323,
         "top_features": [
           {
             "feature": "has_p3ke",
-            "importance": 0.5051039012413718
-          },
-          {
-            "feature": "p3ke_desil",
-            "importance": 0.14522179010090105
+            "importance": 0.4624684951335371
           },
           {
             "feature": "Status P3KE_encoded",
-            "importance": 0.0857659122510449
+            "importance": 0.17952634456804842
+          },
+          {
+            "feature": "p3ke_desil",
+            "importance": 0.1493549287689682
           },
           {
             "feature": "total_assistance_programs",
-            "importance": 0.06045970848938543
+            "importance": 0.05619609577260934
           },
           {
             "feature": "age",
-            "importance": 0.05895396195475079
-          },
-          {
-            "feature": "Tempat Lahir_encoded",
-            "importance": 0.03301104310718369
+            "importance": 0.0427932800186481
           },
           {
             "feature": "Asal Sekolah_encoded",
-            "importance": 0.03253283303366722
+            "importance": 0.023199359795795543
           },
           {
-            "feature": "Kab/Kota Sekolah_encoded",
-            "importance": 0.016390243291915296
+            "feature": "Tempat Lahir_encoded",
+            "importance": 0.021787614709879114
           },
           {
             "feature": "Prestasi_encoded",
-            "importance": 0.009733903292135804
+            "importance": 0.017541096360451303
           },
           {
-            "feature": "Pekerjaan Ibu_encoded",
-            "importance": 0.009629592922672427
+            "feature": "Kab/Kota Sekolah_encoded",
+            "importance": 0.01646148734576513
+          },
+          {
+            "feature": "housing_quality_score",
+            "importance": 0.005951930639758748
           }
         ]
       },
@@ -458,7 +458,7 @@
             88
           ]
         ],
-        "roc_auc": 0.9563717532467533,
+        "roc_auc": 0.9525838744588745,
         "classification_report": {
           "0": {
             "precision": 1.0,
@@ -491,43 +491,43 @@
         "top_features": [
           {
             "feature": "has_p3ke",
-            "importance": 0.4573322534561157
+            "importance": 0.5873576998710632
           },
           {
             "feature": "p3ke_desil",
-            "importance": 0.22878733277320862
-          },
-          {
-            "feature": "Status P3KE_encoded",
-            "importance": 0.09067793935537338
+            "importance": 0.18783323466777802
           },
           {
             "feature": "total_assistance_programs",
-            "importance": 0.040053799748420715
-          },
-          {
-            "feature": "Sumber Listrik_encoded",
-            "importance": 0.03989136219024658
-          },
-          {
-            "feature": "Prestasi_encoded",
-            "importance": 0.03352281451225281
+            "importance": 0.0693717896938324
           },
           {
             "feature": "housing_quality_score",
-            "importance": 0.027879297733306885
+            "importance": 0.04979287460446358
           },
           {
-            "feature": "Luas Bangunan_encoded",
-            "importance": 0.017195172607898712
+            "feature": "Prestasi_encoded",
+            "importance": 0.029652953147888184
           },
           {
-            "feature": "age",
-            "importance": 0.015257316641509533
+            "feature": "Status P3KE_encoded",
+            "importance": 0.013261249288916588
           },
           {
             "feature": "Tempat Lahir_encoded",
-            "importance": 0.009940649382770061
+            "importance": 0.011520459316670895
+          },
+          {
+            "feature": "age",
+            "importance": 0.011137924157083035
+          },
+          {
+            "feature": "Kab/Kota Sekolah_encoded",
+            "importance": 0.011046589352190495
+          },
+          {
+            "feature": "Asal Sekolah_encoded",
+            "importance": 0.007652943953871727
           }
         ]
       },
@@ -575,7 +575,29 @@
           }
         },
         "cv_f1_mean": 0.6599155388158168,
-        "cv_f1_std": 0.032867676905852794
+        "cv_f1_std": 0.032867676905852794,
+        "top_features": [
+          {
+            "feature": "Asal Sekolah_encoded",
+            "importance": 0.04488396621250203
+          },
+          {
+            "feature": "Tempat Lahir_encoded",
+            "importance": 0.030255841317732846
+          },
+          {
+            "feature": "Prestasi_encoded",
+            "importance": 0.024703956017199113
+          },
+          {
+            "feature": "Kab/Kota Sekolah_encoded",
+            "importance": 0.012180732441138565
+          },
+          {
+            "feature": "Status P3KE_encoded",
+            "importance": 0.011122778094562557
+          }
+        ]
       }
     },
     "cross_validation_results": {
@@ -616,14 +638,14 @@
           0.9119170984455959,
           0.9405405405405406
         ],
-        "roc_auc_mean": 0.9422457144595701,
-        "roc_auc_std": 0.010957229529372626,
+        "roc_auc_mean": 0.9407141590694769,
+        "roc_auc_std": 0.013294373412701295,
         "roc_auc_scores": [
-          0.9590097402597402,
-          0.9362824675324676,
-          0.9506222943722944,
-          0.9288061336254108,
-          0.9365079365079365
+          0.9622564935064934,
+          0.9237012987012987,
+          0.9477813852813853,
+          0.9323658269441402,
+          0.9374657909140668
         ]
       },
       "xgboost": {
@@ -663,14 +685,14 @@
           0.9119170984455959,
           0.9405405405405406
         ],
-        "roc_auc_mean": 0.9463344008966154,
-        "roc_auc_std": 0.011324829682982875,
+        "roc_auc_mean": 0.9448808013813726,
+        "roc_auc_std": 0.012909128165006176,
         "roc_auc_scores": [
-          0.9625270562770563,
-          0.9358089826839826,
-          0.954883658008658,
-          0.9323658269441402,
-          0.9460864805692393
+          0.9659767316017316,
+          0.9322916666666667,
+          0.9502840909090909,
+          0.9307228915662651,
+          0.9451286261631089
         ]
       },
       "svm": {
@@ -728,9 +750,9 @@
         "Precision": 0.8889,
         "Recall": 1.0,
         "F1 Score": 0.9412,
-        "ROC AUC": 0.9543,
-        "CV F1 Mean": 0.923,
-        "CV F1 Std": 0.0211
+        "ROC AUC": 0.9528,
+        "CV F1 Mean": 0.9216,
+        "CV F1 Std": 0.0202
       },
       {
         "Model": "Xgboost",
@@ -738,7 +760,7 @@
         "Precision": 0.8889,
         "Recall": 1.0,
         "F1 Score": 0.9412,
-        "ROC AUC": 0.9564,
+        "ROC AUC": 0.9526,
         "CV F1 Mean": 0.9216,
         "CV F1 Std": 0.0197
       },
@@ -755,16 +777,16 @@
     ],
     "best_parameters": {
       "random_forest": {
-        "max_depth": 10,
-        "min_samples_leaf": 4,
+        "max_depth": 5,
+        "min_samples_leaf": 2,
         "min_samples_split": 2,
         "n_estimators": 50
       },
       "xgboost": {
-        "colsample_bytree": 0.8,
+        "colsample_bytree": 0.9,
         "learning_rate": 0.01,
         "max_depth": 3,
-        "n_estimators": 100,
+        "n_estimators": 50,
         "subsample": 0.8
       },
       "svm": {
@@ -789,163 +811,163 @@
       "p3ke_desil",
       "total_assistance_programs",
       "age",
-      "Asal Sekolah_encoded",
-      "Pekerjaan Ibu_encoded",
-      "Prestasi_encoded",
-      "Status P3KE_encoded",
-      "Tempat Lahir_encoded",
-      "Sumber Air_encoded",
       "Luas Bangunan_encoded",
+      "Sumber Air_encoded",
+      "Tempat Lahir_encoded",
       "Kab/Kota Sekolah_encoded",
+      "Pekerjaan Ibu_encoded",
+      "Asal Sekolah_encoded",
+      "Status P3KE_encoded",
+      "Prestasi_encoded",
       "Sumber Listrik_encoded"
     ],
     "feature_importance": {
       "random_forest": [
         {
           "feature": "has_p3ke",
-          "importance": 0.5051039012413718
-        },
-        {
-          "feature": "p3ke_desil",
-          "importance": 0.14522179010090105
+          "importance": 0.4624684951335371
         },
         {
           "feature": "Status P3KE_encoded",
-          "importance": 0.0857659122510449
+          "importance": 0.17952634456804842
+        },
+        {
+          "feature": "p3ke_desil",
+          "importance": 0.1493549287689682
         },
         {
           "feature": "total_assistance_programs",
-          "importance": 0.06045970848938543
+          "importance": 0.05619609577260934
         },
         {
           "feature": "age",
-          "importance": 0.05895396195475079
-        },
-        {
-          "feature": "Tempat Lahir_encoded",
-          "importance": 0.03301104310718369
+          "importance": 0.0427932800186481
         },
         {
           "feature": "Asal Sekolah_encoded",
-          "importance": 0.03253283303366722
+          "importance": 0.023199359795795543
         },
         {
-          "feature": "Kab/Kota Sekolah_encoded",
-          "importance": 0.016390243291915296
+          "feature": "Tempat Lahir_encoded",
+          "importance": 0.021787614709879114
         },
         {
           "feature": "Prestasi_encoded",
-          "importance": 0.009733903292135804
+          "importance": 0.017541096360451303
         },
         {
-          "feature": "Pekerjaan Ibu_encoded",
-          "importance": 0.009629592922672427
+          "feature": "Kab/Kota Sekolah_encoded",
+          "importance": 0.01646148734576513
         },
         {
           "feature": "housing_quality_score",
-          "importance": 0.007207853458645115
+          "importance": 0.005951930639758748
+        },
+        {
+          "feature": "Pekerjaan Ibu_encoded",
+          "importance": 0.00467139535521905
         },
         {
           "feature": "working_parents_count",
-          "importance": 0.0060582696219690976
-        },
-        {
-          "feature": "Luas Bangunan_encoded",
-          "importance": 0.005945575476651886
-        },
-        {
-          "feature": "housing_ownership_score",
-          "importance": 0.00484268809680853
-        },
-        {
-          "feature": "Sumber Air_encoded",
-          "importance": 0.004308250190031745
+          "importance": 0.004644826589593073
         },
         {
           "feature": "ayah_working",
-          "importance": 0.004271731234536743
-        },
-        {
-          "feature": "Sumber Listrik_encoded",
-          "importance": 0.003766953664475631
-        },
-        {
-          "feature": "is_urban",
-          "importance": 0.0027816856685793125
-        },
-        {
-          "feature": "is_rural",
-          "importance": 0.0027292487133725096
+          "importance": 0.0029731251833380536
         },
         {
           "feature": "from_developed_province",
-          "importance": 0.0012848541899009086
+          "importance": 0.002183144466168048
+        },
+        {
+          "feature": "Luas Bangunan_encoded",
+          "importance": 0.002066383833479625
+        },
+        {
+          "feature": "is_urban",
+          "importance": 0.0018657355925060142
+        },
+        {
+          "feature": "Sumber Air_encoded",
+          "importance": 0.0017949213494320685
+        },
+        {
+          "feature": "housing_ownership_score",
+          "importance": 0.0017653033173508758
+        },
+        {
+          "feature": "is_rural",
+          "importance": 0.0017502257227550119
+        },
+        {
+          "feature": "Sumber Listrik_encoded",
+          "importance": 0.0010043054766972583
         }
       ],
       "xgboost": [
         {
           "feature": "has_p3ke",
-          "importance": 0.4573322534561157
+          "importance": 0.5873576998710632
         },
         {
           "feature": "p3ke_desil",
-          "importance": 0.22878733277320862
-        },
-        {
-          "feature": "Status P3KE_encoded",
-          "importance": 0.09067793935537338
+          "importance": 0.18783323466777802
         },
         {
           "feature": "total_assistance_programs",
-          "importance": 0.040053799748420715
-        },
-        {
-          "feature": "Sumber Listrik_encoded",
-          "importance": 0.03989136219024658
-        },
-        {
-          "feature": "Prestasi_encoded",
-          "importance": 0.03352281451225281
+          "importance": 0.0693717896938324
         },
         {
           "feature": "housing_quality_score",
-          "importance": 0.027879297733306885
+          "importance": 0.04979287460446358
         },
         {
-          "feature": "Luas Bangunan_encoded",
-          "importance": 0.017195172607898712
+          "feature": "Prestasi_encoded",
+          "importance": 0.029652953147888184
         },
         {
-          "feature": "age",
-          "importance": 0.015257316641509533
+          "feature": "Status P3KE_encoded",
+          "importance": 0.013261249288916588
         },
         {
           "feature": "Tempat Lahir_encoded",
-          "importance": 0.009940649382770061
+          "importance": 0.011520459316670895
+        },
+        {
+          "feature": "age",
+          "importance": 0.011137924157083035
         },
         {
           "feature": "Kab/Kota Sekolah_encoded",
-          "importance": 0.009458917193114758
-        },
-        {
-          "feature": "from_developed_province",
-          "importance": 0.007692760322242975
+          "importance": 0.011046589352190495
         },
         {
           "feature": "Asal Sekolah_encoded",
-          "importance": 0.006724463310092688
+          "importance": 0.007652943953871727
         },
         {
           "feature": "ayah_working",
-          "importance": 0.006137404590845108
+          "importance": 0.006529378704726696
+        },
+        {
+          "feature": "from_developed_province",
+          "importance": 0.0062995790503919125
         },
         {
           "feature": "working_parents_count",
-          "importance": 0.005147362127900124
+          "importance": 0.005836825352162123
         },
         {
           "feature": "Pekerjaan Ibu_encoded",
-          "importance": 0.004301202483475208
+          "importance": 0.002706538885831833
+        },
+        {
+          "feature": "Sumber Air_encoded",
+          "importance": 0.0
+        },
+        {
+          "feature": "Luas Bangunan_encoded",
+          "importance": 0.0
         },
         {
           "feature": "is_rural",
@@ -956,30 +978,52 @@
           "importance": 0.0
         },
         {
-          "feature": "Sumber Air_encoded",
+          "feature": "housing_ownership_score",
           "importance": 0.0
         },
         {
-          "feature": "housing_ownership_score",
+          "feature": "Sumber Listrik_encoded",
           "importance": 0.0
+        }
+      ],
+      "svm": [
+        {
+          "feature": "Asal Sekolah_encoded",
+          "importance": 0.04488396621250203
+        },
+        {
+          "feature": "Tempat Lahir_encoded",
+          "importance": 0.030255841317732846
+        },
+        {
+          "feature": "Prestasi_encoded",
+          "importance": 0.024703956017199113
+        },
+        {
+          "feature": "Kab/Kota Sekolah_encoded",
+          "importance": 0.012180732441138565
+        },
+        {
+          "feature": "Status P3KE_encoded",
+          "importance": 0.011122778094562557
         }
       ]
     }
   },
   "file_paths": {
     "saved_models": {
-      "random_forest": "models\\random_forest_20250826_150142.pkl",
-      "xgboost": "models\\xgboost_20250826_150142.pkl",
-      "svm": "models\\svm_20250826_150142.pkl"
+      "random_forest": "models\\random_forest_20250826_164427.pkl",
+      "xgboost": "models\\xgboost_20250826_164427.pkl",
+      "svm": "models\\svm_20250826_164427.pkl"
     },
     "reports": {
-      "exploration": "reports\\data_exploration_20250826_150049.json",
-      "preprocessing": "reports\\preprocessing_20250826_150049.json"
+      "exploration": "reports\\data_exploration_20250826_164341.json",
+      "preprocessing": "reports\\preprocessing_20250826_164341.json"
     },
     "visualizations": {
-      "model_comparison": "visualizations\\model_comparison_20250826_150049.png",
-      "confusion_matrices": "visualizations\\confusion_matrices_20250826_150049.png",
-      "feature_importance": "visualizations\\feature_importance_20250826_150049.png"
+      "model_comparison": "visualizations\\model_comparison_20250826_164340.png",
+      "confusion_matrices": "visualizations\\confusion_matrices_20250826_164340.png",
+      "feature_importance": "visualizations\\feature_importance_20250826_164340.png"
     }
   }
 }

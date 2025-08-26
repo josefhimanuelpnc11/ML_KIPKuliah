@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-26T14:54:12.659623",
+  "timestamp": "2025-08-26T16:43:41.175930",
   "configuration": {
     "base_path": "c:\\laragon\\www\\ML_KIPKuliah\\Bahan Laporan KIP Kuliah 2022 s.d 2024",
     "test_size": 0.2,
@@ -32,15 +32,15 @@
     "p3ke_desil",
     "total_assistance_programs",
     "age",
-    "Status P3KE_encoded",
-    "Tempat Lahir_encoded",
-    "Pekerjaan Ibu_encoded",
-    "Sumber Air_encoded",
     "Luas Bangunan_encoded",
-    "Asal Sekolah_encoded",
-    "Sumber Listrik_encoded",
+    "Sumber Air_encoded",
+    "Tempat Lahir_encoded",
     "Kab/Kota Sekolah_encoded",
-    "Prestasi_encoded"
+    "Pekerjaan Ibu_encoded",
+    "Asal Sekolah_encoded",
+    "Status P3KE_encoded",
+    "Prestasi_encoded",
+    "Sumber Listrik_encoded"
   ],
   "engineered_features": [
     "penghasilan_ayah_numeric",
